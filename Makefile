@@ -19,7 +19,13 @@ up:
 kill:
 	@if [ -f $(PID_FILE) ]; then \
 		pid="$$(cat $(PID_FILE))"; \
-		if kill -0 "$$pid" 2>/dev/null; then \
+		pids="$$(pgrep -f "vite --host $(HOST) --port $(PORT)" || true)"; \
+		if [ -n "$$pids" ]; then \
+			echo "Stopping Wunderwiki processes: $$pids"; \
+			kill $$pids 2>/dev/null || true; \
+			sleep 1; \
+			kill -9 $$pids 2>/dev/null || true; \
+		elif kill -0 "$$pid" 2>/dev/null; then \
 			kill "$$pid"; \
 			echo "Stopped Wunderwiki ($$pid)"; \
 		else \
