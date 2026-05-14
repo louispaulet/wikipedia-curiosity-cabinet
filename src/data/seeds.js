@@ -263,6 +263,7 @@ export const articles = [
       'Auroville was founded as an intentional community with spiritual and social ambitions that stretched far beyond a conventional town plan. Its history includes idealism, governance disputes, and the difficulty of turning utopian ideas into durable institutions.',
     whyStrange:
       'It is a city that was explicitly designed to be more than a city.',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Auroville',
     tags: ['utopia', 'community', 'place'],
     collectionIds: ['failed-utopias', 'social-experiments'],
     scores: scoreSet(48, 78, 85, 61, 91),

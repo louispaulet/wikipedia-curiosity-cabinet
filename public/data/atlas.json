@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:18:05.176Z",
+  "generatedAt": "2026-05-14T22:26:44.562Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -715,6 +715,7 @@
         "kowloon-walled-city",
         "hashima-island"
       ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Auroville",
       "scores": {
         "obscurity": 48,
         "strangeness": 78,
