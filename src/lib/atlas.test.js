@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildAtlasIndex, pickRabbitHole, similarityScore, slugify } from './atlas.js';
+import { buildAtlasIndex, buildTrail, pickRabbitHole, pickTheme, similarityScore, slugify } from './atlas.js';
 
 const baseAtlas = {
   articles: [
@@ -64,4 +64,17 @@ test('pickRabbitHole returns a related article', () => {
   assert.ok(rabbitHole);
   assert.notEqual(rabbitHole.id, 'alpha');
   assert.ok(['beta', 'gamma'].includes(rabbitHole.id));
+});
+
+test('buildTrail walks through a multi-article path', () => {
+  const atlas = buildAtlasIndex(baseAtlas);
+  const trail = buildTrail(atlas, { tags: ['science'] }, { tags: ['culture'] }, 3);
+  assert.equal(trail.length, 3);
+  assert.ok(trail.every((article, index, arr) => index === 0 || article.id !== arr[index - 1].id));
+  assert.ok(trail.some((article) => article.id === 'gamma'));
+});
+
+test('pickTheme falls back to the first theme when unknown', () => {
+  assert.equal(pickTheme('unknown').id, 'weird-science');
+  assert.equal(pickTheme('social-experiments').id, 'social-experiments');
 });

@@ -12,6 +12,24 @@ test('every article has a wikipediaUrl so the source link is visible', () => {
   }
 });
 
+test('every article has a hook, summary, and whyStrange copy', () => {
+  for (const article of articles) {
+    assert.ok(article.hook?.length > 0, `Missing hook for ${article.id}`);
+    assert.ok(article.summary?.length > 0, `Missing summary for ${article.id}`);
+    assert.ok(article.whyStrange?.length > 0, `Missing whyStrange for ${article.id}`);
+  }
+});
+
+test('every article has at least one tag and score fields', () => {
+  for (const article of articles) {
+    assert.ok(Array.isArray(article.tags) && article.tags.length > 0, `Missing tags for ${article.id}`);
+    assert.ok(article.scores && typeof article.scores === 'object', `Missing scores for ${article.id}`);
+    for (const key of ['obscurity', 'strangeness', 'significance', 'visualAppeal', 'conversationPower']) {
+      assert.equal(typeof article.scores[key], 'number', `Missing score ${key} for ${article.id}`);
+    }
+  }
+});
+
 test('every collection references existing articles', () => {
   for (const collection of collections) {
     assert.ok(collection.articleIds.length > 0, `Empty collection ${collection.id}`);
@@ -30,5 +48,14 @@ test('every article belongs to at least one collection id', () => {
 test('every collection has at least one article', () => {
   for (const collection of collections) {
     assert.ok(collection.articleIds.length > 0, `Collection ${collection.id} has no articles`);
+  }
+});
+
+test('every article references only known collections except known editorial aliases', () => {
+  const knownAliases = new Set(['abandoned-places']);
+  for (const article of articles) {
+    for (const collectionId of article.collectionIds) {
+      assert.ok(collectionById.has(collectionId) || knownAliases.has(collectionId), `Article ${article.id} references missing collection ${collectionId}`);
+    }
   }
 });
