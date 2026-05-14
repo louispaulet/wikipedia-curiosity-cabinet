@@ -1,0 +1,1830 @@
+{
+  "generatedAt": "2026-05-14T21:34:08.432Z",
+  "articles": [
+    {
+      "id": "boston-molasses-flood",
+      "title": "Boston Molasses Flood",
+      "hook": "A storage tank burst in 1919 and sent a wave of molasses through Boston.",
+      "summary": "A huge molasses tank ruptured in the North End of Boston, flooding streets with a sticky surge that killed people, damaged buildings, and became one of the strangest industrial disasters in American memory.",
+      "whyStrange": "It sounds like a joke until you read the casualty count, the cleanup, and the lawsuits that followed.",
+      "tags": [
+        "disaster",
+        "industrial",
+        "urban"
+      ],
+      "collectionIds": [
+        "disasters",
+        "absurd-history"
+      ],
+      "relatedIds": [
+        "london-beer-flood",
+        "centralia-pennsylvania",
+        "lake-nyos-disaster",
+        "pripyat",
+        "the-great-stink",
+        "dyatlov-pass-incident",
+        "kowloon-walled-city",
+        "pruitt-igoe"
+      ],
+      "scores": {
+        "obscurity": 54,
+        "strangeness": 95,
+        "significance": 72,
+        "visualAppeal": 38,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "london-beer-flood",
+      "title": "London Beer Flood",
+      "hook": "A brewery burst in 1814 and released a tidal wave of beer into London.",
+      "summary": "A failed vat at a London brewery triggered a domino effect that sent thousands of gallons of beer into surrounding streets and homes, turning a workday into a disaster that sounded too surreal for reality.",
+      "whyStrange": "The event is a genuine urban flood, but the floodwater was beer and the city had to treat it like a catastrophe.",
+      "tags": [
+        "disaster",
+        "industrial",
+        "urban"
+      ],
+      "collectionIds": [
+        "disasters",
+        "absurd-history"
+      ],
+      "relatedIds": [
+        "boston-molasses-flood",
+        "lake-nyos-disaster",
+        "centralia-pennsylvania",
+        "pripyat",
+        "the-great-stink",
+        "dyatlov-pass-incident",
+        "kowloon-walled-city",
+        "pruitt-igoe"
+      ],
+      "scores": {
+        "obscurity": 58,
+        "strangeness": 92,
+        "significance": 69,
+        "visualAppeal": 35,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "great-emu-war",
+      "title": "Great Emu War",
+      "hook": "Australia sent soldiers against emus and mostly lost.",
+      "summary": "In Western Australia, the military was deployed to help control emus that were devastating crops. The campaign became a famous example of a state underestimating wildlife and overestimating its own control.",
+      "whyStrange": "It is a military operation that reads like a parody but is documented as a real administrative decision.",
+      "tags": [
+        "history",
+        "military",
+        "wildlife"
+      ],
+      "collectionIds": [
+        "absurd-history",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "project-pigeon",
+        "operation-northwoods",
+        "operation-plowshare",
+        "project-pluto",
+        "casaba-howitzer",
+        "the-great-moon-hoax"
+      ],
+      "scores": {
+        "obscurity": 61,
+        "strangeness": 97,
+        "significance": 68,
+        "visualAppeal": 42,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "lake-nyos-disaster",
+      "title": "Lake Nyos disaster",
+      "hook": "A lake released a lethal cloud of carbon dioxide overnight.",
+      "summary": "A limnic eruption at Lake Nyos in Cameroon killed thousands of people and animals when a sudden burst of carbon dioxide rolled through nearby settlements without warning.",
+      "whyStrange": "The disaster was invisible, odorless, and devastating, which makes it feel like a geological horror story.",
+      "tags": [
+        "disaster",
+        "science",
+        "geology"
+      ],
+      "collectionIds": [
+        "disasters"
+      ],
+      "relatedIds": [
+        "london-beer-flood",
+        "centralia-pennsylvania",
+        "boston-molasses-flood",
+        "pripyat",
+        "dyatlov-pass-incident",
+        "biosphere-2",
+        "surtsey",
+        "operation-plowshare"
+      ],
+      "scores": {
+        "obscurity": 63,
+        "strangeness": 88,
+        "significance": 82,
+        "visualAppeal": 51,
+        "conversationPower": 92
+      }
+    },
+    {
+      "id": "dancing-plague-of-1518",
+      "title": "Dancing plague of 1518",
+      "hook": "People in Strasbourg danced themselves into exhaustion and death.",
+      "summary": "In 1518, a wave of uncontrolled dancing spread through Strasbourg, with hundreds of participants reportedly unable to stop. Historians still debate the causes, from mass hysteria to environmental stress.",
+      "whyStrange": "It is one of the strangest collective episodes in European history because the behavior spread socially, but the exact cause remains uncertain.",
+      "tags": [
+        "history",
+        "mystery",
+        "psychology"
+      ],
+      "collectionIds": [
+        "absurd-history",
+        "myths-and-mysteries"
+      ],
+      "relatedIds": [
+        "cardiff-giant",
+        "taman-shud-case",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "dyatlov-pass-incident",
+        "isdal-woman",
+        "great-emu-war",
+        "heavens-gate"
+      ],
+      "scores": {
+        "obscurity": 70,
+        "strangeness": 94,
+        "significance": 74,
+        "visualAppeal": 44,
+        "conversationPower": 97
+      }
+    },
+    {
+      "id": "dyatlov-pass-incident",
+      "title": "Dyatlov Pass incident",
+      "hook": "Nine hikers died in the Ural Mountains under unexplained conditions.",
+      "summary": "A ski expedition in the northern Urals ended with a tent cut from the inside, scattered bodies, and decades of speculation. The site became a magnet for theories ranging from avalanches to secret military tests.",
+      "whyStrange": "Its combination of missing context, eerie injuries, and endless theories gives it a mythic quality.",
+      "tags": [
+        "mystery",
+        "disaster",
+        "soviet"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "cold-war-weirdness"
+      ],
+      "relatedIds": [
+        "pripyat",
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "taman-shud-case",
+        "isdal-woman",
+        "cottingley-fairies",
+        "heavens-gate",
+        "london-beer-flood"
+      ],
+      "scores": {
+        "obscurity": 69,
+        "strangeness": 91,
+        "significance": 83,
+        "visualAppeal": 46,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "the-great-stink",
+      "title": "The Great Stink",
+      "hook": "London’s summer heat turned the Thames into a civic emergency.",
+      "summary": "In 1858, foul sewage odors from the Thames became so severe that Parliament raced to address the city’s sanitation crisis. The episode helped drive one of the most important public-works responses in British history.",
+      "whyStrange": "A smell problem became a policy shock that transformed infrastructure planning.",
+      "tags": [
+        "history",
+        "infrastructure",
+        "urban"
+      ],
+      "collectionIds": [
+        "disasters",
+        "infrastructure-that-mattered"
+      ],
+      "relatedIds": [
+        "pruitt-igoe",
+        "centralia-pennsylvania",
+        "boston-molasses-flood",
+        "london-beer-flood",
+        "colonia-dignidad",
+        "zzyzx-california",
+        "kowloon-walled-city",
+        "operation-plowshare"
+      ],
+      "scores": {
+        "obscurity": 49,
+        "strangeness": 81,
+        "significance": 87,
+        "visualAppeal": 37,
+        "conversationPower": 90
+      }
+    },
+    {
+      "id": "project-pluto",
+      "title": "Project Pluto",
+      "hook": "The U.S. built plans for a nuclear-powered cruise missile.",
+      "summary": "Project Pluto explored a ramjet missile powered by a nuclear reactor, promising extreme range and speed at a horrifying cost. It remains one of the most unnerving examples of Cold War engineering ambition.",
+      "whyStrange": "The project sits at the intersection of brilliant physics and deeply unsettling weapons design.",
+      "tags": [
+        "military",
+        "science",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "casaba-howitzer",
+        "operation-plowshare",
+        "operation-northwoods",
+        "project-habakkuk",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "acoustic-kitty",
+        "project-pigeon"
+      ],
+      "scores": {
+        "obscurity": 38,
+        "strangeness": 99,
+        "significance": 92,
+        "visualAppeal": 55,
+        "conversationPower": 99
+      }
+    },
+    {
+      "id": "operation-northwoods",
+      "title": "Operation Northwoods",
+      "hook": "The Pentagon drafted plans for false-flag attacks to justify war.",
+      "summary": "Operation Northwoods was a proposed set of covert and deceptive actions that would have manufactured support for military intervention. The plan was never carried out, but it became infamous after declassification.",
+      "whyStrange": "It is astonishing less for what happened than for what was seriously proposed in official channels.",
+      "tags": [
+        "government",
+        "military",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "project-pluto",
+        "casaba-howitzer",
+        "duga-radar",
+        "project-pigeon",
+        "operation-plowshare",
+        "acoustic-kitty",
+        "project-habakkuk",
+        "orion-nuclear-pulse-propulsion"
+      ],
+      "scores": {
+        "obscurity": 44,
+        "strangeness": 93,
+        "significance": 90,
+        "visualAppeal": 39,
+        "conversationPower": 99
+      }
+    },
+    {
+      "id": "operation-plowshare",
+      "title": "Operation Plowshare",
+      "hook": "The U.S. tried to use nuclear explosions for peacetime engineering.",
+      "summary": "Operation Plowshare was a broad program for using nuclear detonations to excavate harbors, cut channels, and reshape the land. The technical enthusiasm was enormous; the practical and political objections were even larger.",
+      "whyStrange": "It is a peace project built on the logic of nuclear blast optimization.",
+      "tags": [
+        "science",
+        "military",
+        "infrastructure"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "project-pluto",
+        "casaba-howitzer",
+        "project-habakkuk",
+        "project-pigeon",
+        "operation-northwoods",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "great-emu-war"
+      ],
+      "scores": {
+        "obscurity": 41,
+        "strangeness": 96,
+        "significance": 88,
+        "visualAppeal": 44,
+        "conversationPower": 97
+      }
+    },
+    {
+      "id": "acoustic-kitty",
+      "title": "Acoustic Kitty",
+      "hook": "The CIA once tried to turn a cat into a listening device.",
+      "summary": "Acoustic Kitty was a covert attempt to implant surveillance hardware in a cat so it could eavesdrop on conversations. The project is remembered as an expensive and deeply impractical intelligence experiment.",
+      "whyStrange": "It is the kind of idea that becomes more absurd the more seriously it was pursued.",
+      "tags": [
+        "spycraft",
+        "technology",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "casaba-howitzer",
+        "project-pluto",
+        "project-pigeon",
+        "operation-northwoods",
+        "orion-nuclear-pulse-propulsion",
+        "project-habakkuk",
+        "duga-radar",
+        "operation-plowshare"
+      ],
+      "scores": {
+        "obscurity": 34,
+        "strangeness": 98,
+        "significance": 79,
+        "visualAppeal": 40,
+        "conversationPower": 99
+      }
+    },
+    {
+      "id": "project-pigeon",
+      "title": "Project Pigeon",
+      "hook": "A behaviorist tried to guide missiles with trained pigeons.",
+      "summary": "Project Pigeon proposed using pigeons to visually steer guidance systems inside missiles. The concept came from serious experimental psychology and remains one of the most memorable examples of wartime improvisation.",
+      "whyStrange": "It combines animal training, engineering optimism, and military seriousness in a way that is hard to forget.",
+      "tags": [
+        "military",
+        "technology",
+        "behavioral-science"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "project-habakkuk",
+        "operation-plowshare",
+        "project-pluto",
+        "operation-northwoods",
+        "casaba-howitzer",
+        "acoustic-kitty",
+        "duga-radar",
+        "great-emu-war"
+      ],
+      "scores": {
+        "obscurity": 42,
+        "strangeness": 97,
+        "significance": 77,
+        "visualAppeal": 43,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "casaba-howitzer",
+      "title": "Casaba-Howitzer",
+      "hook": "A nuclear weapon concept aimed to turn blast energy into a beam.",
+      "summary": "Casaba-Howitzer was a speculative nuclear weapon design that would shape energy into a focused directional pulse. The concept lives at the edge of physics, weapons engineering, and military imagination.",
+      "whyStrange": "It sounds like a fantasy prop, but it emerged from real Cold War research logic.",
+      "tags": [
+        "military",
+        "science",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "government-projects"
+      ],
+      "relatedIds": [
+        "project-pluto",
+        "operation-plowshare",
+        "operation-northwoods",
+        "orion-nuclear-pulse-propulsion",
+        "project-habakkuk",
+        "duga-radar",
+        "acoustic-kitty",
+        "project-pigeon"
+      ],
+      "scores": {
+        "obscurity": 35,
+        "strangeness": 98,
+        "significance": 88,
+        "visualAppeal": 57,
+        "conversationPower": 99
+      }
+    },
+    {
+      "id": "orion-nuclear-pulse-propulsion",
+      "title": "Orion nuclear pulse propulsion",
+      "hook": "NASA once studied spacecraft propelled by nuclear explosions.",
+      "summary": "Project Orion proposed a gigantic spacecraft pushed forward by repeated nuclear detonations behind a pusher plate. The idea was technically serious, audacious, and almost unimaginable by contemporary standards.",
+      "whyStrange": "It is one of the most spectacular examples of engineering at the far edge of the possible.",
+      "tags": [
+        "science",
+        "spaceflight",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "vanished-technologies"
+      ],
+      "relatedIds": [
+        "casaba-howitzer",
+        "project-pluto",
+        "project-habakkuk",
+        "acoustic-kitty",
+        "operation-plowshare",
+        "operation-northwoods",
+        "duga-radar",
+        "biosphere-2"
+      ],
+      "scores": {
+        "obscurity": 31,
+        "strangeness": 97,
+        "significance": 91,
+        "visualAppeal": 74,
+        "conversationPower": 99
+      }
+    },
+    {
+      "id": "duga-radar",
+      "title": "Duga radar",
+      "hook": "The Soviet Union built a giant over-the-horizon radar array.",
+      "summary": "Duga was an enormous Soviet radar installation whose electrical noise led listeners to nick it the Russian Woodpecker. It remains an iconic artifact of the Cold War landscape.",
+      "whyStrange": "It is both a listening machine and a haunting piece of industrial architecture.",
+      "tags": [
+        "military",
+        "architecture",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "deranged-architecture"
+      ],
+      "relatedIds": [
+        "project-pluto",
+        "operation-northwoods",
+        "casaba-howitzer",
+        "kowloon-walled-city",
+        "ryugyong-hotel",
+        "project-habakkuk",
+        "operation-plowshare",
+        "nakagin-capsule-tower"
+      ],
+      "scores": {
+        "obscurity": 38,
+        "strangeness": 89,
+        "significance": 86,
+        "visualAppeal": 95,
+        "conversationPower": 94
+      }
+    },
+    {
+      "id": "project-habakkuk",
+      "title": "Project Habakkuk",
+      "hook": "Britain once explored an aircraft carrier made of ice.",
+      "summary": "Project Habakkuk proposed using reinforced ice as a material for enormous wartime naval platforms. The plan was part engineering problem, part material-science experiment, and part emergency improvisation.",
+      "whyStrange": "An ice carrier is such a strange sentence that the project feels fictional until you trace the documents.",
+      "tags": [
+        "military",
+        "science",
+        "technology"
+      ],
+      "collectionIds": [
+        "cold-war-weirdness",
+        "vanished-technologies"
+      ],
+      "relatedIds": [
+        "operation-plowshare",
+        "project-pigeon",
+        "project-pluto",
+        "casaba-howitzer",
+        "orion-nuclear-pulse-propulsion",
+        "operation-northwoods",
+        "acoustic-kitty",
+        "duga-radar"
+      ],
+      "scores": {
+        "obscurity": 40,
+        "strangeness": 94,
+        "significance": 83,
+        "visualAppeal": 58,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "biosphere-2",
+      "title": "Biosphere 2",
+      "hook": "A sealed habitat in Arizona tried to simulate a self-sustaining world.",
+      "summary": "Biosphere 2 was a massive experimental enclosure designed to test closed ecological systems and long-term human habitation. The project became famous for technical setbacks, internal tensions, and the ambition of trying to bottle a biosphere.",
+      "whyStrange": "It is a scientific experiment that looks like a utopian cult and acts like both a lab and a stage set.",
+      "tags": [
+        "science",
+        "experiment",
+        "utopia"
+      ],
+      "collectionIds": [
+        "failed-utopias",
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "auroville",
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "fordlandia",
+        "milgram-experiment",
+        "republic-of-rose-island",
+        "surtsey",
+        "operation-plowshare"
+      ],
+      "scores": {
+        "obscurity": 46,
+        "strangeness": 83,
+        "significance": 88,
+        "visualAppeal": 89,
+        "conversationPower": 93
+      }
+    },
+    {
+      "id": "milgram-experiment",
+      "title": "Milgram experiment",
+      "hook": "People were asked to deliver shocks to strangers in the name of research.",
+      "summary": "Stanley Milgram’s obedience experiments are famous for revealing how readily ordinary participants might follow authority even when the task seems morally troubling. The experiments remain central to psychology and ethics debates.",
+      "whyStrange": "The setup is simple, but the implications about obedience and agency are deeply unsettling.",
+      "tags": [
+        "experiment",
+        "psychology",
+        "ethics"
+      ],
+      "collectionIds": [
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "biosphere-2",
+        "dancing-plague-of-1518",
+        "church-of-the-subgenius",
+        "auroville",
+        "colonia-dignidad",
+        "centralia-pennsylvania"
+      ],
+      "scores": {
+        "obscurity": 52,
+        "strangeness": 82,
+        "significance": 92,
+        "visualAppeal": 33,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "stanford-prison-experiment",
+      "title": "Stanford prison experiment",
+      "hook": "A fake prison study quickly turned into a lesson in power dynamics.",
+      "summary": "The Stanford prison experiment simulated a prison environment to examine how role assignment and institutional power might influence behavior. It became one of the most debated studies in social psychology.",
+      "whyStrange": "Its legacy is not just the data, but the way the experiment itself became a cautionary tale.",
+      "tags": [
+        "experiment",
+        "psychology",
+        "ethics"
+      ],
+      "collectionIds": [
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "milgram-experiment",
+        "the-third-wave",
+        "biosphere-2",
+        "dancing-plague-of-1518",
+        "auroville",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "pripyat"
+      ],
+      "scores": {
+        "obscurity": 47,
+        "strangeness": 85,
+        "significance": 90,
+        "visualAppeal": 31,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "the-third-wave",
+      "title": "The Third Wave",
+      "hook": "A classroom experiment created a miniature authoritarian movement.",
+      "summary": "The Third Wave was a high-school classroom experiment meant to demonstrate how quickly fascistic dynamics could take root in a group. It produced a disturbing burst of conformity and remains a vivid teaching example.",
+      "whyStrange": "An educational exercise briefly became a real social movement, which is exactly the kind of line the atlas loves.",
+      "tags": [
+        "experiment",
+        "psychology",
+        "education"
+      ],
+      "collectionIds": [
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "stanford-prison-experiment",
+        "milgram-experiment",
+        "biosphere-2",
+        "dancing-plague-of-1518",
+        "auroville",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "centralia-pennsylvania"
+      ],
+      "scores": {
+        "obscurity": 50,
+        "strangeness": 84,
+        "significance": 86,
+        "visualAppeal": 36,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "fordlandia",
+      "title": "Fordlândia",
+      "hook": "Henry Ford tried to build a rubber utopia in the Amazon.",
+      "summary": "Fordlândia was a company town and plantation project meant to secure rubber supply for Ford’s industrial empire. Instead it became a notorious story of ecological mismatch, paternalism, and failed planning.",
+      "whyStrange": "It is what happens when a car company tries to export Midwestern order into the rainforest.",
+      "tags": [
+        "utopia",
+        "industry",
+        "place"
+      ],
+      "collectionIds": [
+        "failed-utopias",
+        "eccentric-rich-projects"
+      ],
+      "relatedIds": [
+        "auroville",
+        "hashima-island",
+        "republic-of-rose-island",
+        "biosphere-2",
+        "kowloon-walled-city",
+        "pyramiden",
+        "ryugyong-hotel",
+        "zzyzx-california"
+      ],
+      "scores": {
+        "obscurity": 44,
+        "strangeness": 88,
+        "significance": 84,
+        "visualAppeal": 67,
+        "conversationPower": 93
+      }
+    },
+    {
+      "id": "auroville",
+      "title": "Auroville",
+      "hook": "A planned city in India aimed to become a universal township.",
+      "summary": "Auroville was founded as an intentional community with spiritual and social ambitions that stretched far beyond a conventional town plan. Its history includes idealism, governance disputes, and the difficulty of turning utopian ideas into durable institutions.",
+      "whyStrange": "It is a city that was explicitly designed to be more than a city.",
+      "tags": [
+        "utopia",
+        "community",
+        "place"
+      ],
+      "collectionIds": [
+        "failed-utopias",
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "fordlandia",
+        "biosphere-2",
+        "pyramiden",
+        "colonia-dignidad",
+        "ryugyong-hotel",
+        "republic-of-rose-island",
+        "kowloon-walled-city",
+        "hashima-island"
+      ],
+      "scores": {
+        "obscurity": 48,
+        "strangeness": 78,
+        "significance": 85,
+        "visualAppeal": 61,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "kowloon-walled-city",
+      "title": "Kowloon Walled City",
+      "hook": "A dense city-block grew into one of the most packed places on Earth.",
+      "summary": "Kowloon Walled City became famous for its extraordinary density, improvised infrastructure, and tightly stacked urban life before demolition. It remains one of the clearest examples of a place that developed a logic all its own.",
+      "whyStrange": "It looks like a speculative city from a dystopian film, yet it existed as a real, lived place.",
+      "tags": [
+        "place",
+        "architecture",
+        "urban"
+      ],
+      "collectionIds": [
+        "deranged-architecture",
+        "failed-utopias",
+        "strange-places"
+      ],
+      "relatedIds": [
+        "ryugyong-hotel",
+        "hashima-island",
+        "pruitt-igoe",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "pyramiden",
+        "duga-radar",
+        "pripyat"
+      ],
+      "scores": {
+        "obscurity": 39,
+        "strangeness": 87,
+        "significance": 88,
+        "visualAppeal": 98,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "hashima-island",
+      "title": "Hashima Island",
+      "hook": "A crowded mining island was later abandoned to the sea.",
+      "summary": "Hashima Island, often called Battleship Island, was once a densely packed industrial settlement built around coal extraction. After the mine closed, the island became an emblem of industrial abandonment.",
+      "whyStrange": "It feels like a set from a post-industrial film, but it is a real and heavily documented place.",
+      "tags": [
+        "place",
+        "industry",
+        "architecture"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "deranged-architecture"
+      ],
+      "relatedIds": [
+        "ryugyong-hotel",
+        "kowloon-walled-city",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "fordlandia",
+        "pyramiden",
+        "pruitt-igoe",
+        "surtsey"
+      ],
+      "scores": {
+        "obscurity": 42,
+        "strangeness": 80,
+        "significance": 84,
+        "visualAppeal": 96,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "pripyat",
+      "title": "Pripyat",
+      "hook": "A Soviet city was evacuated after the Chernobyl disaster.",
+      "summary": "Pripyat was built to serve the Chernobyl nuclear plant and became one of the most famous abandoned cities in the world after the 1986 disaster. Its empty blocks and frozen public spaces became visual shorthand for a failed future.",
+      "whyStrange": "Few places carry such a powerful mix of modernism, abandonment, and historical trauma.",
+      "tags": [
+        "place",
+        "disaster",
+        "soviet"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "disasters"
+      ],
+      "relatedIds": [
+        "centralia-pennsylvania",
+        "pyramiden",
+        "dyatlov-pass-incident",
+        "kowloon-walled-city",
+        "sealand",
+        "hashima-island",
+        "ryugyong-hotel",
+        "surtsey"
+      ],
+      "scores": {
+        "obscurity": 43,
+        "strangeness": 86,
+        "significance": 97,
+        "visualAppeal": 92,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "centralia-pennsylvania",
+      "title": "Centralia, Pennsylvania",
+      "hook": "A mine fire turned a town into a slow-burning warning.",
+      "summary": "Centralia’s underground coal seam fire burned for decades and forced the gradual abandonment of the town. It became one of the best-known examples of infrastructure failure producing a lingering, uncanny landscape.",
+      "whyStrange": "The town did not explode or vanish overnight; it simply became uninhabitable one year at a time.",
+      "tags": [
+        "disaster",
+        "place",
+        "infrastructure"
+      ],
+      "collectionIds": [
+        "disasters",
+        "strange-places"
+      ],
+      "relatedIds": [
+        "pripyat",
+        "the-great-stink",
+        "pyramiden",
+        "hashima-island",
+        "kowloon-walled-city",
+        "ryugyong-hotel",
+        "surtsey",
+        "boston-molasses-flood"
+      ],
+      "scores": {
+        "obscurity": 49,
+        "strangeness": 84,
+        "significance": 85,
+        "visualAppeal": 74,
+        "conversationPower": 93
+      }
+    },
+    {
+      "id": "nakagin-capsule-tower",
+      "title": "Nakagin Capsule Tower",
+      "hook": "A Tokyo building was designed as a stack of replaceable living pods.",
+      "summary": "The Nakagin Capsule Tower embodied metabolic architecture, with modular capsules attached to a concrete core and meant to be swapped over time. It became an icon of Japanese architectural futurism and its limits.",
+      "whyStrange": "It is a rare building where the premise alone tells a story about a future that never fully arrived.",
+      "tags": [
+        "architecture",
+        "technology",
+        "place"
+      ],
+      "collectionIds": [
+        "deranged-architecture",
+        "vanished-technologies"
+      ],
+      "relatedIds": [
+        "hashima-island",
+        "ryugyong-hotel",
+        "kowloon-walled-city",
+        "ten-thousand-year-clock",
+        "pruitt-igoe",
+        "buzludzha-monument",
+        "duga-radar",
+        "project-habakkuk"
+      ],
+      "scores": {
+        "obscurity": 41,
+        "strangeness": 82,
+        "significance": 89,
+        "visualAppeal": 97,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "pruitt-igoe",
+      "title": "Pruitt-Igoe",
+      "hook": "A public housing complex became shorthand for architectural failure.",
+      "summary": "Pruitt-Igoe was a St. Louis housing project whose decline became a symbol in debates about modernist planning, policy, and urban design. Its demolition is one of the most cited moments in twentieth-century architectural history.",
+      "whyStrange": "A housing project can become mythic when its failure is reinterpreted as a cultural turning point.",
+      "tags": [
+        "architecture",
+        "urban",
+        "history"
+      ],
+      "collectionIds": [
+        "deranged-architecture",
+        "failed-utopias"
+      ],
+      "relatedIds": [
+        "kowloon-walled-city",
+        "ryugyong-hotel",
+        "the-great-stink",
+        "hashima-island",
+        "colonia-dignidad",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "duga-radar"
+      ],
+      "scores": {
+        "obscurity": 47,
+        "strangeness": 79,
+        "significance": 90,
+        "visualAppeal": 88,
+        "conversationPower": 92
+      }
+    },
+    {
+      "id": "buzludzha-monument",
+      "title": "Buzludzha Monument",
+      "hook": "A monumental concrete saucer rose above a Bulgarian mountaintop.",
+      "summary": "The Buzludzha Monument was built to commemorate socialist ideology and now stands as a decaying icon of twentieth-century monumentality. Its silhouette makes it one of the most visually memorable ruins in Eastern Europe.",
+      "whyStrange": "It looks like a crashed spaceship, but it is really political architecture in ruin.",
+      "tags": [
+        "architecture",
+        "soviet",
+        "monument"
+      ],
+      "collectionIds": [
+        "deranged-architecture",
+        "strange-places"
+      ],
+      "relatedIds": [
+        "ryugyong-hotel",
+        "hashima-island",
+        "kowloon-walled-city",
+        "nakagin-capsule-tower",
+        "pyramiden",
+        "pruitt-igoe",
+        "duga-radar",
+        "pripyat"
+      ],
+      "scores": {
+        "obscurity": 36,
+        "strangeness": 77,
+        "significance": 87,
+        "visualAppeal": 99,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "ryugyong-hotel",
+      "title": "Ryugyong Hotel",
+      "hook": "Pyongyang’s pyramid-shaped hotel became a monument to unfinished ambition.",
+      "summary": "The Ryugyong Hotel dominated the skyline of Pyongyang for decades while remaining incomplete or underused. It became a global symbol of grand architectural aspiration colliding with political and economic reality.",
+      "whyStrange": "It is one of the world’s most famous empty megastructures.",
+      "tags": [
+        "architecture",
+        "place",
+        "failed-utopia"
+      ],
+      "collectionIds": [
+        "deranged-architecture",
+        "strange-places",
+        "failed-utopias"
+      ],
+      "relatedIds": [
+        "kowloon-walled-city",
+        "hashima-island",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "pyramiden",
+        "pruitt-igoe",
+        "duga-radar",
+        "pripyat"
+      ],
+      "scores": {
+        "obscurity": 38,
+        "strangeness": 81,
+        "significance": 88,
+        "visualAppeal": 94,
+        "conversationPower": 92
+      }
+    },
+    {
+      "id": "sealand",
+      "title": "Sealand",
+      "hook": "An offshore platform declared itself a sovereign principality.",
+      "summary": "Sealand is a self-declared micronation based on a former sea fort in the North Sea. Its history blends legal oddity, internet-era mythmaking, and the persistent appeal of makeshift sovereignty.",
+      "whyStrange": "It is a real place that has spent decades acting like a state in miniature.",
+      "tags": [
+        "micronation",
+        "legal",
+        "place"
+      ],
+      "collectionIds": [
+        "micronations",
+        "strange-places"
+      ],
+      "relatedIds": [
+        "republic-of-rose-island",
+        "kowloon-walled-city",
+        "pripyat",
+        "ryugyong-hotel",
+        "hashima-island",
+        "centralia-pennsylvania",
+        "pyramiden",
+        "surtsey"
+      ],
+      "scores": {
+        "obscurity": 37,
+        "strangeness": 89,
+        "significance": 72,
+        "visualAppeal": 69,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "republic-of-rose-island",
+      "title": "Republic of Rose Island",
+      "hook": "A tiny offshore platform briefly tried to become its own country.",
+      "summary": "Rose Island was an artificial structure in the Adriatic Sea that was declared independent by its creator. The project’s short life made it a legend of legal creativity and exuberant self-invention.",
+      "whyStrange": "It is a micronation story that feels simultaneously whimsical and deeply committed.",
+      "tags": [
+        "micronation",
+        "legal",
+        "utopia"
+      ],
+      "collectionIds": [
+        "micronations",
+        "failed-utopias"
+      ],
+      "relatedIds": [
+        "sealand",
+        "fordlandia",
+        "biosphere-2",
+        "auroville",
+        "kowloon-walled-city",
+        "colonia-dignidad",
+        "ryugyong-hotel",
+        "pyramiden"
+      ],
+      "scores": {
+        "obscurity": 42,
+        "strangeness": 87,
+        "significance": 71,
+        "visualAppeal": 64,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "heavens-gate",
+      "title": "Heaven's Gate",
+      "hook": "A UFO religion ended in one of the most infamous mass deaths in U.S. history.",
+      "summary": "Heaven’s Gate was a millenarian group whose beliefs about transcendence, space, and transformation culminated in a tragic mass death. Its mix of science-fiction imagery and religious conviction remains disturbing.",
+      "whyStrange": "It shows how cosmic narratives can become deadly when they are combined with absolute certainty.",
+      "tags": [
+        "cult",
+        "religion",
+        "mystery"
+      ],
+      "collectionIds": [
+        "cults-and-charismatics",
+        "myths-and-mysteries"
+      ],
+      "relatedIds": [
+        "cargo-cult",
+        "john-frum",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "dyatlov-pass-incident",
+        "cardiff-giant",
+        "isdal-woman",
+        "taman-shud-case"
+      ],
+      "scores": {
+        "obscurity": 51,
+        "strangeness": 90,
+        "significance": 86,
+        "visualAppeal": 48,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "church-of-the-subgenius",
+      "title": "Church of the SubGenius",
+      "hook": "A parody religion grew a real subculture around slack and absurdity.",
+      "summary": "The Church of the SubGenius began as a satirical religion and developed a durable following through zines, humor, and countercultural play. It sits at the border of joke, commentary, and genuine community.",
+      "whyStrange": "It is a parody that became culturally real without ever surrendering its weirdness.",
+      "tags": [
+        "culture",
+        "cult",
+        "satire"
+      ],
+      "collectionIds": [
+        "cults-and-charismatics",
+        "social-experiments"
+      ],
+      "relatedIds": [
+        "heavens-gate",
+        "cargo-cult",
+        "colonia-dignidad",
+        "john-frum",
+        "milgram-experiment",
+        "the-third-wave",
+        "stanford-prison-experiment",
+        "biosphere-2"
+      ],
+      "scores": {
+        "obscurity": 57,
+        "strangeness": 88,
+        "significance": 67,
+        "visualAppeal": 53,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "colonia-dignidad",
+      "title": "Colonia Dignidad",
+      "hook": "A secluded settlement in Chile became infamous for abuse and secrecy.",
+      "summary": "Colonia Dignidad was a German enclave in Chile that became associated with coercion, abuse, and entanglement with authoritarian politics. Its history is a grim example of isolated communities turning inward in destructive ways.",
+      "whyStrange": "It combines utopian community language with some of the darkest real-world outcomes imaginable.",
+      "tags": [
+        "cult",
+        "community",
+        "history"
+      ],
+      "collectionIds": [
+        "cults-and-charismatics",
+        "failed-utopias"
+      ],
+      "relatedIds": [
+        "pruitt-igoe",
+        "auroville",
+        "heavens-gate",
+        "church-of-the-subgenius",
+        "the-great-stink",
+        "zzyzx-california",
+        "cardiff-giant",
+        "taman-shud-case"
+      ],
+      "scores": {
+        "obscurity": 49,
+        "strangeness": 83,
+        "significance": 89,
+        "visualAppeal": 52,
+        "conversationPower": 95
+      }
+    },
+    {
+      "id": "cargo-cult",
+      "title": "Cargo cult",
+      "hook": "Island communities built rituals around the arrival of foreign goods.",
+      "summary": "Cargo cults emerged in colonial and postwar contexts where imported goods, military logistics, and ritual behavior became entangled in local religious practice. The term has since broadened into a shorthand for imitation without understanding.",
+      "whyStrange": "It is one of the most misunderstood phrases in popular culture, and the real history is more nuanced than the cliché.",
+      "tags": [
+        "religion",
+        "anthropology",
+        "culture"
+      ],
+      "collectionIds": [
+        "cults-and-charismatics",
+        "myths-and-mysteries"
+      ],
+      "relatedIds": [
+        "john-frum",
+        "heavens-gate",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "cottingley-fairies"
+      ],
+      "scores": {
+        "obscurity": 60,
+        "strangeness": 82,
+        "significance": 79,
+        "visualAppeal": 45,
+        "conversationPower": 94
+      }
+    },
+    {
+      "id": "surtsey",
+      "title": "Surtsey",
+      "hook": "A volcanic island emerged from the sea off Iceland in the 1960s.",
+      "summary": "Surtsey appeared after an underwater eruption and became a rare opportunity to watch a new island develop from scratch. Scientists have studied its ecology for decades, treating it like a living laboratory.",
+      "whyStrange": "It is a place you can watch being born in real time.",
+      "tags": [
+        "geography",
+        "science",
+        "place"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "science-dead-ends"
+      ],
+      "relatedIds": [
+        "pyramiden",
+        "hashima-island",
+        "zzyzx-california",
+        "ryugyong-hotel",
+        "centralia-pennsylvania",
+        "pripyat",
+        "kowloon-walled-city",
+        "sealand"
+      ],
+      "scores": {
+        "obscurity": 45,
+        "strangeness": 73,
+        "significance": 85,
+        "visualAppeal": 94,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "cardiff-giant",
+      "title": "Cardiff Giant",
+      "hook": "A famous nineteenth-century petrified giant was actually a hoax.",
+      "summary": "The Cardiff Giant was a monumental fake “fossilized man” uncovered in New York and celebrated as a scientific marvel before being exposed as a hoax. It became a classic American story of spectacle, belief, and profit.",
+      "whyStrange": "Its success depended on how eagerly people wanted the impossible to be true.",
+      "tags": [
+        "hoax",
+        "history",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "absurd-history"
+      ],
+      "relatedIds": [
+        "dancing-plague-of-1518",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "taman-shud-case",
+        "isdal-woman",
+        "dyatlov-pass-incident",
+        "great-emu-war",
+        "heavens-gate"
+      ],
+      "scores": {
+        "obscurity": 66,
+        "strangeness": 86,
+        "significance": 69,
+        "visualAppeal": 41,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "cottingley-fairies",
+      "title": "Cottingley Fairies",
+      "hook": "Two girls produced photographs that convinced prominent believers.",
+      "summary": "The Cottingley Fairies photographs became a famous early twentieth-century case of fairy imagery that fooled serious observers. The story remains a neat collision of wishful thinking, photographic culture, and cultural appetite for wonder.",
+      "whyStrange": "A few staged photographs grew into a durable modern myth about what evidence can and cannot do.",
+      "tags": [
+        "hoax",
+        "folklore",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "absurd-history"
+      ],
+      "relatedIds": [
+        "cardiff-giant",
+        "the-great-moon-hoax",
+        "dancing-plague-of-1518",
+        "taman-shud-case",
+        "isdal-woman",
+        "dyatlov-pass-incident",
+        "heavens-gate",
+        "john-frum"
+      ],
+      "scores": {
+        "obscurity": 71,
+        "strangeness": 79,
+        "significance": 66,
+        "visualAppeal": 59,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "john-frum",
+      "title": "John Frum",
+      "hook": "A cargo-cult figure became part of a living religious movement.",
+      "summary": "John Frum is a figure associated with a cargo cult movement in Vanuatu whose origins mix colonial encounter, belief, and ritual. The movement is often invoked as a case study in how outside influence can be transformed into local sacred narrative.",
+      "whyStrange": "It is a religious tradition with a modern origin story that feels stranger the more carefully you study it.",
+      "tags": [
+        "religion",
+        "anthropology",
+        "culture"
+      ],
+      "collectionIds": [
+        "cults-and-charismatics",
+        "myths-and-mysteries"
+      ],
+      "relatedIds": [
+        "cargo-cult",
+        "heavens-gate",
+        "church-of-the-subgenius",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case"
+      ],
+      "scores": {
+        "obscurity": 63,
+        "strangeness": 77,
+        "significance": 74,
+        "visualAppeal": 43,
+        "conversationPower": 93
+      }
+    },
+    {
+      "id": "taman-shud-case",
+      "title": "Taman Shud case",
+      "hook": "An unidentified man and a coded note became an enduring mystery.",
+      "summary": "The Taman Shud case centers on the discovery of an unidentified man on an Australian beach with a cryptic note linked to a book. The case remains one of the most discussed mysteries in Australian history.",
+      "whyStrange": "It combines a body, a code, and decades of speculation without a satisfying solution.",
+      "tags": [
+        "mystery",
+        "crime",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "bizarre-legal-cases"
+      ],
+      "relatedIds": [
+        "isdal-woman",
+        "cardiff-giant",
+        "dancing-plague-of-1518",
+        "dyatlov-pass-incident",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "heavens-gate",
+        "great-emu-war"
+      ],
+      "scores": {
+        "obscurity": 68,
+        "strangeness": 84,
+        "significance": 78,
+        "visualAppeal": 36,
+        "conversationPower": 98
+      }
+    },
+    {
+      "id": "isdal-woman",
+      "title": "Isdal Woman",
+      "hook": "An unidentified woman was found dead in Norway under puzzling circumstances.",
+      "summary": "The Isdal Woman case concerns an unidentified body, false identities, and a mystery that drew intelligence and criminal theories. The combination of travel clues and missing identity makes it one of Europe’s most famous cold cases.",
+      "whyStrange": "It has the shape of spy fiction, but the official record never fully resolved the story.",
+      "tags": [
+        "mystery",
+        "crime",
+        "cold-war"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "bizarre-legal-cases"
+      ],
+      "relatedIds": [
+        "taman-shud-case",
+        "cardiff-giant",
+        "dyatlov-pass-incident",
+        "cottingley-fairies",
+        "dancing-plague-of-1518",
+        "heavens-gate",
+        "operation-northwoods",
+        "duga-radar"
+      ],
+      "scores": {
+        "obscurity": 67,
+        "strangeness": 85,
+        "significance": 80,
+        "visualAppeal": 35,
+        "conversationPower": 97
+      }
+    },
+    {
+      "id": "pyramiden",
+      "title": "Pyramiden",
+      "hook": "A Soviet mining town in Svalbard was abandoned almost overnight.",
+      "summary": "Pyramiden was a mining settlement with Soviet cultural infrastructure that later became a preserved ghost town in the Arctic. Its frozen streets and odd survival as a monument to a vanished system make it unforgettable.",
+      "whyStrange": "It is a ghost town with a stage-set quality and a very specific ideological past.",
+      "tags": [
+        "place",
+        "soviet",
+        "ghost-town"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "failed-utopias"
+      ],
+      "relatedIds": [
+        "pripyat",
+        "ryugyong-hotel",
+        "kowloon-walled-city",
+        "hashima-island",
+        "auroville",
+        "surtsey",
+        "buzludzha-monument",
+        "fordlandia"
+      ],
+      "scores": {
+        "obscurity": 44,
+        "strangeness": 79,
+        "significance": 83,
+        "visualAppeal": 90,
+        "conversationPower": 91
+      }
+    },
+    {
+      "id": "ten-thousand-year-clock",
+      "title": "Clock of the Long Now",
+      "hook": "A clock designed to run for ten thousand years became a philosophy project.",
+      "summary": "The Clock of the Long Now is a monumental timekeeping project intended to keep time on a scale far beyond ordinary planning horizons. It combines engineering, art, and a philosophical wager about stewardship.",
+      "whyStrange": "It is a machine built to outlast the institutions and habits that created it.",
+      "tags": [
+        "technology",
+        "philosophy",
+        "architecture"
+      ],
+      "collectionIds": [
+        "vanished-technologies",
+        "eccentric-rich-projects"
+      ],
+      "relatedIds": [
+        "nakagin-capsule-tower",
+        "project-habakkuk",
+        "buzludzha-monument",
+        "ryugyong-hotel",
+        "hashima-island",
+        "pruitt-igoe",
+        "duga-radar",
+        "kowloon-walled-city"
+      ],
+      "scores": {
+        "obscurity": 33,
+        "strangeness": 74,
+        "significance": 81,
+        "visualAppeal": 86,
+        "conversationPower": 89
+      }
+    },
+    {
+      "id": "the-great-moon-hoax",
+      "title": "The Great Moon Hoax",
+      "hook": "Newspaper readers were told the Moon was full of extraordinary life.",
+      "summary": "The Great Moon Hoax was a nineteenth-century newspaper sensation that described fictional lunar creatures and landscapes as if they were discovered fact. It is a classic example of mass media spectacle and credulity.",
+      "whyStrange": "It shows how quickly a compelling invented story can behave like news.",
+      "tags": [
+        "hoax",
+        "media",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "absurd-history"
+      ],
+      "relatedIds": [
+        "cardiff-giant",
+        "cottingley-fairies",
+        "dancing-plague-of-1518",
+        "taman-shud-case",
+        "great-emu-war",
+        "colonia-dignidad",
+        "pruitt-igoe",
+        "zzyzx-california"
+      ],
+      "scores": {
+        "obscurity": 72,
+        "strangeness": 78,
+        "significance": 65,
+        "visualAppeal": 44,
+        "conversationPower": 96
+      }
+    },
+    {
+      "id": "zzyzx-california",
+      "title": "Zzyzx, California",
+      "hook": "A desert health resort got a name chosen to be the last word in the dictionary.",
+      "summary": "Zzyzx began as a deliberately named desert resort and health spa whose bizarre branding gave it lasting fame. It is a tiny example of self-made mythology in place naming and marketing.",
+      "whyStrange": "Even the name feels like a practical joke that somehow became a geographic fact.",
+      "tags": [
+        "place",
+        "history",
+        "eccentricity"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "eccentric-rich-projects"
+      ],
+      "relatedIds": [
+        "surtsey",
+        "pyramiden",
+        "centralia-pennsylvania",
+        "hashima-island",
+        "ryugyong-hotel",
+        "fordlandia",
+        "pripyat",
+        "kowloon-walled-city"
+      ],
+      "scores": {
+        "obscurity": 54,
+        "strangeness": 74,
+        "significance": 66,
+        "visualAppeal": 60,
+        "conversationPower": 88
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "disasters",
+      "title": "Disasters that sound made up",
+      "slug": "disasters-that-sound-made-up",
+      "description": "Events where the premise alone seems fictional: floods of food and drink, invisible gas clouds, and towns that became cautionary tales.",
+      "articleIds": [
+        "boston-molasses-flood",
+        "london-beer-flood",
+        "lake-nyos-disaster",
+        "dancing-plague-of-1518",
+        "dyatlov-pass-incident",
+        "the-great-stink",
+        "centralia-pennsylvania",
+        "pripyat"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "cold-war-weirdness",
+      "title": "Cold War weirdness",
+      "slug": "cold-war-weirdness",
+      "description": "Secret plans, nuclear fantasies, and projects that feel like science fiction smuggled into state paperwork.",
+      "articleIds": [
+        "project-pluto",
+        "operation-northwoods",
+        "operation-plowshare",
+        "acoustic-kitty",
+        "project-pigeon",
+        "casaba-howitzer",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "project-habakkuk"
+      ],
+      "accent": "sky"
+    },
+    {
+      "id": "failed-utopias",
+      "title": "Failed utopias",
+      "slug": "failed-utopias",
+      "description": "Grand social visions, planned cities, and corporate dreams that ran into ecology, power, or the simple friction of reality.",
+      "articleIds": [
+        "fordlandia",
+        "auroville",
+        "kowloon-walled-city",
+        "hashima-island",
+        "pripyat",
+        "centralia-pennsylvania",
+        "pruitt-igoe",
+        "ryugyong-hotel",
+        "republic-of-rose-island",
+        "pyramiden"
+      ],
+      "accent": "emerald"
+    },
+    {
+      "id": "social-experiments",
+      "title": "Social experiments",
+      "slug": "social-experiments",
+      "description": "Behavioral studies, classroom simulations, and communities that tried to engineer human nature from first principles.",
+      "articleIds": [
+        "biosphere-2",
+        "milgram-experiment",
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "cargo-cult",
+        "john-frum",
+        "heavens-gate"
+      ],
+      "accent": "fuchsia"
+    },
+    {
+      "id": "strange-places",
+      "title": "Strange places",
+      "slug": "strange-places",
+      "description": "Abandoned cities, island anomalies, oversized monuments, and settlements that became famous for how they look and feel.",
+      "articleIds": [
+        "kowloon-walled-city",
+        "hashima-island",
+        "pripyat",
+        "centralia-pennsylvania",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "ryugyong-hotel",
+        "sealand",
+        "republic-of-rose-island",
+        "surtsey",
+        "pyramiden",
+        "zzyzx-california"
+      ],
+      "accent": "violet"
+    },
+    {
+      "id": "myths-and-mysteries",
+      "title": "Myths and mysteries",
+      "slug": "myths-and-mysteries",
+      "description": "Cases, hoaxes, and unexplained events that keep generating theories because the documents are incomplete and the story is too good to die.",
+      "articleIds": [
+        "dyatlov-pass-incident",
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "john-frum",
+        "taman-shud-case",
+        "isdal-woman",
+        "the-great-moon-hoax",
+        "heavens-gate"
+      ],
+      "accent": "orange"
+    },
+    {
+      "id": "government-projects",
+      "title": "Things governments seriously funded",
+      "slug": "government-projects",
+      "description": "These are the pages that make you reread the source material twice because the official record is stranger than the joke version.",
+      "articleIds": [
+        "project-pluto",
+        "operation-northwoods",
+        "operation-plowshare",
+        "acoustic-kitty",
+        "project-pigeon",
+        "casaba-howitzer",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "project-habakkuk",
+        "great-emu-war"
+      ],
+      "accent": "cyan"
+    },
+    {
+      "id": "vanished-technologies",
+      "title": "Vanished technologies",
+      "slug": "vanished-technologies",
+      "description": "Technologies and systems that almost won, stalled out, or left behind beautiful ruins and better stories than products.",
+      "articleIds": [
+        "orion-nuclear-pulse-propulsion",
+        "project-habakkuk",
+        "nakagin-capsule-tower",
+        "ten-thousand-year-clock",
+        "surtsey"
+      ],
+      "accent": "yellow"
+    },
+    {
+      "id": "eccentric-rich-projects",
+      "title": "Eccentric rich people projects",
+      "slug": "eccentric-rich-peoples-projects",
+      "description": "Large personal visions that became expensive, strange, and almost impossible to separate from the people who made them.",
+      "articleIds": [
+        "fordlandia",
+        "zzyzx-california",
+        "ten-thousand-year-clock",
+        "ryugyong-hotel",
+        "republic-of-rose-island"
+      ],
+      "accent": "rose"
+    },
+    {
+      "id": "bizarre-legal-cases",
+      "title": "Bizarre legal cases",
+      "slug": "bizarre-legal-cases",
+      "description": "Unusual cold cases, strange evidence trails, and stories where legal ambiguity is part of the mystery.",
+      "articleIds": [
+        "taman-shud-case",
+        "isdal-woman"
+      ],
+      "accent": "slate"
+    },
+    {
+      "id": "absurd-history",
+      "title": "Absurd history",
+      "slug": "absurd-history",
+      "description": "Historical episodes that are real, well documented, and still feel like someone made them up on purpose.",
+      "articleIds": [
+        "boston-molasses-flood",
+        "london-beer-flood",
+        "great-emu-war",
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "zzyzx-california"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "infrastructure-that-mattered",
+      "title": "Infrastructure that mattered",
+      "slug": "infrastructure-that-mattered",
+      "description": "Public works and systems that were ugly, costly, necessary, or all three at once.",
+      "articleIds": [
+        "the-great-stink",
+        "centralia-pennsylvania",
+        "pruitt-igoe",
+        "nakagin-capsule-tower"
+      ],
+      "accent": "sky"
+    },
+    {
+      "id": "science-dead-ends",
+      "title": "Science dead ends",
+      "slug": "science-dead-ends",
+      "description": "Ideas that were once considered plausible enough to fund, test, or build before they were overtaken by reality.",
+      "articleIds": [
+        "project-pluto",
+        "operation-plowshare",
+        "project-habakkuk",
+        "orion-nuclear-pulse-propulsion",
+        "ten-thousand-year-clock",
+        "surtsey"
+      ],
+      "accent": "cyan"
+    },
+    {
+      "id": "cults-and-charismatics",
+      "title": "Cults and charismatics",
+      "slug": "cults-and-charismatics",
+      "description": "Movements, personalities, and belief systems that blur the line between performance, devotion, and social control.",
+      "articleIds": [
+        "heavens-gate",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "cargo-cult",
+        "john-frum"
+      ],
+      "accent": "fuchsia"
+    },
+    {
+      "id": "micronations",
+      "title": "Micronations",
+      "slug": "micronations",
+      "description": "Tiny claims of sovereignty, whether playful, ideological, or legally inventive.",
+      "articleIds": [
+        "sealand",
+        "republic-of-rose-island"
+      ],
+      "accent": "violet"
+    },
+    {
+      "id": "deranged-architecture",
+      "title": "Deranged architecture",
+      "slug": "deranged-architecture",
+      "description": "Buildings and urban forms that look impossible, overscaled, or too strange to have been fully intentional.",
+      "articleIds": [
+        "kowloon-walled-city",
+        "hashima-island",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "ryugyong-hotel",
+        "pruitt-igoe",
+        "duga-radar"
+      ],
+      "accent": "rose"
+    }
+  ],
+  "themes": [
+    {
+      "id": "weird-science",
+      "label": "Weird science",
+      "tags": [
+        "science",
+        "technology",
+        "military"
+      ],
+      "description": "A route from odd experiments into the machinery of escalation."
+    },
+    {
+      "id": "political-scandal",
+      "label": "Political scandal",
+      "tags": [
+        "government",
+        "scandal",
+        "military"
+      ],
+      "description": "A route through secret plans, public failures, and hard-to-believe decisions."
+    },
+    {
+      "id": "strange-places",
+      "label": "Strange places",
+      "tags": [
+        "place",
+        "architecture",
+        "geography"
+      ],
+      "description": "A route through vanished cities, monuments, and impossible settlements."
+    },
+    {
+      "id": "social-experiments",
+      "label": "Social experiments",
+      "tags": [
+        "experiment",
+        "psychology",
+        "culture"
+      ],
+      "description": "A route through experiments, cults, and engineered communities."
+    },
+    {
+      "id": "made-up-disasters",
+      "label": "Made-up disasters",
+      "tags": [
+        "disaster",
+        "industrial",
+        "history"
+      ],
+      "description": "A route through events that sound like fiction but were terrifyingly real."
+    }
+  ]
+}
