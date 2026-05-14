@@ -193,6 +193,19 @@ const ArticlePage = ({ atlas, articleId }) => {
             <div className="text-xs uppercase tracking-[0.35em] text-slate-400">Why it is strange</div>
             <p className="mt-3 text-sm leading-7 text-slate-300">{article.whyStrange}</p>
           </div>
+          {article.wikipediaUrl ? (
+            <div className="mt-6 rounded-[1.5rem] border border-amber-300/20 bg-amber-300/5 p-5">
+              <div className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Original Wikipedia article</div>
+              <a
+                href={article.wikipediaUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 block text-sm leading-7 text-amber-100 underline decoration-amber-200/30 underline-offset-4 hover:text-white"
+              >
+                Open the source page on Wikipedia
+              </a>
+            </div>
+          ) : null}
           <div className="mt-6 flex flex-wrap gap-2">
             {article.tags.map((tag) => (
               <span
