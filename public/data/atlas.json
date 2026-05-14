@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:29:50.331Z",
+  "generatedAt": "2026-05-14T22:34:08.484Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -91,8 +91,8 @@
         "operation-plowshare",
         "project-pluto",
         "casaba-howitzer",
-        "colonia-dignidad",
-        "project-habakkuk"
+        "cardiff-giant",
+        "the-great-moon-hoax"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Emu_War",
       "scores": {
@@ -152,14 +152,14 @@
         "myths-and-mysteries"
       ],
       "relatedIds": [
+        "cardiff-giant",
         "taman-shud-case",
         "isdal-woman",
-        "cardiff-giant",
+        "the-great-moon-hoax",
+        "cottingley-fairies",
         "dyatlov-pass-incident",
         "heavens-gate",
-        "colonia-dignidad",
-        "great-emu-war",
-        "the-great-moon-hoax"
+        "great-emu-war"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
       "scores": {
@@ -598,8 +598,8 @@
         "biosphere-2",
         "dancing-plague-of-1518",
         "auroville",
+        "church-of-the-subgenius",
         "colonia-dignidad",
-        "heavens-gate",
         "sealand"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Milgram_experiment",
@@ -632,7 +632,7 @@
         "dancing-plague-of-1518",
         "auroville",
         "colonia-dignidad",
-        "heavens-gate",
+        "church-of-the-subgenius",
         "fordlandia"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
@@ -664,8 +664,8 @@
         "biosphere-2",
         "dancing-plague-of-1518",
         "auroville",
+        "church-of-the-subgenius",
         "colonia-dignidad",
-        "heavens-gate",
         "sealand"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Third_Wave_(experiment)",
@@ -757,7 +757,8 @@
         "place"
       ],
       "collectionIds": [
-        "deranged-architecture"
+        "deranged-architecture",
+        "strange-places"
       ],
       "relatedIds": [
         "hashima-island",
@@ -765,9 +766,9 @@
         "pruitt-igoe",
         "nakagin-capsule-tower",
         "buzludzha-monument",
+        "pyramiden",
         "duga-radar",
-        "centralia-pennsylvania",
-        "pyramiden"
+        "centralia-pennsylvania"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Kowloon_Walled_City",
       "scores": {
@@ -791,17 +792,17 @@
       ],
       "collectionIds": [
         "deranged-architecture",
-        "abandoned-places"
+        "strange-places"
       ],
       "relatedIds": [
-        "buzludzha-monument",
         "kowloon-walled-city",
+        "buzludzha-monument",
         "pyramiden",
         "ryugyong-hotel",
-        "centralia-pennsylvania",
-        "pripyat",
         "pruitt-igoe",
-        "nakagin-capsule-tower"
+        "nakagin-capsule-tower",
+        "duga-radar",
+        "centralia-pennsylvania"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Hashima_Island",
       "scores": {
@@ -830,12 +831,12 @@
       "relatedIds": [
         "centralia-pennsylvania",
         "pyramiden",
-        "surtsey",
         "dyatlov-pass-incident",
-        "buzludzha-monument",
         "lake-nyos-disaster",
-        "hashima-island",
-        "london-beer-flood"
+        "london-beer-flood",
+        "boston-molasses-flood",
+        "surtsey",
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Pripyat",
       "scores": {
@@ -863,13 +864,13 @@
       ],
       "relatedIds": [
         "pripyat",
-        "surtsey",
         "fordlandia",
         "lake-nyos-disaster",
-        "hashima-island",
         "pyramiden",
         "london-beer-flood",
-        "boston-molasses-flood"
+        "boston-molasses-flood",
+        "surtsey",
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Centralia,_Pennsylvania",
       "scores": {
@@ -961,17 +962,17 @@
       ],
       "collectionIds": [
         "deranged-architecture",
-        "abandoned-places"
+        "strange-places"
       ],
       "relatedIds": [
         "hashima-island",
         "ryugyong-hotel",
-        "pripyat",
+        "kowloon-walled-city",
         "nakagin-capsule-tower",
         "pruitt-igoe",
         "pyramiden",
-        "kowloon-walled-city",
-        "duga-radar"
+        "duga-radar",
+        "pripyat"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Buzludzha_Monument",
       "scores": {
@@ -1028,8 +1029,7 @@
         "micronation"
       ],
       "collectionIds": [
-        "micronations",
-        "government-projects"
+        "micronations"
       ],
       "relatedIds": [
         "republic-of-rose-island",
@@ -1097,17 +1097,17 @@
       ],
       "collectionIds": [
         "myths-and-mysteries",
-        "social-experiments"
+        "cults-and-charismatics"
       ],
       "relatedIds": [
         "john-frum",
-        "colonia-dignidad",
+        "cargo-cult",
         "dyatlov-pass-incident",
         "dancing-plague-of-1518",
+        "colonia-dignidad",
         "taman-shud-case",
         "isdal-woman",
-        "cardiff-giant",
-        "church-of-the-subgenius"
+        "cardiff-giant"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Heaven%27s_Gate_(religious_group)",
       "scores": {
@@ -1130,17 +1130,18 @@
         "culture"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "social-experiments",
+        "cults-and-charismatics"
       ],
       "relatedIds": [
         "cargo-cult",
         "john-frum",
         "heavens-gate",
-        "cardiff-giant",
-        "cottingley-fairies",
-        "the-great-moon-hoax",
-        "isdal-woman",
-        "taman-shud-case"
+        "colonia-dignidad",
+        "auroville",
+        "milgram-experiment",
+        "the-third-wave",
+        "biosphere-2"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Church_of_the_SubGenius",
       "scores": {
@@ -1163,18 +1164,18 @@
         "place"
       ],
       "collectionIds": [
-        "myths-and-mysteries",
-        "social-experiments"
+        "social-experiments",
+        "cults-and-charismatics"
       ],
       "relatedIds": [
         "heavens-gate",
+        "auroville",
+        "cargo-cult",
         "taman-shud-case",
         "dancing-plague-of-1518",
         "isdal-woman",
-        "cardiff-giant",
-        "the-great-moon-hoax",
-        "auroville",
-        "cargo-cult"
+        "centralia-pennsylvania",
+        "kowloon-walled-city"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Colonia_Dignidad",
       "scores": {
@@ -1197,17 +1198,18 @@
         "history"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "cults-and-charismatics"
       ],
       "relatedIds": [
         "john-frum",
+        "heavens-gate",
         "church-of-the-subgenius",
         "cardiff-giant",
         "the-great-moon-hoax",
         "isdal-woman",
         "taman-shud-case",
-        "colonia-dignidad",
-        "heavens-gate"
+        "colonia-dignidad"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cargo_cult",
       "scores": {
@@ -1231,17 +1233,17 @@
       ],
       "collectionIds": [
         "disasters",
-        "abandoned-places"
+        "science-dead-ends"
       ],
       "relatedIds": [
         "lake-nyos-disaster",
         "pripyat",
         "centralia-pennsylvania",
+        "ten-thousand-year-clock",
         "pyramiden",
         "zzyzx-california",
         "hashima-island",
-        "republic-of-rose-island",
-        "auroville"
+        "republic-of-rose-island"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Surtsey",
       "scores": {
@@ -1264,17 +1266,18 @@
         "mystery"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "absurd-history"
       ],
       "relatedIds": [
         "cottingley-fairies",
         "the-great-moon-hoax",
+        "dancing-plague-of-1518",
         "isdal-woman",
         "taman-shud-case",
-        "dancing-plague-of-1518",
         "cargo-cult",
         "john-frum",
-        "colonia-dignidad"
+        "heavens-gate"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cardiff_Giant",
       "scores": {
@@ -1297,17 +1300,18 @@
         "mystery"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "absurd-history"
       ],
       "relatedIds": [
         "cardiff-giant",
         "the-great-moon-hoax",
+        "dancing-plague-of-1518",
         "john-frum",
         "isdal-woman",
         "taman-shud-case",
         "heavens-gate",
-        "dyatlov-pass-incident",
-        "dancing-plague-of-1518"
+        "dyatlov-pass-incident"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cottingley_Fairies",
       "scores": {
@@ -1330,7 +1334,8 @@
         "mystery"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "cults-and-charismatics"
       ],
       "relatedIds": [
         "cargo-cult",
@@ -1363,17 +1368,18 @@
         "history"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "bizarre-legal-cases"
       ],
       "relatedIds": [
         "isdal-woman",
         "cardiff-giant",
         "dancing-plague-of-1518",
-        "colonia-dignidad",
         "heavens-gate",
         "dyatlov-pass-incident",
         "the-great-moon-hoax",
-        "cottingley-fairies"
+        "cottingley-fairies",
+        "cargo-cult"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamam_Shud_Case",
       "scores": {
@@ -1396,17 +1402,18 @@
         "history"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "bizarre-legal-cases"
       ],
       "relatedIds": [
         "taman-shud-case",
         "cardiff-giant",
         "dancing-plague-of-1518",
-        "colonia-dignidad",
         "the-great-moon-hoax",
         "cottingley-fairies",
         "heavens-gate",
-        "dyatlov-pass-incident"
+        "dyatlov-pass-incident",
+        "cargo-cult"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Isdal_Woman",
       "scores": {
@@ -1430,14 +1437,15 @@
       ],
       "collectionIds": [
         "abandoned-places",
-        "cold-war-weirdness"
+        "cold-war-weirdness",
+        "strange-places"
       ],
       "relatedIds": [
         "pripyat",
         "hashima-island",
         "buzludzha-monument",
         "centralia-pennsylvania",
-        "surtsey",
+        "kowloon-walled-city",
         "zzyzx-california",
         "dyatlov-pass-incident",
         "ryugyong-hotel"
@@ -1463,12 +1471,14 @@
         "philosophy"
       ],
       "collectionIds": [
-        "vanished-technologies"
+        "vanished-technologies",
+        "science-dead-ends",
+        "eccentric-rich-projects"
       ],
       "relatedIds": [
         "project-habakkuk",
-        "orion-nuclear-pulse-propulsion",
         "surtsey",
+        "orion-nuclear-pulse-propulsion",
         "biosphere-2",
         "acoustic-kitty",
         "casaba-howitzer",
@@ -1496,17 +1506,18 @@
         "history"
       ],
       "collectionIds": [
-        "myths-and-mysteries"
+        "myths-and-mysteries",
+        "absurd-history"
       ],
       "relatedIds": [
         "cardiff-giant",
         "cottingley-fairies",
+        "dancing-plague-of-1518",
         "isdal-woman",
         "taman-shud-case",
         "cargo-cult",
-        "colonia-dignidad",
-        "dancing-plague-of-1518",
-        "the-great-stink"
+        "great-emu-war",
+        "colonia-dignidad"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
       "scores": {
@@ -1533,14 +1544,14 @@
         "abandoned-places"
       ],
       "relatedIds": [
-        "surtsey",
         "pyramiden",
-        "hashima-island",
         "pripyat",
         "centralia-pennsylvania",
         "fordlandia",
+        "surtsey",
         "auroville",
-        "sealand"
+        "sealand",
+        "republic-of-rose-island"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Zzyzx,_California",
       "scores": {
@@ -1552,7 +1563,263 @@
       }
     }
   ],
-  "collections": [],
+  "collections": [
+    {
+      "id": "disasters",
+      "title": "Disasters that sound made up",
+      "slug": "disasters-that-sound-made-up",
+      "description": "Events where the premise alone seems fictional: floods of food and drink, invisible gas clouds, and towns that became cautionary tales.",
+      "articleIds": [
+        "boston-molasses-flood",
+        "london-beer-flood",
+        "lake-nyos-disaster",
+        "dancing-plague-of-1518",
+        "dyatlov-pass-incident",
+        "the-great-stink",
+        "centralia-pennsylvania",
+        "pripyat"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "cold-war-weirdness",
+      "title": "Cold War weirdness",
+      "slug": "cold-war-weirdness",
+      "description": "Secret plans, nuclear fantasies, and projects that feel like science fiction smuggled into state paperwork.",
+      "articleIds": [
+        "project-pluto",
+        "operation-northwoods",
+        "operation-plowshare",
+        "acoustic-kitty",
+        "project-pigeon",
+        "casaba-howitzer",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "project-habakkuk"
+      ],
+      "accent": "sky"
+    },
+    {
+      "id": "failed-utopias",
+      "title": "Failed utopias",
+      "slug": "failed-utopias",
+      "description": "Grand social visions, planned cities, and corporate dreams that ran into ecology, power, or the simple friction of reality.",
+      "articleIds": [
+        "fordlandia",
+        "auroville",
+        "kowloon-walled-city",
+        "hashima-island",
+        "pripyat",
+        "centralia-pennsylvania",
+        "pruitt-igoe",
+        "ryugyong-hotel",
+        "republic-of-rose-island",
+        "pyramiden"
+      ],
+      "accent": "emerald"
+    },
+    {
+      "id": "social-experiments",
+      "title": "Social experiments",
+      "slug": "social-experiments",
+      "description": "Behavioral studies, classroom simulations, and communities that tried to engineer human nature from first principles.",
+      "articleIds": [
+        "biosphere-2",
+        "milgram-experiment",
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "cargo-cult",
+        "john-frum",
+        "heavens-gate"
+      ],
+      "accent": "fuchsia"
+    },
+    {
+      "id": "strange-places",
+      "title": "Strange places",
+      "slug": "strange-places",
+      "description": "Abandoned cities, island anomalies, oversized monuments, and settlements that became famous for how they look and feel.",
+      "articleIds": [
+        "kowloon-walled-city",
+        "hashima-island",
+        "pripyat",
+        "centralia-pennsylvania",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "ryugyong-hotel",
+        "sealand",
+        "republic-of-rose-island",
+        "surtsey",
+        "pyramiden",
+        "zzyzx-california"
+      ],
+      "accent": "violet"
+    },
+    {
+      "id": "myths-and-mysteries",
+      "title": "Myths and mysteries",
+      "slug": "myths-and-mysteries",
+      "description": "Cases, hoaxes, and unexplained events that keep generating theories because the documents are incomplete and the story is too good to die.",
+      "articleIds": [
+        "dyatlov-pass-incident",
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "john-frum",
+        "taman-shud-case",
+        "isdal-woman",
+        "the-great-moon-hoax",
+        "heavens-gate"
+      ],
+      "accent": "orange"
+    },
+    {
+      "id": "government-projects",
+      "title": "Things governments seriously funded",
+      "slug": "government-projects",
+      "description": "These are the pages that make you reread the source material twice because the official record is stranger than the joke version.",
+      "articleIds": [
+        "project-pluto",
+        "operation-northwoods",
+        "operation-plowshare",
+        "acoustic-kitty",
+        "project-pigeon",
+        "casaba-howitzer",
+        "orion-nuclear-pulse-propulsion",
+        "duga-radar",
+        "project-habakkuk",
+        "great-emu-war"
+      ],
+      "accent": "cyan"
+    },
+    {
+      "id": "vanished-technologies",
+      "title": "Vanished technologies",
+      "slug": "vanished-technologies",
+      "description": "Technologies and systems that almost won, stalled out, or left behind beautiful ruins and better stories than products.",
+      "articleIds": [
+        "orion-nuclear-pulse-propulsion",
+        "project-habakkuk",
+        "nakagin-capsule-tower",
+        "ten-thousand-year-clock",
+        "surtsey"
+      ],
+      "accent": "yellow"
+    },
+    {
+      "id": "eccentric-rich-projects",
+      "title": "Eccentric rich people projects",
+      "slug": "eccentric-rich-peoples-projects",
+      "description": "Large personal visions that became expensive, strange, and almost impossible to separate from the people who made them.",
+      "articleIds": [
+        "fordlandia",
+        "zzyzx-california",
+        "ten-thousand-year-clock",
+        "ryugyong-hotel",
+        "republic-of-rose-island"
+      ],
+      "accent": "rose"
+    },
+    {
+      "id": "bizarre-legal-cases",
+      "title": "Bizarre legal cases",
+      "slug": "bizarre-legal-cases",
+      "description": "Unusual cold cases, strange evidence trails, and stories where legal ambiguity is part of the mystery.",
+      "articleIds": [
+        "taman-shud-case",
+        "isdal-woman"
+      ],
+      "accent": "slate"
+    },
+    {
+      "id": "absurd-history",
+      "title": "Absurd history",
+      "slug": "absurd-history",
+      "description": "Historical episodes that are real, well documented, and still feel like someone made them up on purpose.",
+      "articleIds": [
+        "boston-molasses-flood",
+        "london-beer-flood",
+        "great-emu-war",
+        "dancing-plague-of-1518",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "zzyzx-california"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "infrastructure-that-mattered",
+      "title": "Infrastructure that mattered",
+      "slug": "infrastructure-that-mattered",
+      "description": "Public works and systems that were ugly, costly, necessary, or all three at once.",
+      "articleIds": [
+        "the-great-stink",
+        "centralia-pennsylvania",
+        "pruitt-igoe",
+        "nakagin-capsule-tower"
+      ],
+      "accent": "sky"
+    },
+    {
+      "id": "science-dead-ends",
+      "title": "Science dead ends",
+      "slug": "science-dead-ends",
+      "description": "Ideas that were once considered plausible enough to fund, test, or build before they were overtaken by reality.",
+      "articleIds": [
+        "project-pluto",
+        "operation-plowshare",
+        "project-habakkuk",
+        "orion-nuclear-pulse-propulsion",
+        "ten-thousand-year-clock",
+        "surtsey"
+      ],
+      "accent": "cyan"
+    },
+    {
+      "id": "cults-and-charismatics",
+      "title": "Cults and charismatics",
+      "slug": "cults-and-charismatics",
+      "description": "Movements, personalities, and belief systems that blur the line between performance, devotion, and social control.",
+      "articleIds": [
+        "heavens-gate",
+        "church-of-the-subgenius",
+        "colonia-dignidad",
+        "cargo-cult",
+        "john-frum"
+      ],
+      "accent": "fuchsia"
+    },
+    {
+      "id": "micronations",
+      "title": "Micronations",
+      "slug": "micronations",
+      "description": "Tiny claims of sovereignty, whether playful, ideological, or legally inventive.",
+      "articleIds": [
+        "sealand",
+        "republic-of-rose-island"
+      ],
+      "accent": "violet"
+    },
+    {
+      "id": "deranged-architecture",
+      "title": "Deranged architecture",
+      "slug": "deranged-architecture",
+      "description": "Buildings and urban forms that look impossible, overscaled, or too strange to have been fully intentional.",
+      "articleIds": [
+        "kowloon-walled-city",
+        "hashima-island",
+        "nakagin-capsule-tower",
+        "buzludzha-monument",
+        "ryugyong-hotel",
+        "pruitt-igoe",
+        "duga-radar"
+      ],
+      "accent": "rose"
+    }
+  ],
   "themes": [
     {
       "id": "weird-science",
