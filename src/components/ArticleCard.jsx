@@ -48,6 +48,19 @@ export const ArticleCard = ({ article, relatedCount = 0, compact = false }) => {
               <span>{relatedCount} related</span>
               <span className="text-amber-200/80 group-hover:text-white">Open page</span>
             </div>
+            {article.wikipediaUrl ? (
+              <div className="mt-2 text-xs uppercase tracking-[0.24em] text-slate-500">
+                <span className="text-slate-400">Wikipedia:</span>{' '}
+                <a
+                  href={article.wikipediaUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-amber-200/80 underline decoration-amber-200/30 underline-offset-4 hover:text-amber-100"
+                >
+                  Original page
+                </a>
+              </div>
+            ) : null}
           </>
         ) : (
           <div className="mt-4 flex items-center justify-between text-xs uppercase tracking-[0.24em] text-slate-500">

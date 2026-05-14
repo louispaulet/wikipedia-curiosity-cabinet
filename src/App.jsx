@@ -211,6 +211,16 @@ const ArticlePage = ({ atlas, articleId }) => {
             >
               Open in graph
             </button>
+            {article.wikipediaUrl ? (
+              <a
+                href={article.wikipediaUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-amber-300/30 bg-amber-300/10 px-4 py-2 text-sm text-amber-100 hover:bg-amber-300/20"
+              >
+                Open original Wikipedia page
+              </a>
+            ) : null}
             {rabbitHole ? (
               <button
                 type="button"
