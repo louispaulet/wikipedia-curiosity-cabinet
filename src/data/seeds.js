@@ -11,6 +11,7 @@ export const articles = [
       'A huge molasses tank ruptured in the North End of Boston, flooding streets with a sticky surge that killed people, damaged buildings, and became one of the strangest industrial disasters in American memory.',
     whyStrange:
       'It sounds like a joke until you read the casualty count, the cleanup, and the lawsuits that followed.',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Boston_Molasses_Flood',
     tags: ['disaster', 'industrial', 'urban'],
     collectionIds: ['disasters', 'absurd-history'],
     scores: scoreSet(54, 95, 72, 38, 96),
@@ -23,6 +24,7 @@ export const articles = [
       'A failed vat at a London brewery triggered a domino effect that sent thousands of gallons of beer into surrounding streets and homes, turning a workday into a disaster that sounded too surreal for reality.',
     whyStrange:
       'The event is a genuine urban flood, but the floodwater was beer and the city had to treat it like a catastrophe.',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/London_Beer_Flood',
     tags: ['disaster', 'industrial', 'urban'],
     collectionIds: ['disasters', 'absurd-history'],
     scores: scoreSet(58, 92, 69, 35, 95),
@@ -35,6 +37,7 @@ export const articles = [
       'In Western Australia, the military was deployed to help control emus that were devastating crops. The campaign became a famous example of a state underestimating wildlife and overestimating its own control.',
     whyStrange:
       'It is a military operation that reads like a parody but is documented as a real administrative decision.',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Great_Emu_War',
     tags: ['history', 'military', 'wildlife'],
     collectionIds: ['absurd-history', 'government-projects'],
     scores: scoreSet(61, 97, 68, 42, 98),

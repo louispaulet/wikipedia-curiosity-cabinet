@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:26:44.562Z",
+  "generatedAt": "2026-05-14T22:27:41.496Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -26,6 +26,7 @@
         "kowloon-walled-city",
         "pruitt-igoe"
       ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Boston_Molasses_Flood",
       "scores": {
         "obscurity": 54,
         "strangeness": 95,
@@ -59,6 +60,7 @@
         "kowloon-walled-city",
         "pruitt-igoe"
       ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/London_Beer_Flood",
       "scores": {
         "obscurity": 58,
         "strangeness": 92,
@@ -92,6 +94,7 @@
         "casaba-howitzer",
         "the-great-moon-hoax"
       ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Emu_War",
       "scores": {
         "obscurity": 61,
         "strangeness": 97,
