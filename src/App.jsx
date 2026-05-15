@@ -14,6 +14,20 @@ const heroStats = [
   ['Trails', 'themed rabbit holes'],
 ];
 
+const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes'];
+const backShelfArticleIds = [
+  'mellified-man',
+  'cadaver-synod',
+  'god-helmet',
+  'monster-study',
+  'island-of-the-dolls',
+  'bhangarh-fort',
+  'green-children-of-woolpit',
+];
+
+const isBackShelfArticle = (article) =>
+  article.collectionIds.some((collectionId) => backShelfCollectionIds.includes(collectionId));
+
 const SectionTitle = ({ eyebrow, title, body }) => (
   <div>
     <p className="text-xs uppercase tracking-[0.35em] text-amber-200/70">{eyebrow}</p>
@@ -26,6 +40,12 @@ const HomePage = ({ atlas }) => {
   const navigate = useNavigate();
   const featuredCollections = atlas.collections.slice(0, 4);
   const featuredArticles = atlas.articles.slice(0, 6);
+  const backShelfCollections = backShelfCollectionIds
+    .map((collectionId) => atlas.collectionById.get(collectionId))
+    .filter(Boolean);
+  const backShelfArticles = backShelfArticleIds
+    .map((articleId) => atlas.articleById.get(articleId))
+    .filter(Boolean);
   const strangestArticle = [...atlas.articles].sort(
     (left, right) => right.scores.strangeness - left.scores.strangeness,
   )[0];
@@ -118,6 +138,40 @@ const HomePage = ({ atlas }) => {
           </div>
         </div>
       </section>
+
+      <section className="mt-10 rounded-[2rem] border border-white/10 bg-slate-950/70 p-6 shadow-glow sm:p-8">
+        <SectionTitle
+          eyebrow="Back shelf"
+          title="Little nuggets from the margins"
+          body="A quieter shelf of pages and editorials that sit lower on the page by design. They are still connected to the atlas, just a little more tucked away."
+        />
+        <div className="mt-6 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+          <div className="grid gap-4">
+            {backShelfCollections.map((collection) => (
+              <button
+                key={collection.slug}
+                type="button"
+                onClick={() => navigate(`/collections/${collection.slug}`)}
+                className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-left transition hover:border-amber-300/30 hover:bg-white/8"
+              >
+                <div className="text-xs uppercase tracking-[0.35em] text-slate-500">Back shelf editorial</div>
+                <div className="mt-2 font-display text-2xl text-white">{collection.title}</div>
+                <p className="mt-3 text-sm leading-6 text-slate-300">{collection.description}</p>
+              </button>
+            ))}
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {backShelfArticles.map((article) => (
+              <ArticleCard
+                key={article.id}
+                article={article}
+                compact
+                relatedCount={atlas.relatedById.get(article.id)?.length ?? 0}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
@@ -145,6 +199,11 @@ const CollectionPage = ({ atlas, slug }) => {
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Collection</p>
             <h1 className="mt-2 font-display text-5xl text-white sm:text-6xl">{collection.title}</h1>
+            {backShelfCollectionIds.includes(collection.id) ? (
+              <div className="mt-4 inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-3 py-1 text-xs uppercase tracking-[0.25em] text-amber-100">
+                Back shelf editorial
+              </div>
+            ) : null}
             <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">{collection.description}</p>
           </div>
           <RabbitHoleButton onClick={() => navigate('/graph')} label="Take me deeper" />
@@ -180,6 +239,7 @@ const ArticlePage = ({ atlas, articleId }) => {
     .map((id) => atlas.articleById.get(id))
     .filter(Boolean);
   const rabbitHole = pickRabbitHole(article, atlas);
+  const backShelf = isBackShelfArticle(article);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
@@ -187,6 +247,11 @@ const ArticlePage = ({ atlas, articleId }) => {
         <article className="rounded-[2.5rem] border border-white/10 bg-white/5 p-6 shadow-glow sm:p-10">
           <div className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Article card</div>
           <h1 className="mt-3 font-display text-5xl text-white sm:text-6xl">{article.title}</h1>
+          {backShelf ? (
+            <div className="mt-4 inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-3 py-1 text-xs uppercase tracking-[0.25em] text-amber-100">
+              Back shelf nugget
+            </div>
+          ) : null}
           <p className="mt-4 text-lg leading-8 text-slate-200">{article.hook}</p>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300">{article.summary}</p>
           <div className="mt-6 rounded-[1.5rem] border border-white/10 bg-slate-950/60 p-5">

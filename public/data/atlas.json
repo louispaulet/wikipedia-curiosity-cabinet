@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:34:39.310Z",
+  "generatedAt": "2026-05-15T09:38:46.618Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -125,7 +125,7 @@
         "boston-molasses-flood",
         "dyatlov-pass-incident",
         "biosphere-2",
-        "operation-plowshare"
+        "god-helmet"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Lake_Nyos_disaster",
       "scores": {
@@ -155,11 +155,11 @@
         "cardiff-giant",
         "taman-shud-case",
         "isdal-woman",
+        "green-children-of-woolpit",
         "the-great-moon-hoax",
         "cottingley-fairies",
         "dyatlov-pass-incident",
-        "heavens-gate",
-        "great-emu-war"
+        "heavens-gate"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
       "scores": {
@@ -566,8 +566,8 @@
         "fordlandia",
         "milgram-experiment",
         "republic-of-rose-island",
-        "operation-plowshare",
-        "project-habakkuk"
+        "monster-study",
+        "operation-plowshare"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Biosphere_2",
       "scores": {
@@ -594,13 +594,13 @@
       ],
       "relatedIds": [
         "stanford-prison-experiment",
+        "monster-study",
         "the-third-wave",
         "biosphere-2",
         "dancing-plague-of-1518",
+        "god-helmet",
         "auroville",
-        "church-of-the-subgenius",
-        "colonia-dignidad",
-        "sealand"
+        "church-of-the-subgenius"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Milgram_experiment",
       "scores": {
@@ -627,13 +627,13 @@
       ],
       "relatedIds": [
         "milgram-experiment",
+        "monster-study",
         "the-third-wave",
         "biosphere-2",
         "dancing-plague-of-1518",
+        "god-helmet",
         "auroville",
-        "colonia-dignidad",
-        "church-of-the-subgenius",
-        "fordlandia"
+        "colonia-dignidad"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
       "scores": {
@@ -661,12 +661,12 @@
       "relatedIds": [
         "stanford-prison-experiment",
         "milgram-experiment",
+        "monster-study",
         "biosphere-2",
         "dancing-plague-of-1518",
+        "god-helmet",
         "auroville",
-        "church-of-the-subgenius",
-        "colonia-dignidad",
-        "sealand"
+        "church-of-the-subgenius"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Third_Wave_(experiment)",
       "scores": {
@@ -766,9 +766,9 @@
         "pruitt-igoe",
         "nakagin-capsule-tower",
         "buzludzha-monument",
+        "island-of-the-dolls",
         "pyramiden",
-        "duga-radar",
-        "centralia-pennsylvania"
+        "bhangarh-fort"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Kowloon_Walled_City",
       "scores": {
@@ -797,12 +797,12 @@
       "relatedIds": [
         "kowloon-walled-city",
         "buzludzha-monument",
+        "bhangarh-fort",
         "pyramiden",
         "ryugyong-hotel",
         "pruitt-igoe",
-        "nakagin-capsule-tower",
-        "duga-radar",
-        "centralia-pennsylvania"
+        "island-of-the-dolls",
+        "nakagin-capsule-tower"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Hashima_Island",
       "scores": {
@@ -971,8 +971,8 @@
         "nakagin-capsule-tower",
         "pruitt-igoe",
         "pyramiden",
-        "duga-radar",
-        "pripyat"
+        "bhangarh-fort",
+        "duga-radar"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Buzludzha_Monument",
       "scores": {
@@ -1137,11 +1137,11 @@
         "cargo-cult",
         "john-frum",
         "heavens-gate",
+        "cadaver-synod",
         "colonia-dignidad",
         "auroville",
         "milgram-experiment",
-        "the-third-wave",
-        "biosphere-2"
+        "the-third-wave"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Church_of_the_SubGenius",
       "scores": {
@@ -1204,12 +1204,12 @@
       "relatedIds": [
         "john-frum",
         "heavens-gate",
+        "cadaver-synod",
         "church-of-the-subgenius",
         "cardiff-giant",
         "the-great-moon-hoax",
         "isdal-woman",
-        "taman-shud-case",
-        "colonia-dignidad"
+        "taman-shud-case"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cargo_cult",
       "scores": {
@@ -1239,11 +1239,11 @@
         "lake-nyos-disaster",
         "pripyat",
         "centralia-pennsylvania",
+        "god-helmet",
         "ten-thousand-year-clock",
         "pyramiden",
         "zzyzx-california",
-        "hashima-island",
-        "republic-of-rose-island"
+        "hashima-island"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Surtsey",
       "scores": {
@@ -1275,9 +1275,9 @@
         "dancing-plague-of-1518",
         "isdal-woman",
         "taman-shud-case",
+        "green-children-of-woolpit",
         "cargo-cult",
-        "john-frum",
-        "heavens-gate"
+        "cadaver-synod"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cardiff_Giant",
       "scores": {
@@ -1310,8 +1310,8 @@
         "john-frum",
         "isdal-woman",
         "taman-shud-case",
-        "heavens-gate",
-        "dyatlov-pass-incident"
+        "green-children-of-woolpit",
+        "heavens-gate"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cottingley_Fairies",
       "scores": {
@@ -1345,7 +1345,7 @@
         "cardiff-giant",
         "isdal-woman",
         "taman-shud-case",
-        "dyatlov-pass-incident"
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Frum",
       "scores": {
@@ -1375,11 +1375,11 @@
         "isdal-woman",
         "cardiff-giant",
         "dancing-plague-of-1518",
+        "green-children-of-woolpit",
         "heavens-gate",
         "dyatlov-pass-incident",
         "the-great-moon-hoax",
-        "cottingley-fairies",
-        "cargo-cult"
+        "cottingley-fairies"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamam_Shud_Case",
       "scores": {
@@ -1409,11 +1409,11 @@
         "taman-shud-case",
         "cardiff-giant",
         "dancing-plague-of-1518",
+        "green-children-of-woolpit",
         "the-great-moon-hoax",
         "cottingley-fairies",
         "heavens-gate",
-        "dyatlov-pass-incident",
-        "cargo-cult"
+        "dyatlov-pass-incident"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Isdal_Woman",
       "scores": {
@@ -1446,9 +1446,9 @@
         "buzludzha-monument",
         "centralia-pennsylvania",
         "kowloon-walled-city",
-        "zzyzx-california",
-        "dyatlov-pass-incident",
-        "ryugyong-hotel"
+        "island-of-the-dolls",
+        "bhangarh-fort",
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Pyramiden",
       "scores": {
@@ -1477,13 +1477,13 @@
       ],
       "relatedIds": [
         "project-habakkuk",
+        "god-helmet",
         "surtsey",
         "orion-nuclear-pulse-propulsion",
         "biosphere-2",
         "acoustic-kitty",
         "casaba-howitzer",
-        "operation-plowshare",
-        "project-pluto"
+        "operation-plowshare"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Clock_of_the_Long_Now",
       "scores": {
@@ -1516,8 +1516,8 @@
         "isdal-woman",
         "taman-shud-case",
         "cargo-cult",
-        "great-emu-war",
-        "colonia-dignidad"
+        "cadaver-synod",
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
       "scores": {
@@ -1560,6 +1560,245 @@
         "significance": 71,
         "visualAppeal": 60,
         "conversationPower": 82
+      }
+    },
+    {
+      "id": "mellified-man",
+      "title": "Mellified man",
+      "hook": "A medieval legend claimed a human body could be preserved in honey and sold as medicine.",
+      "summary": "The mellified man is a legendary medicinal preparation described in historical sources as a human corpse slowly transformed into a honey-based cure. The story sits at the edge of pharmacology, folklore, and a kind of beautifully unsettling alchemy.",
+      "whyStrange": "It is one of those stories that becomes stranger the more seriously it is described by the sources.",
+      "tags": [
+        "legend",
+        "medicine",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "bhangarh-fort",
+        "isdal-woman",
+        "taman-shud-case",
+        "cardiff-giant",
+        "the-great-moon-hoax",
+        "dancing-plague-of-1518",
+        "cargo-cult"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mellified_man",
+      "scores": {
+        "obscurity": 84,
+        "strangeness": 89,
+        "significance": 43,
+        "visualAppeal": 31,
+        "conversationPower": 78
+      }
+    },
+    {
+      "id": "cadaver-synod",
+      "title": "Cadaver Synod",
+      "hook": "A pope was exhumed and put on trial nine months after death.",
+      "summary": "The Cadaver Synod was a ninth-century ecclesiastical trial in which the corpse of Pope Formosus was exhumed, dressed, and judged in Rome. The spectacle turned church politics into one of history’s most surreal legal proceedings.",
+      "whyStrange": "A corpse on trial is already bizarre; the historical record makes it somehow more vivid.",
+      "tags": [
+        "history",
+        "religion",
+        "legal"
+      ],
+      "collectionIds": [
+        "absurd-history",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "cargo-cult",
+        "cardiff-giant",
+        "the-great-moon-hoax",
+        "dancing-plague-of-1518",
+        "great-emu-war",
+        "isdal-woman",
+        "green-children-of-woolpit",
+        "taman-shud-case"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadaver_Synod",
+      "scores": {
+        "obscurity": 73,
+        "strangeness": 86,
+        "significance": 61,
+        "visualAppeal": 44,
+        "conversationPower": 80
+      }
+    },
+    {
+      "id": "god-helmet",
+      "title": "God helmet",
+      "hook": "A magnetic helmet was used to probe religious experience and altered states.",
+      "summary": "The God helmet is an experimental apparatus built to study the neural correlates of creativity, presence, and spirituality. It became famous because the setup sounds mystical, but the project was really an attempt to measure cognition with a machine that looks half theatrical prop, half laboratory hardware.",
+      "whyStrange": "It is a serious research device with a name that feels like it escaped from a science-fiction script.",
+      "tags": [
+        "science",
+        "psychology",
+        "technology"
+      ],
+      "collectionIds": [
+        "science-dead-ends",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "ten-thousand-year-clock",
+        "project-habakkuk",
+        "surtsey",
+        "monster-study",
+        "lake-nyos-disaster",
+        "dancing-plague-of-1518",
+        "milgram-experiment",
+        "the-third-wave"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/God_helmet",
+      "scores": {
+        "obscurity": 68,
+        "strangeness": 82,
+        "significance": 58,
+        "visualAppeal": 49,
+        "conversationPower": 76
+      }
+    },
+    {
+      "id": "monster-study",
+      "title": "Monster Study",
+      "hook": "An experiment on stuttering left a dark trail through the history of speech research.",
+      "summary": "The Monster Study was a 1939 experiment in which children were subjected to harsh speech feedback in an attempt to study stuttering. It became infamous both for its methodology and for the way it lingers as a warning about research ethics.",
+      "whyStrange": "Its nickname is memorable, but the real story is even more uncomfortable than the label suggests.",
+      "tags": [
+        "experiment",
+        "psychology",
+        "ethics"
+      ],
+      "collectionIds": [
+        "social-experiments",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "milgram-experiment",
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "biosphere-2",
+        "god-helmet",
+        "dancing-plague-of-1518",
+        "cadaver-synod",
+        "island-of-the-dolls"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Monster_Study",
+      "scores": {
+        "obscurity": 79,
+        "strangeness": 81,
+        "significance": 69,
+        "visualAppeal": 36,
+        "conversationPower": 83
+      }
+    },
+    {
+      "id": "island-of-the-dolls",
+      "title": "Island of the Dolls",
+      "hook": "A chinampa in Mexico City became a shrine of dolls, legend, and dark tourism.",
+      "summary": "The Island of the Dolls is a tiny island in Xochimilco where dolls were hung from trees and structures for decades, creating one of the strangest and most photographed destinations in Mexico City. The site’s reputation comes from local legend, eerie visual density, and the sheer persistence of its haunting image.",
+      "whyStrange": "It is a place built from ordinary objects arranged until they become unsettling.",
+      "tags": [
+        "place",
+        "legend",
+        "tourism"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "bhangarh-fort",
+        "kowloon-walled-city",
+        "hashima-island",
+        "pyramiden",
+        "centralia-pennsylvania",
+        "pripyat",
+        "colonia-dignidad",
+        "green-children-of-woolpit"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
+      "scores": {
+        "obscurity": 66,
+        "strangeness": 87,
+        "significance": 54,
+        "visualAppeal": 84,
+        "conversationPower": 81
+      }
+    },
+    {
+      "id": "bhangarh-fort",
+      "title": "Bhangarh Fort",
+      "hook": "A ruined fort in Rajasthan became famous as one of India’s most haunted places.",
+      "summary": "Bhangarh Fort is a 16th-century ruin wrapped in folklore, local legend, and official warnings that only deepen its reputation. It is less about a single event than about how a place can accrue myth until the ruin itself feels narrated.",
+      "whyStrange": "The fort is visually dramatic on its own, but its reputation has become part of the architecture.",
+      "tags": [
+        "place",
+        "legend",
+        "ruin"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "myths-and-mysteries",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "island-of-the-dolls",
+        "hashima-island",
+        "pyramiden",
+        "green-children-of-woolpit",
+        "buzludzha-monument",
+        "kowloon-walled-city",
+        "mellified-man",
+        "centralia-pennsylvania"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bhangarh_Fort",
+      "scores": {
+        "obscurity": 63,
+        "strangeness": 84,
+        "significance": 57,
+        "visualAppeal": 79,
+        "conversationPower": 77
+      }
+    },
+    {
+      "id": "green-children-of-woolpit",
+      "title": "Green children of Woolpit",
+      "hook": "Two children reportedly appeared in medieval England with green skin.",
+      "summary": "The legend of the green children of Woolpit tells of a brother and sister who emerged in Suffolk speaking an unknown language and looking unlike anyone around them. The story has endured because it sits right on the seam between folklore, historical record, and literary mystery.",
+      "whyStrange": "A medieval account of green-skinned children is strange enough; the competing explanations are stranger still.",
+      "tags": [
+        "legend",
+        "mystery",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "mellified-man",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "dancing-plague-of-1518",
+        "bhangarh-fort",
+        "cottingley-fairies",
+        "the-great-moon-hoax"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Green_children_of_Woolpit",
+      "scores": {
+        "obscurity": 77,
+        "strangeness": 83,
+        "significance": 64,
+        "visualAppeal": 40,
+        "conversationPower": 75
       }
     }
   ],
@@ -1818,6 +2057,31 @@
         "duga-radar"
       ],
       "accent": "rose"
+    },
+    {
+      "id": "small-print-curiosities",
+      "title": "Small-print curiosities",
+      "slug": "small-print-curiosities",
+      "description": "A drawer of tiny, hard-to-disbelieve stories that feel like they were filed away rather than featured.",
+      "articleIds": [
+        "mellified-man",
+        "god-helmet",
+        "green-children-of-woolpit"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "haunted-footnotes",
+      "title": "Haunted footnotes",
+      "slug": "haunted-footnotes",
+      "description": "Legends, ruins, and procedural oddities that become stranger when you read the details twice.",
+      "articleIds": [
+        "cadaver-synod",
+        "monster-study",
+        "island-of-the-dolls",
+        "bhangarh-fort"
+      ],
+      "accent": "violet"
     }
   ],
   "themes": [

@@ -51,6 +51,29 @@ test('every collection has at least one article', () => {
   }
 });
 
+test('back shelf content is present and wired together', () => {
+  const backShelfArticles = [
+    'mellified-man',
+    'cadaver-synod',
+    'god-helmet',
+    'monster-study',
+    'island-of-the-dolls',
+    'bhangarh-fort',
+    'green-children-of-woolpit',
+  ];
+  const backShelfCollections = ['small-print-curiosities', 'haunted-footnotes'];
+
+  for (const articleId of backShelfArticles) {
+    assert.ok(articleById.has(articleId), `Missing back shelf article ${articleId}`);
+  }
+
+  for (const collectionId of backShelfCollections) {
+    const collection = collectionById.get(collectionId);
+    assert.ok(collection, `Missing back shelf collection ${collectionId}`);
+    assert.ok(collection.articleIds.length > 0, `Back shelf collection ${collectionId} has no articles`);
+  }
+});
+
 test('every article references only known collections except known editorial aliases', () => {
   const knownAliases = new Set(['abandoned-places']);
   for (const article of articles) {
