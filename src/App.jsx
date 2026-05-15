@@ -9,12 +9,6 @@ import { TrailBuilder } from './components/TrailBuilder.jsx';
 import { useAtlas } from './hooks/useAtlas.js';
 import { pickRabbitHole } from './lib/atlas.js';
 
-const heroStats = [
-  ['Curated records', '67 sourced pages'],
-  ['Relationship map', 'semantic neighborhoods'],
-  ['Field routes', 'themed rabbit holes'],
-];
-
 const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files', 'shadow-dossiers'];
 const backShelfArticleIds = [
   'mellified-man',
@@ -64,11 +58,28 @@ const HomePage = ({ atlas }) => {
   const strangestArticle = [...atlas.articles].sort(
     (left, right) => right.scores.strangeness - left.scores.strangeness,
   )[0];
+  const heroStats = [
+    {
+      value: atlas.articles.length,
+      label: 'sourced pages',
+      note: 'curated records with source links, scores, and neighboring files.',
+    },
+    {
+      value: atlas.collections.length,
+      label: 'editorial shelves',
+      note: 'routes through hoaxes, vanished systems, eerie folklore, and archival oddities.',
+    },
+    {
+      value: 'map',
+      label: 'semantic neighborhoods',
+      note: 'related pages are scored into browseable rabbit-hole trails.',
+    },
+  ];
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <section className="paper-panel overflow-hidden p-6 sm:p-8 lg:p-10">
-        <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-start">
+        <div className="grid gap-8 lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
           <div>
             <div className="archive-label">
               from the internet cabinet of curiosities
@@ -98,17 +109,38 @@ const HomePage = ({ atlas }) => {
               </button>
             </div>
           </div>
-          <div className="border border-stone-300 bg-paper-100">
-            <div className="border-b border-stone-300 px-4 py-3 font-article text-xl text-ink-800">
-              Index notes
+          <aside className="border-t border-stone-300/90 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-1">
+            <div className="flex items-baseline justify-between gap-4 border-b border-stone-300/90 pb-3">
+              <p className="archive-label">Index notes</p>
+              <span className="text-xs text-ink-600">living atlas</span>
             </div>
-            {heroStats.map(([label, value]) => (
-              <div key={label} className="border-b border-stone-300 px-4 py-4 last:border-b-0">
-                <div className="archive-label">{label}</div>
-                <div className="mt-1 font-article text-xl text-ink-800">{value}</div>
-              </div>
-            ))}
-          </div>
+            <div className="divide-y divide-stone-300/80">
+              {heroStats.map((stat, index) => (
+                <div
+                  key={stat.label}
+                  className="grid gap-3 py-4 sm:grid-cols-[7.5rem_1fr] sm:items-baseline"
+                >
+                  <div>
+                    <div className="font-article text-4xl leading-none text-ink-800">
+                      {stat.value}
+                    </div>
+                    <div className="mt-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-sepia-700">
+                      {stat.label}
+                    </div>
+                  </div>
+                  <p className="text-sm leading-6 text-ink-600">
+                    {stat.note}
+                  </p>
+                  {index === 0 ? (
+                    <div className="hidden h-px bg-gradient-to-r from-sepia-300/80 to-transparent sm:col-span-2 sm:block" />
+                  ) : null}
+                </div>
+              ))}
+            </div>
+            <div className="field-note mt-2">
+              Best used for lateral reading: start with one record, then follow the odd resemblance in the margin.
+            </div>
+          </aside>
         </div>
       </section>
 
