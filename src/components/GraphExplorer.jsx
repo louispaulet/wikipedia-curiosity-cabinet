@@ -46,7 +46,9 @@ const polarPoint = (angle, radius) => ({
 
 export const GraphExplorer = ({ atlas, initialFocusedId }) => {
   const [focusedId, setFocusedId] = useState(initialFocusedId ?? atlas.articles[0]?.id);
+  const [animatedNodes, setAnimatedNodes] = useState([]);
   const sectionRef = useRef(null);
+  const animatedNodesRef = useRef([]);
 
   useEffect(() => {
     if (initialFocusedId && atlas.articleById.has(initialFocusedId)) {
@@ -165,6 +167,84 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
     return { nodes, edges: [...previewEdges, ...nextEdges] };
   }, [atlas, focusedArticle]);
 
+  useEffect(() => {
+    if (!graph.nodes.length) {
+      setAnimatedNodes([]);
+      animatedNodesRef.current = [];
+      return undefined;
+    }
+
+    const previousById = new Map(animatedNodesRef.current.map((node) => [node.nodeId, node]));
+    const targetById = new Map(graph.nodes.map((node) => [node.nodeId, node]));
+    const parentStartById = new Map();
+
+    graph.nodes.forEach((node) => {
+      const parentNode = node.parentId ? targetById.get(node.parentId) : null;
+      if (parentNode) {
+        const previousParent = previousById.get(parentNode.nodeId);
+        parentStartById.set(node.nodeId, previousParent ?? parentNode);
+      }
+    });
+
+    const startNodes = graph.nodes.map((node) => {
+      const previous = previousById.get(node.nodeId) ?? parentStartById.get(node.nodeId);
+
+      return {
+        ...node,
+        x: previous?.x ?? center.x,
+        y: previous?.y ?? center.y,
+      };
+    });
+
+    const animationDuration = 520;
+    const startedAt = performance.now();
+    let frameId;
+
+    const animate = (timestamp) => {
+      const progress = Math.min((timestamp - startedAt) / animationDuration, 1);
+      const eased = 1 - (1 - progress) ** 3;
+      const nextAnimatedNodes = graph.nodes.map((targetNode, index) => {
+        const startNode = startNodes[index];
+
+        return {
+          ...targetNode,
+          x: startNode.x + (targetNode.x - startNode.x) * eased,
+          y: startNode.y + (targetNode.y - startNode.y) * eased,
+        };
+      });
+
+      animatedNodesRef.current = nextAnimatedNodes;
+      setAnimatedNodes(nextAnimatedNodes);
+
+      if (progress < 1) {
+        frameId = window.requestAnimationFrame(animate);
+      }
+    };
+
+    frameId = window.requestAnimationFrame(animate);
+
+    return () => {
+      window.cancelAnimationFrame(frameId);
+    };
+  }, [graph]);
+
+  const animatedNodeById = useMemo(
+    () => new Map(animatedNodes.map((node) => [node.nodeId, node])),
+    [animatedNodes],
+  );
+
+  const animatedEdges = useMemo(
+    () =>
+      graph.edges
+        .map((edge) => ({
+          ...edge,
+          source: animatedNodeById.get(edge.source.nodeId),
+          target: animatedNodeById.get(edge.target.nodeId),
+        }))
+        .filter((edge) => edge.source && edge.target),
+    [animatedNodeById, graph.edges],
+  );
+
   const focusArticle = (id) => {
     setFocusedId(id);
     window.requestAnimationFrame(() => {
@@ -210,7 +290,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
                 <stop offset="100%" stopColor="rgba(49,95,125,0.4)" />
               </linearGradient>
             </defs>
-            {graph.edges.map((edge, index) => (
+            {animatedEdges.map((edge, index) => (
               <line
                 key={`${edge.source.nodeId}-${edge.target.nodeId}-${index}`}
                 x1={edge.source.x}
@@ -222,10 +302,11 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
                 strokeWidth={edge.tier === 'preview' ? '0.22' : '0.42'}
               />
             ))}
-            {graph.nodes.map((node) => (
+            {animatedNodes.map((node) => (
               <g
                 key={node.nodeId}
                 onClick={() => focusArticle(node.article.id)}
+                onMouseDown={(event) => event.preventDefault()}
                 role="button"
                 tabIndex={0}
                 aria-label={`Focus ${node.article.title}`}
@@ -235,7 +316,8 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
                     focusArticle(node.article.id);
                   }
                 }}
-                className="cursor-pointer"
+                className="cursor-pointer outline-none focus:outline-none focus-visible:outline-none"
+                style={{ outline: 'none' }}
               >
                 <circle
                   cx={node.x}
