@@ -14,8 +14,13 @@ export const Layout = ({ children, atlas }) => {
       <header className="sticky top-0 z-40 border-b border-stone-300/80 bg-paper-50/92 backdrop-blur">
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6 lg:flex-row lg:items-end lg:justify-between lg:px-8">
           <Link to="/" className="group flex items-center gap-3">
-            <div className="grid h-10 w-10 place-items-center border border-stone-400 bg-paper-100 font-display text-xl text-sepia-700 shadow-sm">
-              W
+            <div className="grid h-10 w-10 place-items-center overflow-hidden border border-stone-400 bg-paper-100 shadow-sm">
+              <img
+                src="/favicon-strange-wiki.webp"
+                alt=""
+                aria-hidden="true"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div>
               <div className="font-display text-xl font-semibold tracking-wide text-ink-800">
