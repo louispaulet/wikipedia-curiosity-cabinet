@@ -142,6 +142,14 @@ const HomePage = ({ atlas }) => {
             </div>
           </aside>
         </div>
+        <figure className="ambient-plate mt-8" aria-hidden="true">
+          <img
+            src="/images/cabinet-field-plate.jpg"
+            alt=""
+            className="h-full w-full object-cover"
+            loading="eager"
+          />
+        </figure>
       </section>
 
       <section className="mt-8 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">

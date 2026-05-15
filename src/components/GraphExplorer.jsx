@@ -277,6 +277,15 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
         </button>
       </div>
 
+      <figure className="relationship-plate mt-5" aria-hidden="true">
+        <img
+          src="/images/atlas-relationship-plate.jpg"
+          alt=""
+          className="h-full w-full object-cover"
+          loading="lazy"
+        />
+      </figure>
+
       <div className="mt-6 grid gap-5 lg:grid-cols-[1.6fr_0.9fr]">
         <div className="border border-stone-300 bg-paper-100 p-3">
           <svg viewBox="0 0 100 100" className="h-[30rem] w-full">

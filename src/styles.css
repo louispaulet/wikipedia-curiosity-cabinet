@@ -90,4 +90,28 @@ a {
   .catalog-pill {
     @apply inline-flex items-center border border-stone-300 bg-paper-100 px-2.5 py-1 text-[11px] uppercase tracking-[0.18em] text-ink-600;
   }
+
+  .ambient-plate,
+  .relationship-plate {
+    @apply relative overflow-hidden border border-stone-300/90 bg-paper-100 shadow-sm;
+  }
+
+  .ambient-plate::after,
+  .relationship-plate::after {
+    background:
+      linear-gradient(180deg, rgba(255, 253, 246, 0.05), rgba(36, 48, 58, 0.22)),
+      radial-gradient(circle at 50% 45%, transparent 36%, rgba(36, 48, 58, 0.18));
+    content: '';
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .ambient-plate {
+    @apply h-56 sm:h-72 lg:h-80;
+  }
+
+  .relationship-plate {
+    @apply h-40 sm:h-52;
+  }
 }
