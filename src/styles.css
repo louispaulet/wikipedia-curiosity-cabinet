@@ -21,10 +21,44 @@ body {
     linear-gradient(180deg, #fbf6e8 0%, #e9ddc7 100%);
   background-size: 28px 28px, 28px 28px, auto, auto, auto;
   min-height: 100vh;
+  position: relative;
+  isolation: isolate;
 }
 
 * {
   box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+body::before,
+body::after {
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: 0;
+}
+
+body::before {
+  background-image: url('/images/archive-ambient-bg.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: max(100rem, 100vw) auto;
+  mix-blend-mode: multiply;
+  opacity: 0.42;
+}
+
+body::after {
+  background:
+    linear-gradient(180deg, rgba(251, 246, 232, 0.16), rgba(233, 221, 199, 0.7)),
+    radial-gradient(circle at 50% 18%, rgba(255, 253, 246, 0.68), transparent 38%),
+    radial-gradient(circle at 8% 70%, rgba(36, 48, 58, 0.12), transparent 26%),
+    radial-gradient(circle at 92% 68%, rgba(31, 95, 156, 0.1), transparent 24%);
 }
 
 a {
@@ -38,7 +72,7 @@ a {
 
 @layer components {
   .paper-panel {
-    @apply border border-stone-300/80 bg-paper-50 shadow-paper;
+    @apply border border-stone-300/80 bg-paper-50/95 shadow-paper backdrop-blur-[1px];
   }
 
   .archive-label {
