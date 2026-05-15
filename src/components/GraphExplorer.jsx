@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { pickRabbitHole, similarityScore } from '../lib/atlas.js';
 
 const center = { x: 50, y: 50 };
@@ -45,9 +45,9 @@ const polarPoint = (angle, radius) => ({
 });
 
 export const GraphExplorer = ({ atlas, initialFocusedId }) => {
+  const navigate = useNavigate();
   const [focusedId, setFocusedId] = useState(initialFocusedId ?? atlas.articles[0]?.id);
   const [animatedNodes, setAnimatedNodes] = useState([]);
-  const sectionRef = useRef(null);
   const animatedNodesRef = useRef([]);
 
   useEffect(() => {
@@ -247,8 +247,12 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
 
   const focusArticle = (id) => {
     setFocusedId(id);
-    window.requestAnimationFrame(() => {
-      sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    navigate({
+      pathname: '/graph',
+      search: `?focus=${encodeURIComponent(id)}`,
+    }, {
+      preventScrollReset: true,
+      state: { preserveScroll: true },
     });
   };
 
@@ -258,7 +262,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
   };
 
   return (
-    <section ref={sectionRef} className="scroll-mt-24 paper-panel p-5 sm:p-6">
+    <section className="scroll-mt-24 paper-panel p-5 sm:p-6">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="archive-label">Relationship map</p>

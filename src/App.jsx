@@ -1,4 +1,4 @@
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useRef } from 'react';
 import { Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ArticleCard } from './components/ArticleCard.jsx';
 import { GraphExplorer } from './components/GraphExplorer.jsx';
@@ -444,11 +444,22 @@ const GraphPage = ({ atlas, searchParams }) => {
 };
 
 const ScrollToTop = () => {
-  const { pathname, search } = useLocation();
+  const { pathname, search, state } = useLocation();
+  const previousLocationRef = useRef({ pathname, search });
 
   useLayoutEffect(() => {
+    const previousLocation = previousLocationRef.current;
+    const isGraphFocusNavigation =
+      pathname === '/graph' && previousLocation.pathname === '/graph' && previousLocation.search !== search;
+
+    previousLocationRef.current = { pathname, search };
+
+    if (state?.preserveScroll || isGraphFocusNavigation) {
+      return;
+    }
+
     window.scrollTo(0, 0);
-  }, [pathname, search]);
+  }, [pathname, search, state]);
 
   return null;
 };
