@@ -23,6 +23,10 @@ Use the Makefile for the common tasks:
 - `make build` generates the atlas JSON and builds the production bundle
 - `make deploy` builds and publishes `dist/` to the `gh-pages` branch
 
+Git commits run the repo-local pre-commit hook in `.githooks/pre-commit`. The hook runs tests,
+builds the production bundle, and fails if `public/data/atlas.json` changes during the build.
+Run `npm run setup:githooks` if a clone is not already using the tracked hooks.
+
 ## Deployment
 
 The site is configured for GitHub Pages with the custom domain:

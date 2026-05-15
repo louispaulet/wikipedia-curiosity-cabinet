@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+echo "Running pre-commit checks..."
+
+npm test
+npm run build
+
+if ! git diff --quiet -- public/data/atlas.json; then
+  echo
+  echo "public/data/atlas.json changed during the build."
+  echo "Run npm run build:data, stage the updated atlas, and commit again."
+  exit 1
+fi
+
+echo "Pre-commit checks passed."
