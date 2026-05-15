@@ -67,8 +67,15 @@ test('back shelf content is present and wired together', () => {
     'the-langley-schools-music-project',
     'dracula-gigas',
     'orchis-simia',
+    'red-mercury',
+    'disappearance-of-harold-holt',
+    'hollow-earth',
+    'shag-harbour-ufo-incident',
+    'bell-witch',
+    'utsuro-bune',
+    'mummy-brown',
   ];
-  const backShelfCollections = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files'];
+  const backShelfCollections = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files', 'shadow-dossiers'];
 
   for (const articleId of backShelfArticles) {
     assert.ok(articleById.has(articleId), `Missing back shelf article ${articleId}`);

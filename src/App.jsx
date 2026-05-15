@@ -14,7 +14,7 @@ const heroStats = [
   ['Trails', 'themed rabbit holes'],
 ];
 
-const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files'];
+const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files', 'shadow-dossiers'];
 const backShelfArticleIds = [
   'mellified-man',
   'cadaver-synod',
@@ -30,6 +30,13 @@ const backShelfArticleIds = [
   'the-langley-schools-music-project',
   'dracula-gigas',
   'orchis-simia',
+  'red-mercury',
+  'disappearance-of-harold-holt',
+  'hollow-earth',
+  'shag-harbour-ufo-incident',
+  'bell-witch',
+  'utsuro-bune',
+  'mummy-brown',
 ];
 
 const isBackShelfArticle = (article) =>

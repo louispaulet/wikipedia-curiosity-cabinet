@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T10:24:17.373Z",
+  "generatedAt": "2026-05-15T11:41:00.901Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -155,11 +155,11 @@
         "cardiff-giant",
         "taman-shud-case",
         "isdal-woman",
+        "disappearance-of-harold-holt",
+        "shag-harbour-ufo-incident",
         "green-children-of-woolpit",
         "the-hum",
-        "phantom-time-conspiracy-theory",
-        "the-great-moon-hoax",
-        "cottingley-fairies"
+        "phantom-time-conspiracy-theory"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
       "scores": {
@@ -193,7 +193,7 @@
         "isdal-woman",
         "pyramiden",
         "cardiff-giant",
-        "cottingley-fairies"
+        "disappearance-of-harold-holt"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
       "scores": {
@@ -1208,8 +1208,8 @@
         "church-of-the-subgenius",
         "cardiff-giant",
         "the-great-moon-hoax",
-        "isdal-woman",
-        "taman-shud-case"
+        "disappearance-of-harold-holt",
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cargo_cult",
       "scores": {
@@ -1241,9 +1241,9 @@
         "centralia-pennsylvania",
         "god-helmet",
         "ten-thousand-year-clock",
+        "hollow-earth",
         "pyramiden",
-        "zzyzx-california",
-        "hashima-island"
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Surtsey",
       "scores": {
@@ -1273,11 +1273,11 @@
         "cottingley-fairies",
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "isdal-woman",
         "taman-shud-case",
-        "green-children-of-woolpit",
-        "phantom-time-conspiracy-theory",
-        "shroud-of-turin"
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cardiff_Giant",
       "scores": {
@@ -1307,11 +1307,11 @@
         "cardiff-giant",
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "john-frum",
         "shroud-of-turin",
         "isdal-woman",
-        "taman-shud-case",
-        "green-children-of-woolpit"
+        "bell-witch"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cottingley_Fairies",
       "scores": {
@@ -1344,8 +1344,8 @@
         "church-of-the-subgenius",
         "cottingley-fairies",
         "cardiff-giant",
-        "isdal-woman",
-        "taman-shud-case"
+        "disappearance-of-harold-holt",
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Frum",
       "scores": {
@@ -1374,12 +1374,12 @@
       "relatedIds": [
         "isdal-woman",
         "cardiff-giant",
+        "disappearance-of-harold-holt",
         "dancing-plague-of-1518",
+        "shag-harbour-ufo-incident",
         "green-children-of-woolpit",
         "phantom-time-conspiracy-theory",
-        "heavens-gate",
-        "dyatlov-pass-incident",
-        "the-great-moon-hoax"
+        "heavens-gate"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamam_Shud_Case",
       "scores": {
@@ -1407,13 +1407,13 @@
       ],
       "relatedIds": [
         "taman-shud-case",
+        "disappearance-of-harold-holt",
         "cardiff-giant",
+        "shag-harbour-ufo-incident",
         "dancing-plague-of-1518",
         "green-children-of-woolpit",
         "phantom-time-conspiracy-theory",
-        "shroud-of-turin",
-        "the-great-moon-hoax",
-        "cottingley-fairies"
+        "shroud-of-turin"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Isdal_Woman",
       "scores": {
@@ -1480,10 +1480,10 @@
         "god-helmet",
         "surtsey",
         "orion-nuclear-pulse-propulsion",
+        "hollow-earth",
         "biosphere-2",
         "acoustic-kitty",
-        "casaba-howitzer",
-        "operation-plowshare"
+        "casaba-howitzer"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Clock_of_the_Long_Now",
       "scores": {
@@ -1513,11 +1513,11 @@
         "cardiff-giant",
         "cottingley-fairies",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "isdal-woman",
         "taman-shud-case",
-        "cargo-cult",
-        "cadaver-synod",
-        "green-children-of-woolpit"
+        "shag-harbour-ufo-incident",
+        "cargo-cult"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
       "scores": {
@@ -1579,13 +1579,13 @@
       ],
       "relatedIds": [
         "green-children-of-woolpit",
+        "utsuro-bune",
         "mokele-mbembe",
         "phantom-time-conspiracy-theory",
-        "bhangarh-fort",
-        "isdal-woman",
-        "taman-shud-case",
-        "cardiff-giant",
-        "the-great-moon-hoax"
+        "bell-witch",
+        "shag-harbour-ufo-incident",
+        "mummy-brown",
+        "bhangarh-fort"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Mellified_man",
       "scores": {
@@ -1648,12 +1648,12 @@
       "relatedIds": [
         "ten-thousand-year-clock",
         "the-hum",
+        "hollow-earth",
         "project-habakkuk",
         "surtsey",
+        "red-mercury",
         "monster-study",
-        "lake-nyos-disaster",
-        "dancing-plague-of-1518",
-        "milgram-experiment"
+        "lake-nyos-disaster"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/God_helmet",
       "scores": {
@@ -1715,13 +1715,13 @@
       ],
       "relatedIds": [
         "bhangarh-fort",
+        "bell-witch",
         "kowloon-walled-city",
         "hashima-island",
         "pyramiden",
         "centralia-pennsylvania",
         "pripyat",
-        "colonia-dignidad",
-        "mokele-mbembe"
+        "colonia-dignidad"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
       "scores": {
@@ -1751,12 +1751,12 @@
       "relatedIds": [
         "island-of-the-dolls",
         "hashima-island",
+        "bell-witch",
         "pyramiden",
         "green-children-of-woolpit",
         "buzludzha-monument",
-        "kowloon-walled-city",
-        "mokele-mbembe",
-        "mellified-man"
+        "utsuro-bune",
+        "kowloon-walled-city"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Bhangarh_Fort",
       "scores": {
@@ -1785,12 +1785,12 @@
       "relatedIds": [
         "mellified-man",
         "phantom-time-conspiracy-theory",
+        "bell-witch",
+        "utsuro-bune",
+        "shag-harbour-ufo-incident",
+        "disappearance-of-harold-holt",
         "isdal-woman",
-        "cardiff-giant",
-        "taman-shud-case",
-        "dancing-plague-of-1518",
-        "the-hum",
-        "mokele-mbembe"
+        "cardiff-giant"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Green_children_of_Woolpit",
       "scores": {
@@ -1822,10 +1822,10 @@
         "green-children-of-woolpit",
         "dracula-gigas",
         "orchis-simia",
+        "utsuro-bune",
+        "bell-witch",
         "bhangarh-fort",
-        "phantom-time-conspiracy-theory",
-        "the-hum",
-        "island-of-the-dolls"
+        "phantom-time-conspiracy-theory"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Mokele-mbembe",
       "scores": {
@@ -1857,10 +1857,10 @@
         "dancing-plague-of-1518",
         "green-children-of-woolpit",
         "shroud-of-turin",
+        "bell-witch",
+        "shag-harbour-ufo-incident",
         "god-helmet",
-        "isdal-woman",
-        "cardiff-giant",
-        "cottingley-fairies"
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Hum",
       "scores": {
@@ -1890,12 +1890,12 @@
       "relatedIds": [
         "green-children-of-woolpit",
         "the-hum",
+        "shag-harbour-ufo-incident",
         "isdal-woman",
         "taman-shud-case",
+        "disappearance-of-harold-holt",
         "cardiff-giant",
-        "dancing-plague-of-1518",
-        "mellified-man",
-        "shroud-of-turin"
+        "dancing-plague-of-1518"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory",
       "scores": {
@@ -1927,10 +1927,10 @@
         "heavens-gate",
         "the-hum",
         "phantom-time-conspiracy-theory",
-        "green-children-of-woolpit",
-        "isdal-woman",
-        "cadaver-synod",
-        "cardiff-giant"
+        "shag-harbour-ufo-incident",
+        "bell-witch",
+        "disappearance-of-harold-holt",
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
       "scores": {
@@ -1965,7 +1965,7 @@
         "mokele-mbembe",
         "phantom-time-conspiracy-theory",
         "green-children-of-woolpit",
-        "god-helmet"
+        "mummy-brown"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Langley_Schools_Music_Project",
       "scores": {
@@ -1994,12 +1994,12 @@
       "relatedIds": [
         "orchis-simia",
         "mokele-mbembe",
+        "mummy-brown",
         "the-hum",
         "the-langley-schools-music-project",
         "phantom-time-conspiracy-theory",
         "zzyzx-california",
-        "green-children-of-woolpit",
-        "mellified-man"
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dracula_gigas",
       "scores": {
@@ -2028,12 +2028,12 @@
       "relatedIds": [
         "dracula-gigas",
         "mokele-mbembe",
+        "mummy-brown",
         "the-langley-schools-music-project",
         "the-hum",
         "zzyzx-california",
         "phantom-time-conspiracy-theory",
-        "green-children-of-woolpit",
-        "shroud-of-turin"
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Orchis_simia",
       "scores": {
@@ -2042,6 +2042,244 @@
         "significance": 46,
         "visualAppeal": 70,
         "conversationPower": 65
+      }
+    },
+    {
+      "id": "red-mercury",
+      "title": "Red mercury",
+      "hook": "A black-market rumor about a mysterious substance kept fueling nuclear paranoia.",
+      "summary": "Red mercury is a discredited alleged material that circulated in arms-smuggling and espionage lore as something valuable, secret, and potentially nuclear-adjacent. Its endurance says as much about fear, rumor, and black-market storytelling as it does about chemistry.",
+      "whyStrange": "It is a phantom commodity that survived because secrecy made it hard to disprove.",
+      "tags": [
+        "conspiracy",
+        "science",
+        "hoax"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "hollow-earth",
+        "phantom-time-conspiracy-theory",
+        "god-helmet",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "mummy-brown",
+        "lake-nyos-disaster"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_mercury",
+      "scores": {
+        "obscurity": 88,
+        "strangeness": 84,
+        "significance": 59,
+        "visualAppeal": 24,
+        "conversationPower": 83
+      }
+    },
+    {
+      "id": "disappearance-of-harold-holt",
+      "title": "Disappearance of Harold Holt",
+      "hook": "Australia’s prime minister vanished while swimming, and the country never stopped asking why.",
+      "summary": "Harold Holt disappeared in 1967 near Cheviot Beach and was presumed drowned, but the event spawned an enduring cloud of folklore, speculation, and national memory. The story remains strange because a routine tragedy turned into a permanent cultural shorthand.",
+      "whyStrange": "A sitting prime minister disappearing into the sea sounds like fiction until you reach the archival record.",
+      "tags": [
+        "history",
+        "politics",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "shag-harbour-ufo-incident",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "green-children-of-woolpit",
+        "dancing-plague-of-1518",
+        "phantom-time-conspiracy-theory",
+        "bell-witch"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Disappearance_of_Harold_Holt",
+      "scores": {
+        "obscurity": 74,
+        "strangeness": 79,
+        "significance": 91,
+        "visualAppeal": 35,
+        "conversationPower": 87
+      }
+    },
+    {
+      "id": "hollow-earth",
+      "title": "Hollow Earth",
+      "hook": "A disproven theory imagined the planet as a hidden interior world.",
+      "summary": "The Hollow Earth idea proposed that our planet contains a vast hollow interior, and it persisted for centuries across pseudoscience, folklore, and adventure fiction. It is one of those concepts that survives because it is bigger than evidence and far more cinematic than geology.",
+      "whyStrange": "The earth itself becomes a stage set for secret civilizations and lost entrances.",
+      "tags": [
+        "science",
+        "conspiracy",
+        "history"
+      ],
+      "collectionIds": [
+        "science-dead-ends",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "red-mercury",
+        "phantom-time-conspiracy-theory",
+        "utsuro-bune",
+        "mummy-brown",
+        "shag-harbour-ufo-incident",
+        "god-helmet",
+        "disappearance-of-harold-holt",
+        "surtsey"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hollow_Earth",
+      "scores": {
+        "obscurity": 86,
+        "strangeness": 83,
+        "significance": 66,
+        "visualAppeal": 43,
+        "conversationPower": 78
+      }
+    },
+    {
+      "id": "shag-harbour-ufo-incident",
+      "title": "Shag Harbour UFO incident",
+      "hook": "A reported crash into the sea turned into one of Canada’s best-known UFO cases.",
+      "summary": "In 1967, witnesses near Shag Harbour, Nova Scotia, reported a mysterious lit object descending into the water, prompting official search efforts that found no debris and no explanation. The incident remains memorable because the paperwork, witness accounts, and missing object never fully reconcile.",
+      "whyStrange": "It is a government-filed mystery with ocean water where the evidence should have been.",
+      "tags": [
+        "ufo",
+        "mystery",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "utsuro-bune",
+        "disappearance-of-harold-holt",
+        "green-children-of-woolpit",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "phantom-time-conspiracy-theory",
+        "dancing-plague-of-1518"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shag_Harbour_UFO_incident",
+      "scores": {
+        "obscurity": 80,
+        "strangeness": 82,
+        "significance": 68,
+        "visualAppeal": 49,
+        "conversationPower": 84
+      }
+    },
+    {
+      "id": "bell-witch",
+      "title": "Bell Witch",
+      "hook": "A Tennessee family became the center of one of America’s most persistent haunting legends.",
+      "summary": "The Bell Witch legend describes a long-running alleged haunting that attached itself to a real family, a real place, and a lot of later retellings. The story endures because it feels simultaneously local, folkloric, and weirdly procedural.",
+      "whyStrange": "It is a haunting that keeps acquiring new layers of cultural memory.",
+      "tags": [
+        "legend",
+        "mystery",
+        "place"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "bhangarh-fort",
+        "shag-harbour-ufo-incident",
+        "utsuro-bune",
+        "disappearance-of-harold-holt",
+        "island-of-the-dolls",
+        "shroud-of-turin",
+        "the-hum"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bell_Witch",
+      "scores": {
+        "obscurity": 77,
+        "strangeness": 81,
+        "significance": 62,
+        "visualAppeal": 46,
+        "conversationPower": 79
+      }
+    },
+    {
+      "id": "utsuro-bune",
+      "title": "Utsuro-bune",
+      "hook": "A Japanese tale described a strange vessel and an enigmatic woman washed ashore.",
+      "summary": "Utsuro-bune is a nineteenth-century Japanese legend involving a mysterious boat and a figure who may be a folkloric visitor, an alien, or simply an accretion of story. Its endurance comes from how it sits between maritime legend, coded imagery, and UFO-era reinterpretation.",
+      "whyStrange": "It is a folkloric encounter that keeps being retold as something else.",
+      "tags": [
+        "legend",
+        "ufo",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit",
+        "mellified-man",
+        "bell-witch",
+        "disappearance-of-harold-holt",
+        "hollow-earth",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Utsuro-bune",
+      "scores": {
+        "obscurity": 81,
+        "strangeness": 84,
+        "significance": 58,
+        "visualAppeal": 45,
+        "conversationPower": 76
+      }
+    },
+    {
+      "id": "mummy-brown",
+      "title": "Mummy brown",
+      "hook": "Painters once used a pigment made from mummified remains.",
+      "summary": "Mummy brown was a historical pigment produced from ground mummies and related materials, prized for its warm transparency before its origins became more widely understood. It is a perfect example of art history being stranger once the supply chain is revealed.",
+      "whyStrange": "A color on a palette can turn into a human-remains story very quickly.",
+      "tags": [
+        "art",
+        "history",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "dracula-gigas",
+        "hollow-earth",
+        "utsuro-bune",
+        "orchis-simia",
+        "green-children-of-woolpit",
+        "mellified-man",
+        "phantom-time-conspiracy-theory",
+        "shag-harbour-ufo-incident"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mummy_brown",
+      "scores": {
+        "obscurity": 85,
+        "strangeness": 78,
+        "significance": 54,
+        "visualAppeal": 52,
+        "conversationPower": 72
       }
     }
   ],
@@ -2341,6 +2579,22 @@
         "orchis-simia"
       ],
       "accent": "cyan"
+    },
+    {
+      "id": "shadow-dossiers",
+      "title": "Shadow dossiers",
+      "slug": "shadow-dossiers",
+      "description": "A deeper drawer for rumors, disappearances, UFO reports, and objects whose explanation remains half a story.",
+      "articleIds": [
+        "red-mercury",
+        "disappearance-of-harold-holt",
+        "hollow-earth",
+        "shag-harbour-ufo-incident",
+        "bell-witch",
+        "utsuro-bune",
+        "mummy-brown"
+      ],
+      "accent": "slate"
     }
   ],
   "themes": [
