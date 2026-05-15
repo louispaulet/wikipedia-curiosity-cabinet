@@ -9,9 +9,9 @@ import { useAtlas } from './hooks/useAtlas.js';
 import { pickRabbitHole } from './lib/atlas.js';
 
 const heroStats = [
-  ['Curated pages', 'hand-selected weirdness'],
-  ['Graph links', 'semantic neighborhoods'],
-  ['Trails', 'themed rabbit holes'],
+  ['Curated records', '67 sourced pages'],
+  ['Relationship map', 'semantic neighborhoods'],
+  ['Field routes', 'themed rabbit holes'],
 ];
 
 const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files', 'shadow-dossiers'];
@@ -44,9 +44,9 @@ const isBackShelfArticle = (article) =>
 
 const SectionTitle = ({ eyebrow, title, body }) => (
   <div>
-    <p className="text-xs uppercase tracking-[0.35em] text-amber-200/70">{eyebrow}</p>
-    <h2 className="mt-2 font-display text-3xl text-white sm:text-4xl">{title}</h2>
-    <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300">{body}</p>
+    <p className="archive-label">{eyebrow}</p>
+    <h2 className="wiki-rule mt-2 font-article text-3xl text-ink-800 sm:text-4xl">{title}</h2>
+    <p className="mt-3 max-w-2xl text-sm leading-6 text-ink-600">{body}</p>
   </div>
 );
 
@@ -65,51 +65,58 @@ const HomePage = ({ atlas }) => {
   )[0];
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <section className="overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5 p-6 shadow-glow sm:p-10 lg:p-14">
-        <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="paper-panel overflow-hidden p-6 sm:p-8 lg:p-10">
+        <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-start">
           <div>
-            <div className="inline-flex items-center rounded-full border border-amber-300/20 bg-amber-300/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-amber-100">
-              the internet’s cabinet of curiosities
+            <div className="archive-label">
+              from the internet cabinet of curiosities
             </div>
-            <h1 className="mt-6 max-w-3xl font-display text-5xl leading-none text-white sm:text-7xl">
-              Explore the strangest corners of Wikipedia.
+            <h1 className="mt-4 max-w-3xl border-b border-stone-300 pb-3 font-article text-5xl leading-none text-ink-800 sm:text-6xl">
+              Strange Wikipedia Atlas
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              A beautifully curated atlas of bizarre legal cases, failed utopias, vanished technologies,
-              Cold War oddities, improbable disasters, and pages that feel too strange to be real.
+            <p className="mt-4 max-w-3xl font-article text-xl leading-8 text-ink-800">
+              A selected index of unusual Wikipedia pages with documentary gravity: bizarre legal cases,
+              failed utopias, vanished technologies, Cold War oddities, improbable disasters, and source
+              pages that feel filed from the edge of the public record.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <p className="field-note mt-5 max-w-3xl">
+              Read it like an encyclopedia, wander it like a cabinet, and keep one eye on the marginal notes.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
               <RabbitHoleButton
-                label="Give me a rabbit hole"
+                label="Open a curious record"
                 onClick={() => navigate(`/article/${strangestArticle.id}`)}
               />
               <button
                 type="button"
                 onClick={() => navigate(`/collections/${atlas.collections[0].slug}`)}
-                className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium text-white transition hover:border-white/20 hover:bg-white/10"
+                className="inline-flex items-center justify-center border border-stone-400 bg-paper-50 px-4 py-2 text-sm font-semibold text-ink-800 transition hover:border-atlas-blue hover:text-atlas-blue"
               >
-                Browse collections
+                Browse shelves
               </button>
             </div>
           </div>
-          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+          <div className="border border-stone-300 bg-paper-100">
+            <div className="border-b border-stone-300 px-4 py-3 font-article text-xl text-ink-800">
+              Index notes
+            </div>
             {heroStats.map(([label, value]) => (
-              <div key={label} className="rounded-[1.5rem] border border-white/10 bg-slate-950/60 p-5">
-                <div className="text-xs uppercase tracking-[0.35em] text-slate-400">{label}</div>
-                <div className="mt-2 font-display text-2xl text-white">{value}</div>
+              <div key={label} className="border-b border-stone-300 px-4 py-4 last:border-b-0">
+                <div className="archive-label">{label}</div>
+                <div className="mt-1 font-article text-xl text-ink-800">{value}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="mt-10 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-        <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-glow">
+      <section className="mt-8 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="paper-panel p-6">
           <SectionTitle
-            eyebrow="Featured collections"
+            eyebrow="Featured shelves"
             title="Editorial starting points"
-            body="Each collection is designed to feel like a mini exhibition: not random, but curated around a strong narrative shape."
+            body="Each collection is arranged like a small exhibition: not random, but curated around a strong narrative shape."
           />
           <div className="mt-6 grid gap-4">
             {featuredCollections.map((collection) => (
@@ -117,28 +124,28 @@ const HomePage = ({ atlas }) => {
                 key={collection.slug}
                 type="button"
                 onClick={() => navigate(`/collections/${collection.slug}`)}
-                className="rounded-[1.5rem] border border-white/10 bg-slate-950/60 p-5 text-left transition hover:border-amber-300/30 hover:bg-white/8"
+                className="border border-stone-300 bg-paper-50 p-4 text-left transition hover:border-atlas-blue hover:bg-white"
               >
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <div className="text-xs uppercase tracking-[0.35em] text-slate-400">Collection</div>
-                    <div className="mt-2 font-display text-2xl text-white">{collection.title}</div>
+                    <div className="archive-label">Collection</div>
+                    <div className="mt-1 font-article text-2xl text-atlas-link">{collection.title}</div>
                   </div>
-                  <div className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-300">
+                  <div className="border border-stone-300 bg-paper-100 px-3 py-1 text-xs text-ink-600">
                     {collection.articleIds.length} pages
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-6 text-slate-300">{collection.description}</p>
+                <p className="mt-3 text-sm leading-6 text-ink-600">{collection.description}</p>
               </button>
             ))}
           </div>
         </div>
 
-        <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-glow">
+        <div className="paper-panel p-6">
           <SectionTitle
-            eyebrow="Featured pages"
-            title="A few doors into the maze"
-            body="These articles show the tone of the site: compact editorial summaries, strange context, and neighboring pages that open into a cluster."
+            eyebrow="Selected records"
+            title="A few doors into the archive"
+            body="Compact editorial summaries, source links, and neighboring pages that open into a cluster."
           />
           <div className="mt-6 grid gap-4">
             {featuredArticles.map((article) => (
@@ -153,11 +160,11 @@ const HomePage = ({ atlas }) => {
         </div>
       </section>
 
-      <section className="mt-10 rounded-[2rem] border border-white/10 bg-slate-950/70 p-6 shadow-glow sm:p-8">
+      <section className="paper-panel mt-8 p-6 sm:p-8">
         <SectionTitle
-          eyebrow="Back shelf"
-          title="Little nuggets from the margins"
-          body="A quieter shelf of pages and editorials that sit lower on the page by design. They are still connected to the atlas, just a little more tucked away."
+          eyebrow="Marginal shelves"
+          title="Small files from the margins"
+          body="A quieter set of pages and editorials. They are still connected to the atlas, just filed a little lower in the cabinet."
         />
         <div className="mt-6 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid gap-4">
@@ -166,11 +173,11 @@ const HomePage = ({ atlas }) => {
                 key={collection.slug}
                 type="button"
                 onClick={() => navigate(`/collections/${collection.slug}`)}
-                className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-left transition hover:border-amber-300/30 hover:bg-white/8"
+                className="border border-stone-300 bg-paper-100 p-4 text-left transition hover:border-atlas-blue hover:bg-paper-50"
               >
-                <div className="text-xs uppercase tracking-[0.35em] text-slate-500">Back shelf editorial</div>
-                <div className="mt-2 font-display text-2xl text-white">{collection.title}</div>
-                <p className="mt-3 text-sm leading-6 text-slate-300">{collection.description}</p>
+                <div className="archive-label">Marginal shelf</div>
+                <div className="mt-1 font-article text-2xl text-atlas-link">{collection.title}</div>
+                <p className="mt-3 text-sm leading-6 text-ink-600">{collection.description}</p>
               </button>
             ))}
           </div>
@@ -196,8 +203,8 @@ const CollectionPage = ({ atlas, slug }) => {
 
   if (!collection) {
     return (
-      <div className="mx-auto max-w-4xl px-4 py-16 text-center text-slate-300 sm:px-6 lg:px-8">
-        <h1 className="font-display text-5xl text-white">Collection not found</h1>
+      <div className="mx-auto max-w-4xl px-4 py-16 text-center text-ink-600 sm:px-6 lg:px-8">
+        <h1 className="font-article text-5xl text-ink-800">Collection not found</h1>
       </div>
     );
   }
@@ -207,20 +214,20 @@ const CollectionPage = ({ atlas, slug }) => {
     .filter(Boolean);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <section className="rounded-[2.5rem] border border-white/10 bg-white/5 p-6 shadow-glow sm:p-10">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="paper-panel p-6 sm:p-8">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Collection</p>
-            <h1 className="mt-2 font-display text-5xl text-white sm:text-6xl">{collection.title}</h1>
+            <p className="archive-label">Collection</p>
+            <h1 className="wiki-rule mt-2 font-article text-5xl text-ink-800 sm:text-6xl">{collection.title}</h1>
             {backShelfCollectionIds.includes(collection.id) ? (
-              <div className="mt-4 inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-3 py-1 text-xs uppercase tracking-[0.25em] text-amber-100">
-                Back shelf editorial
+              <div className="catalog-pill mt-4">
+                Marginal shelf
               </div>
             ) : null}
-            <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">{collection.description}</p>
+            <p className="mt-4 max-w-3xl font-article text-xl leading-8 text-ink-800">{collection.description}</p>
           </div>
-          <RabbitHoleButton onClick={() => navigate('/graph')} label="Take me deeper" />
+          <RabbitHoleButton onClick={() => navigate('/graph')} label="Open relationship map" />
         </div>
       </section>
 
@@ -243,8 +250,8 @@ const ArticlePage = ({ atlas, articleId }) => {
 
   if (!article) {
     return (
-      <div className="mx-auto max-w-4xl px-4 py-16 text-center text-slate-300 sm:px-6 lg:px-8">
-        <h1 className="font-display text-5xl text-white">Page not found</h1>
+      <div className="mx-auto max-w-4xl px-4 py-16 text-center text-ink-600 sm:px-6 lg:px-8">
+        <h1 className="font-article text-5xl text-ink-800">Page not found</h1>
       </div>
     );
   }
@@ -254,34 +261,37 @@ const ArticlePage = ({ atlas, articleId }) => {
     .filter(Boolean);
   const rabbitHole = pickRabbitHole(article, atlas);
   const backShelf = isBackShelfArticle(article);
+  const primaryCollection = article.collectionIds
+    .map((collectionId) => atlas.collectionById.get(collectionId))
+    .find(Boolean);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <section className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <article className="rounded-[2.5rem] border border-white/10 bg-white/5 p-6 shadow-glow sm:p-10">
-          <div className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Article card</div>
-          <h1 className="mt-3 font-display text-5xl text-white sm:text-6xl">{article.title}</h1>
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_22rem]">
+        <article className="paper-panel p-6 sm:p-8">
+          <div className="archive-label">Encyclopedia record</div>
+          <h1 className="wiki-rule mt-2 font-article text-5xl text-ink-800 sm:text-6xl">{article.title}</h1>
           {backShelf ? (
-            <div className="mt-4 inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-3 py-1 text-xs uppercase tracking-[0.25em] text-amber-100">
-              Back shelf nugget
+            <div className="catalog-pill mt-4">
+              Marginal file
             </div>
           ) : null}
-          <p className="mt-4 text-lg leading-8 text-slate-200">{article.hook}</p>
-          <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300">{article.summary}</p>
-          <div className="mt-6 rounded-[1.5rem] border border-white/10 bg-slate-950/60 p-5">
-            <div className="text-xs uppercase tracking-[0.35em] text-slate-400">Why it is strange</div>
-            <p className="mt-3 text-sm leading-7 text-slate-300">{article.whyStrange}</p>
+          <p className="mt-5 font-article text-xl leading-8 text-ink-800">{article.hook}</p>
+          <p className="mt-5 max-w-3xl text-base leading-8 text-ink-700">{article.summary}</p>
+          <div className="field-note mt-6">
+            <div className="archive-label">Cabinet note</div>
+            <p className="mt-2">{article.whyStrange}</p>
           </div>
           {article.wikipediaUrl ? (
-            <div className="mt-6 rounded-[1.5rem] border border-amber-300/20 bg-amber-300/5 p-5">
-              <div className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Original Wikipedia article</div>
+            <div className="mt-6 border border-stone-300 bg-paper-100 p-4">
+              <div className="archive-label">Original Wikipedia source</div>
               <a
                 href={article.wikipediaUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-3 block text-sm leading-7 text-amber-100 underline decoration-amber-200/30 underline-offset-4 hover:text-white"
+                className="mt-2 block text-sm leading-7 underline decoration-atlas-link/30 underline-offset-4 hover:text-sepia-700"
               >
-                Open the source page on Wikipedia
+                Open the original Wikipedia source page
               </a>
             </div>
           ) : null}
@@ -289,7 +299,7 @@ const ArticlePage = ({ atlas, articleId }) => {
             {article.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.2em] text-slate-300"
+                className="catalog-pill"
               >
                 {tag}
               </span>
@@ -299,46 +309,46 @@ const ArticlePage = ({ atlas, articleId }) => {
             <button
               type="button"
               onClick={() => navigate(`/graph?focus=${article.id}`)}
-              className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white hover:bg-white/10"
+              className="border border-stone-400 bg-paper-50 px-4 py-2 text-sm font-semibold text-ink-800 hover:border-atlas-blue hover:text-atlas-blue"
             >
-              Open in graph
+              Open in map
             </button>
             {article.wikipediaUrl ? (
               <a
                 href={article.wikipediaUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-full border border-amber-300/30 bg-amber-300/10 px-4 py-2 text-sm text-amber-100 hover:bg-amber-300/20"
+                className="border border-stone-400 bg-paper-50 px-4 py-2 text-sm font-semibold hover:border-atlas-blue"
               >
-                Open original Wikipedia page
+                Open source
               </a>
             ) : null}
             {rabbitHole ? (
               <button
                 type="button"
                 onClick={() => navigate(`/article/${rabbitHole.id}`)}
-                className="rounded-full border border-amber-300/30 bg-amber-300/10 px-4 py-2 text-sm text-amber-100 hover:bg-amber-300/20"
+                className="border border-sepia-500 bg-sepia-500 px-4 py-2 text-sm font-semibold text-paper-50 hover:bg-sepia-700"
               >
-                Take a stranger turn
+                Trace another link
               </button>
             ) : null}
           </div>
         </article>
 
-        <div className="grid gap-6">
+        <aside className="grid content-start gap-6">
           <ScoreMeter scores={article.scores} />
-          <div className="rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
-            <div className="text-xs uppercase tracking-[0.35em] text-slate-400">Related pages</div>
+          <div className="paper-panel p-5">
+            <div className="archive-label">See also</div>
             <div className="mt-4 grid gap-3">
               {relatedArticles.slice(0, 6).map((related) => (
                 <button
                   key={related.id}
                   type="button"
                   onClick={() => navigate(`/article/${related.id}`)}
-                  className="rounded-2xl border border-white/10 bg-slate-950/60 px-4 py-3 text-left text-sm text-slate-200 transition hover:border-amber-300/30 hover:bg-white/8"
+                  className="border border-stone-300 bg-paper-50 px-4 py-3 text-left text-sm text-ink-800 transition hover:border-atlas-blue"
                 >
-                  <div className="font-medium text-white">{related.title}</div>
-                  <div className="mt-1 max-h-10 overflow-hidden text-xs leading-5 text-slate-400">
+                  <div className="font-semibold text-atlas-link">{related.title}</div>
+                  <div className="mt-1 max-h-10 overflow-hidden text-xs leading-5 text-ink-600">
                     {related.hook}
                   </div>
                 </button>
@@ -347,17 +357,17 @@ const ArticlePage = ({ atlas, articleId }) => {
           </div>
           <button
             type="button"
-            onClick={() => navigate(`/collections/${atlas.collections[0].slug}`)}
-            className="rounded-[1.75rem] border border-white/10 bg-slate-950/60 p-5 text-left hover:bg-white/8"
+            onClick={() => primaryCollection && navigate(`/collections/${primaryCollection.slug}`)}
+            className="paper-panel p-5 text-left hover:border-atlas-blue"
           >
-            <div className="text-xs uppercase tracking-[0.35em] text-slate-400">Collection membership</div>
+            <div className="archive-label">Collection membership</div>
             <div className="mt-2 flex flex-wrap gap-2">
               {article.collectionIds.map((collectionId) => {
                 const collection = atlas.collectionById.get(collectionId);
                 return collection ? (
                   <span
                     key={collectionId}
-                    className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-300"
+                    className="catalog-pill"
                   >
                     {collection.title}
                   </span>
@@ -365,7 +375,7 @@ const ArticlePage = ({ atlas, articleId }) => {
               })}
             </div>
           </button>
-        </div>
+        </aside>
       </section>
     </div>
   );
@@ -376,15 +386,15 @@ const GraphPage = ({ atlas, searchParams }) => {
   const startingArticle = focus ? atlas.articleById.get(focus) : atlas.articles[0];
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="grid gap-6">
         <GraphExplorer atlas={atlas} initialFocusedId={startingArticle?.id} />
         <TrailBuilder atlas={atlas} />
-        <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-glow">
+        <div className="paper-panel p-6">
           <SectionTitle
-            eyebrow="Rabbit-hole seed"
+            eyebrow="Route seed"
             title={startingArticle ? startingArticle.title : 'Start anywhere'}
-            body="Use the article page to jump into the graph, or use the graph itself to keep wandering toward stranger pages that still feel related."
+            body="Use the article page to open the relationship map, or use the map itself to keep wandering toward pages that still feel related."
           />
         </div>
       </div>
@@ -429,8 +439,8 @@ export default function App() {
     return (
       <div className="grid min-h-screen place-items-center px-6 text-center">
         <div>
-          <div className="font-display text-5xl text-white">Loading the atlas...</div>
-          <p className="mt-3 text-slate-300">Curating strange pages and knitting the graph.</p>
+          <div className="font-article text-5xl text-ink-800">Loading the atlas...</div>
+          <p className="mt-3 text-ink-600">Curating records and knitting the map.</p>
         </div>
       </div>
     );
@@ -439,9 +449,9 @@ export default function App() {
   if (error) {
     return (
       <div className="grid min-h-screen place-items-center px-6 text-center">
-        <div className="max-w-2xl rounded-[2rem] border border-rose-400/30 bg-rose-500/10 p-8 text-rose-100">
-          <div className="font-display text-4xl">Atlas load failed</div>
-          <pre className="mt-4 whitespace-pre-wrap text-left text-sm text-rose-100/80">
+        <div className="max-w-2xl border border-rose-400 bg-rose-50 p-8 text-rose-900">
+          <div className="font-article text-4xl">Atlas load failed</div>
+          <pre className="mt-4 whitespace-pre-wrap text-left text-sm text-rose-800">
             {String(error?.message ?? error)}
           </pre>
         </div>

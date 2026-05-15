@@ -13,12 +13,12 @@ export const TrailBuilder = ({ atlas }) => {
   );
 
   return (
-    <section className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-glow sm:p-6">
+    <section className="paper-panel p-5 sm:p-6">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.35em] text-amber-200/70">Path generation</p>
-          <h2 className="mt-2 font-display text-3xl text-white">Build a 7-stop trail</h2>
-          <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
+          <p className="archive-label">Field route</p>
+          <h2 className="mt-2 font-article text-3xl text-ink-800">Build a 7-stop trail</h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-600">
             Pick a start mood and a destination mood. The atlas will thread a route through
             strange-but-related pages and keep the journey coherent.
           </p>
@@ -27,7 +27,7 @@ export const TrailBuilder = ({ atlas }) => {
           <select
             value={startThemeId}
             onChange={(event) => setStartThemeId(event.target.value)}
-            className="rounded-full border border-white/10 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none"
+            className="border border-stone-300 bg-paper-50 px-3 py-2 text-sm text-ink-800 outline-none focus:border-atlas-blue"
           >
             {atlas.themes.map((theme) => (
               <option key={theme.id} value={theme.id}>
@@ -38,7 +38,7 @@ export const TrailBuilder = ({ atlas }) => {
           <select
             value={endThemeId}
             onChange={(event) => setEndThemeId(event.target.value)}
-            className="rounded-full border border-white/10 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none"
+            className="border border-stone-300 bg-paper-50 px-3 py-2 text-sm text-ink-800 outline-none focus:border-atlas-blue"
           >
             {atlas.themes.map((theme) => (
               <option key={theme.id} value={theme.id}>
@@ -49,7 +49,7 @@ export const TrailBuilder = ({ atlas }) => {
           <select
             value={trailLength}
             onChange={(event) => setTrailLength(Number(event.target.value))}
-            className="rounded-full border border-white/10 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none"
+            className="border border-stone-300 bg-paper-50 px-3 py-2 text-sm text-ink-800 outline-none focus:border-atlas-blue"
           >
             {[5, 6, 7, 8].map((value) => (
               <option key={value} value={value}>

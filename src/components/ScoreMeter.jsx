@@ -1,12 +1,12 @@
 const MeterRow = ({ label, value }) => (
   <div>
-    <div className="mb-1 flex items-center justify-between text-xs uppercase tracking-[0.28em] text-slate-400">
+    <div className="mb-1 flex items-center justify-between text-[11px] uppercase tracking-[0.18em] text-ink-600">
       <span>{label}</span>
       <span>{Math.round(value)}</span>
     </div>
-    <div className="h-2 rounded-full bg-white/8">
+    <div className="h-2 border border-stone-300 bg-paper-100">
       <div
-        className="h-2 rounded-full bg-gradient-to-r from-amber-300 via-orange-300 to-cyan-300"
+        className="h-full bg-gradient-to-r from-sepia-300 via-moss-500 to-atlas-blue"
         style={{ width: `${value}%` }}
       />
     </div>
@@ -14,7 +14,8 @@ const MeterRow = ({ label, value }) => (
 );
 
 export const ScoreMeter = ({ scores }) => (
-  <div className="grid gap-4 rounded-[1.75rem] border border-white/10 bg-slate-950/60 p-5">
+  <div className="paper-panel grid gap-4 p-5">
+    <div className="archive-label">Cabinet index</div>
     <MeterRow label="Obscurity" value={scores.obscurity} />
     <MeterRow label="Strangeness" value={scores.strangeness} />
     <MeterRow label="Significance" value={scores.significance} />
@@ -22,4 +23,3 @@ export const ScoreMeter = ({ scores }) => (
     <MeterRow label="Conversation power" value={scores.conversationPower} />
   </div>
 );
-

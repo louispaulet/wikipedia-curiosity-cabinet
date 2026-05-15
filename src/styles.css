@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
+  font-synthesis-weight: none;
 }
 
 html {
@@ -11,11 +12,15 @@ html {
 }
 
 body {
-  @apply bg-ink-950 text-slate-100 antialiased;
+  @apply bg-paper-100 text-ink-800 antialiased;
   background-image:
-    radial-gradient(circle at top left, rgba(251, 191, 36, 0.14), transparent 28%),
-    radial-gradient(circle at 80% 10%, rgba(56, 189, 248, 0.1), transparent 22%),
-    linear-gradient(180deg, #08111f 0%, #050816 100%);
+    linear-gradient(rgba(92, 64, 28, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 64, 28, 0.025) 1px, transparent 1px),
+    radial-gradient(circle at 10% 0%, rgba(141, 106, 54, 0.16), transparent 28%),
+    radial-gradient(circle at 90% 8%, rgba(49, 95, 125, 0.12), transparent 24%),
+    linear-gradient(180deg, #fbf6e8 0%, #e9ddc7 100%);
+  background-size: 28px 28px, 28px 28px, auto, auto, auto;
+  min-height: 100vh;
 }
 
 * {
@@ -23,10 +28,32 @@ body {
 }
 
 a {
-  @apply transition-colors;
+  @apply text-atlas-link transition-colors;
 }
 
 ::selection {
-  background: rgba(251, 191, 36, 0.28);
-  color: white;
+  background: rgba(200, 167, 107, 0.38);
+  color: #1f2933;
+}
+
+@layer components {
+  .paper-panel {
+    @apply border border-stone-300/80 bg-paper-50 shadow-paper;
+  }
+
+  .archive-label {
+    @apply text-[11px] font-semibold uppercase tracking-[0.24em] text-sepia-700;
+  }
+
+  .wiki-rule {
+    @apply border-b border-stone-300/90 pb-2;
+  }
+
+  .field-note {
+    @apply border-l-4 border-sepia-300 bg-paper-100/80 px-4 py-3 text-sm leading-6 text-ink-600;
+  }
+
+  .catalog-pill {
+    @apply inline-flex items-center border border-stone-300 bg-paper-100 px-2.5 py-1 text-[11px] uppercase tracking-[0.18em] text-ink-600;
+  }
 }
