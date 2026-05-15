@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T09:38:46.618Z",
+  "generatedAt": "2026-05-15T10:24:17.373Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -156,10 +156,10 @@
         "taman-shud-case",
         "isdal-woman",
         "green-children-of-woolpit",
+        "the-hum",
+        "phantom-time-conspiracy-theory",
         "the-great-moon-hoax",
-        "cottingley-fairies",
-        "dyatlov-pass-incident",
-        "heavens-gate"
+        "cottingley-fairies"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
       "scores": {
@@ -599,8 +599,8 @@
         "biosphere-2",
         "dancing-plague-of-1518",
         "god-helmet",
-        "auroville",
-        "church-of-the-subgenius"
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Milgram_experiment",
       "scores": {
@@ -632,8 +632,8 @@
         "biosphere-2",
         "dancing-plague-of-1518",
         "god-helmet",
-        "auroville",
-        "colonia-dignidad"
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
       "scores": {
@@ -665,8 +665,8 @@
         "biosphere-2",
         "dancing-plague-of-1518",
         "god-helmet",
-        "auroville",
-        "church-of-the-subgenius"
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Third_Wave_(experiment)",
       "scores": {
@@ -1101,13 +1101,13 @@
       ],
       "relatedIds": [
         "john-frum",
+        "shroud-of-turin",
         "cargo-cult",
         "dyatlov-pass-incident",
         "dancing-plague-of-1518",
         "colonia-dignidad",
         "taman-shud-case",
-        "isdal-woman",
-        "cardiff-giant"
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Heaven%27s_Gate_(religious_group)",
       "scores": {
@@ -1137,11 +1137,11 @@
         "cargo-cult",
         "john-frum",
         "heavens-gate",
+        "the-langley-schools-music-project",
+        "shroud-of-turin",
         "cadaver-synod",
         "colonia-dignidad",
-        "auroville",
-        "milgram-experiment",
-        "the-third-wave"
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Church_of_the_SubGenius",
       "scores": {
@@ -1276,8 +1276,8 @@
         "isdal-woman",
         "taman-shud-case",
         "green-children-of-woolpit",
-        "cargo-cult",
-        "cadaver-synod"
+        "phantom-time-conspiracy-theory",
+        "shroud-of-turin"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cardiff_Giant",
       "scores": {
@@ -1308,10 +1308,10 @@
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
         "john-frum",
+        "shroud-of-turin",
         "isdal-woman",
         "taman-shud-case",
-        "green-children-of-woolpit",
-        "heavens-gate"
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cottingley_Fairies",
       "scores": {
@@ -1340,12 +1340,12 @@
       "relatedIds": [
         "cargo-cult",
         "heavens-gate",
+        "shroud-of-turin",
         "church-of-the-subgenius",
         "cottingley-fairies",
         "cardiff-giant",
         "isdal-woman",
-        "taman-shud-case",
-        "green-children-of-woolpit"
+        "taman-shud-case"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Frum",
       "scores": {
@@ -1376,10 +1376,10 @@
         "cardiff-giant",
         "dancing-plague-of-1518",
         "green-children-of-woolpit",
+        "phantom-time-conspiracy-theory",
         "heavens-gate",
         "dyatlov-pass-incident",
-        "the-great-moon-hoax",
-        "cottingley-fairies"
+        "the-great-moon-hoax"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamam_Shud_Case",
       "scores": {
@@ -1410,10 +1410,10 @@
         "cardiff-giant",
         "dancing-plague-of-1518",
         "green-children-of-woolpit",
+        "phantom-time-conspiracy-theory",
+        "shroud-of-turin",
         "the-great-moon-hoax",
-        "cottingley-fairies",
-        "heavens-gate",
-        "dyatlov-pass-incident"
+        "cottingley-fairies"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Isdal_Woman",
       "scores": {
@@ -1579,13 +1579,13 @@
       ],
       "relatedIds": [
         "green-children-of-woolpit",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory",
         "bhangarh-fort",
         "isdal-woman",
         "taman-shud-case",
         "cardiff-giant",
-        "the-great-moon-hoax",
-        "dancing-plague-of-1518",
-        "cargo-cult"
+        "the-great-moon-hoax"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Mellified_man",
       "scores": {
@@ -1613,13 +1613,13 @@
       ],
       "relatedIds": [
         "cargo-cult",
+        "shroud-of-turin",
         "cardiff-giant",
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
         "great-emu-war",
         "isdal-woman",
-        "green-children-of-woolpit",
-        "taman-shud-case"
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadaver_Synod",
       "scores": {
@@ -1647,13 +1647,13 @@
       ],
       "relatedIds": [
         "ten-thousand-year-clock",
+        "the-hum",
         "project-habakkuk",
         "surtsey",
         "monster-study",
         "lake-nyos-disaster",
         "dancing-plague-of-1518",
-        "milgram-experiment",
-        "the-third-wave"
+        "milgram-experiment"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/God_helmet",
       "scores": {
@@ -1684,10 +1684,10 @@
         "stanford-prison-experiment",
         "the-third-wave",
         "biosphere-2",
+        "the-hum",
         "god-helmet",
         "dancing-plague-of-1518",
-        "cadaver-synod",
-        "island-of-the-dolls"
+        "shroud-of-turin"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Monster_Study",
       "scores": {
@@ -1721,7 +1721,7 @@
         "centralia-pennsylvania",
         "pripyat",
         "colonia-dignidad",
-        "green-children-of-woolpit"
+        "mokele-mbembe"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
       "scores": {
@@ -1755,8 +1755,8 @@
         "green-children-of-woolpit",
         "buzludzha-monument",
         "kowloon-walled-city",
-        "mellified-man",
-        "centralia-pennsylvania"
+        "mokele-mbembe",
+        "mellified-man"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Bhangarh_Fort",
       "scores": {
@@ -1784,13 +1784,13 @@
       ],
       "relatedIds": [
         "mellified-man",
+        "phantom-time-conspiracy-theory",
         "isdal-woman",
         "cardiff-giant",
         "taman-shud-case",
         "dancing-plague-of-1518",
-        "bhangarh-fort",
-        "cottingley-fairies",
-        "the-great-moon-hoax"
+        "the-hum",
+        "mokele-mbembe"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Green_children_of_Woolpit",
       "scores": {
@@ -1799,6 +1799,249 @@
         "significance": 64,
         "visualAppeal": 40,
         "conversationPower": 75
+      }
+    },
+    {
+      "id": "mokele-mbembe",
+      "title": "Mokele-mbembe",
+      "hook": "A Congo Basin cryptid became a long-running hunt for a living dinosaur.",
+      "summary": "Mokele-mbembe is a legendary water-dwelling creature reported in Central African folklore and later chased by cryptozoologists hoping to turn myth into zoology. The idea kept resurfacing because it sits right on the edge of indigenous story, colonial curiosity, and scientific wishful thinking.",
+      "whyStrange": "It is a dinosaur-shaped absence that keeps attracting serious expeditions.",
+      "tags": [
+        "legend",
+        "cryptid",
+        "biology"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "mellified-man",
+        "green-children-of-woolpit",
+        "dracula-gigas",
+        "orchis-simia",
+        "bhangarh-fort",
+        "phantom-time-conspiracy-theory",
+        "the-hum",
+        "island-of-the-dolls"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mokele-mbembe",
+      "scores": {
+        "obscurity": 83,
+        "strangeness": 88,
+        "significance": 60,
+        "visualAppeal": 52,
+        "conversationPower": 79
+      }
+    },
+    {
+      "id": "the-hum",
+      "title": "The Hum",
+      "hook": "Some people hear a low frequency drone that nobody else can quite place.",
+      "summary": "The Hum is a persistent low-frequency sound reported in different places around the world, often with no obvious source and no consensus explanation. Its power comes from the fact that it is half environmental mystery and half private sensory experience.",
+      "whyStrange": "A sound that is real for some people and absent for others makes uncertainty feel audible.",
+      "tags": [
+        "mystery",
+        "sound",
+        "psychology"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "phantom-time-conspiracy-theory",
+        "dancing-plague-of-1518",
+        "green-children-of-woolpit",
+        "shroud-of-turin",
+        "god-helmet",
+        "isdal-woman",
+        "cardiff-giant",
+        "cottingley-fairies"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Hum",
+      "scores": {
+        "obscurity": 79,
+        "strangeness": 84,
+        "significance": 57,
+        "visualAppeal": 34,
+        "conversationPower": 74
+      }
+    },
+    {
+      "id": "phantom-time-conspiracy-theory",
+      "title": "Phantom time conspiracy theory",
+      "hook": "A fringe theory claims centuries of history were invented or shifted into place.",
+      "summary": "The phantom time hypothesis argues that parts of the early medieval period were fabricated or misdated, creating a kind of historical glitch in the calendar. It survives as a reminder that chronology itself can become a site of conspiracy thinking.",
+      "whyStrange": "It tries to make history feel counterfeit by moving whole centuries around.",
+      "tags": [
+        "conspiracy",
+        "history",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "the-hum",
+        "isdal-woman",
+        "taman-shud-case",
+        "cardiff-giant",
+        "dancing-plague-of-1518",
+        "mellified-man",
+        "shroud-of-turin"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory",
+      "scores": {
+        "obscurity": 90,
+        "strangeness": 86,
+        "significance": 55,
+        "visualAppeal": 28,
+        "conversationPower": 77
+      }
+    },
+    {
+      "id": "shroud-of-turin",
+      "title": "Shroud of Turin",
+      "hook": "A relic with a faint image has spent centuries producing arguments and devotion.",
+      "summary": "The Shroud of Turin is a linen cloth bearing an image that has inspired both veneration and intense scientific scrutiny. Its enduring strange power comes from how the relic lives between evidence, faith, image analysis, and public fascination.",
+      "whyStrange": "It is an object whose mystery survives every attempt to turn it into a simple answer.",
+      "tags": [
+        "religion",
+        "mystery",
+        "artifact"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "haunted-footnotes",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "john-frum",
+        "heavens-gate",
+        "the-hum",
+        "phantom-time-conspiracy-theory",
+        "green-children-of-woolpit",
+        "isdal-woman",
+        "cadaver-synod",
+        "cardiff-giant"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+      "scores": {
+        "obscurity": 78,
+        "strangeness": 82,
+        "significance": 82,
+        "visualAppeal": 47,
+        "conversationPower": 84
+      }
+    },
+    {
+      "id": "the-langley-schools-music-project",
+      "title": "The Langley Schools Music Project",
+      "hook": "Children’s choir recordings became a cult object decades after they were made.",
+      "summary": "The Langley Schools Music Project consists of amateur school recordings from the 1970s that were rediscovered and turned into a beloved artifact of outsider music. The project feels uncanny because it preserves a very specific moment of childhood, arrangement, and aspiration in audio form.",
+      "whyStrange": "It is tender, eerie, and strangely monumental all at once.",
+      "tags": [
+        "music",
+        "culture",
+        "archive"
+      ],
+      "collectionIds": [
+        "social-experiments",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "church-of-the-subgenius",
+        "the-hum",
+        "dracula-gigas",
+        "orchis-simia",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory",
+        "green-children-of-woolpit",
+        "god-helmet"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Langley_Schools_Music_Project",
+      "scores": {
+        "obscurity": 75,
+        "strangeness": 79,
+        "significance": 63,
+        "visualAppeal": 42,
+        "conversationPower": 73
+      }
+    },
+    {
+      "id": "dracula-gigas",
+      "title": "Dracula gigas",
+      "hook": "An orchid named for a monster has a flower that looks back at you.",
+      "summary": "Dracula gigas is an orchid species whose common name, monkey orchid, comes from the uncanny resemblance of its bloom to a primate face. It belongs to the family of plants that seem to be doing face-making as a side effect of evolution.",
+      "whyStrange": "A flower that resembles a little creature is already strange; one named Dracula is stranger still.",
+      "tags": [
+        "nature",
+        "biology",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "orchis-simia",
+        "mokele-mbembe",
+        "the-hum",
+        "the-langley-schools-music-project",
+        "phantom-time-conspiracy-theory",
+        "zzyzx-california",
+        "green-children-of-woolpit",
+        "mellified-man"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dracula_gigas",
+      "scores": {
+        "obscurity": 82,
+        "strangeness": 80,
+        "significance": 48,
+        "visualAppeal": 76,
+        "conversationPower": 68
+      }
+    },
+    {
+      "id": "orchis-simia",
+      "title": "Monkey orchid",
+      "hook": "A European orchid blooms in a shape that suggests a tiny monkey.",
+      "summary": "Orchis simia is commonly called the monkey orchid because its flower lip resembles a small simian figure. It is the kind of botanical oddity that seems designed to make taxonomic language feel playful.",
+      "whyStrange": "Nature quietly produces something that looks like a miniature character sketch.",
+      "tags": [
+        "nature",
+        "biology",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "dracula-gigas",
+        "mokele-mbembe",
+        "the-langley-schools-music-project",
+        "the-hum",
+        "zzyzx-california",
+        "phantom-time-conspiracy-theory",
+        "green-children-of-woolpit",
+        "shroud-of-turin"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Orchis_simia",
+      "scores": {
+        "obscurity": 78,
+        "strangeness": 77,
+        "significance": 46,
+        "visualAppeal": 70,
+        "conversationPower": 65
       }
     }
   ],
@@ -2082,6 +2325,22 @@
         "bhangarh-fort"
       ],
       "accent": "violet"
+    },
+    {
+      "id": "afterimage-files",
+      "title": "Afterimage files",
+      "slug": "afterimage-files",
+      "description": "A second drawer for relics, hums, cryptids, and recorded oddities that keep echoing after the first glance.",
+      "articleIds": [
+        "mokele-mbembe",
+        "the-hum",
+        "phantom-time-conspiracy-theory",
+        "shroud-of-turin",
+        "the-langley-schools-music-project",
+        "dracula-gigas",
+        "orchis-simia"
+      ],
+      "accent": "cyan"
     }
   ],
   "themes": [

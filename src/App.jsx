@@ -14,7 +14,7 @@ const heroStats = [
   ['Trails', 'themed rabbit holes'],
 ];
 
-const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes'];
+const backShelfCollectionIds = ['small-print-curiosities', 'haunted-footnotes', 'afterimage-files'];
 const backShelfArticleIds = [
   'mellified-man',
   'cadaver-synod',
@@ -23,6 +23,13 @@ const backShelfArticleIds = [
   'island-of-the-dolls',
   'bhangarh-fort',
   'green-children-of-woolpit',
+  'mokele-mbembe',
+  'the-hum',
+  'phantom-time-conspiracy-theory',
+  'shroud-of-turin',
+  'the-langley-schools-music-project',
+  'dracula-gigas',
+  'orchis-simia',
 ];
 
 const isBackShelfArticle = (article) =>
