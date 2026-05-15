@@ -17,7 +17,7 @@ The site is built from static JSON generated at build time and is designed to de
 
 Use the Makefile for the common tasks:
 
-- `make up` starts the local dev server on `http://127.0.0.1:4173`
+- `make up` starts the local dev server on `http://127.0.0.1:5173`
 - `make kill` stops the local dev server started by `make up`
 - `make test` runs the production build as the project smoke test
 - `make build` generates the atlas JSON and builds the production bundle
