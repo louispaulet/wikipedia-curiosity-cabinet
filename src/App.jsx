@@ -1,3 +1,4 @@
+import { useLayoutEffect } from 'react';
 import { Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ArticleCard } from './components/ArticleCard.jsx';
 import { GraphExplorer } from './components/GraphExplorer.jsx';
@@ -402,9 +403,20 @@ const GraphPage = ({ atlas, searchParams }) => {
   );
 };
 
+const ScrollToTop = () => {
+  const { pathname, search } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname, search]);
+
+  return null;
+};
+
 const AppContent = ({ atlas }) => {
   return (
     <PageShell atlas={atlas}>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage atlas={atlas} />} />
         <Route path="/collections/:slug" element={<CollectionRoute atlas={atlas} />} />
