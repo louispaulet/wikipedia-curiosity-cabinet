@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { pickRabbitHole } from '../lib/atlas.js';
+import { pickRabbitHole, similarityScore } from '../lib/atlas.js';
 
 const center = { x: 50, y: 50 };
 const nextRingRadius = 29;
-const previewRingRadius = 43;
+const previewRingRadius = 45;
+const previewsPerNextHop = 3;
 const tierStyles = {
   current: {
     radius: 11.5,
@@ -25,13 +26,13 @@ const tierStyles = {
     labelLength: 17,
   },
   preview: {
-    radius: 4.2,
+    radius: 2.6,
     fill: 'rgba(246,239,221,0.9)',
     stroke: 'rgba(141,106,54,0.55)',
-    strokeWidth: 0.4,
-    fontSize: 1.45,
-    opacity: 0.64,
-    labelLength: 14,
+    strokeWidth: 0.28,
+    fontSize: 1.08,
+    opacity: 0.56,
+    labelLength: 11,
   },
 };
 
@@ -66,28 +67,57 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
       .filter(Boolean)
       .slice(0, 8);
 
-    const visibleIds = new Set([focusedArticle.id, ...nextArticles.map((article) => article.id)]);
+    const blockedPreviewIds = new Set([focusedArticle.id, ...nextArticles.map((article) => article.id)]);
     const previewArticles = [];
-    const maxPreviewDepth = 8;
+    nextArticles.forEach((parent) => {
+      const parentRelatedIds = atlas.relatedById.get(parent.id) ?? [];
+      let parentPreviewCount = 0;
+      const parentPreviewIds = new Set();
 
-    for (let depth = 0; depth < maxPreviewDepth && previewArticles.length < 3; depth += 1) {
-      for (const parent of nextArticles) {
-        const candidateId = atlas.relatedById.get(parent.id)?.[depth];
-        const candidate = candidateId ? atlas.articleById.get(candidateId) : null;
+      const addParentPreview = (candidate) => {
+        if (!candidate || blockedPreviewIds.has(candidate.id)) return;
+        if (parentPreviewIds.has(candidate.id)) return;
 
-        if (!candidate || visibleIds.has(candidate.id)) continue;
-        previewArticles.push({ article: candidate, parentId: parent.id });
-        visibleIds.add(candidate.id);
+        previewArticles.push({
+          article: candidate,
+          parentId: parent.id,
+          parentPreviewIndex: parentPreviewCount,
+        });
+        parentPreviewIds.add(candidate.id);
+        parentPreviewCount += 1;
+      };
 
-        if (previewArticles.length === 3) break;
+      for (const candidateId of parentRelatedIds) {
+        addParentPreview(atlas.articleById.get(candidateId));
+
+        if (parentPreviewCount === previewsPerNextHop) break;
       }
-    }
 
-    const currentNode = { article: focusedArticle, x: center.x, y: center.y, tier: 'current' };
+      if (parentPreviewCount < previewsPerNextHop) {
+        const fallbackCandidates = atlas.articles
+          .filter((candidate) => !blockedPreviewIds.has(candidate.id) && !parentPreviewIds.has(candidate.id))
+          .sort((left, right) => similarityScore(parent, right) - similarityScore(parent, left));
+
+        for (const candidate of fallbackCandidates) {
+          addParentPreview(candidate);
+
+          if (parentPreviewCount === previewsPerNextHop) break;
+        }
+      }
+    });
+
+    const currentNode = {
+      nodeId: focusedArticle.id,
+      article: focusedArticle,
+      x: center.x,
+      y: center.y,
+      tier: 'current',
+    };
     const nextNodes = nextArticles.map((article, index) => {
       const angle = -Math.PI / 2 + (index / nextArticles.length) * Math.PI * 2;
       const point = polarPoint(angle, nextRingRadius);
       return {
+        nodeId: article.id,
         article,
         ...point,
         angle,
@@ -97,14 +127,18 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
 
     const nextNodeById = new Map(nextNodes.map((node) => [node.article.id, node]));
     const previewNodes = previewArticles
-      .map(({ article, parentId }, index) => {
+      .map(({ article, parentId, parentPreviewIndex }) => {
         const parent = nextNodeById.get(parentId);
         if (!parent) return null;
 
-        const fanOffset = (index - (previewArticles.length - 1) / 2) * 0.12;
-        const point = polarPoint(parent.angle + fanOffset, previewRingRadius);
+        const fanOffset = (parentPreviewIndex - (previewsPerNextHop - 1) / 2) * 0.115;
+        const point = polarPoint(
+          parent.angle + fanOffset,
+          previewRingRadius + (parentPreviewIndex % 2) * 2.4,
+        );
 
         return {
+          nodeId: `${parentId}-${article.id}`,
           article,
           parentId,
           ...point,
@@ -114,7 +148,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
       .filter(Boolean);
 
     const nodes = [currentNode, ...nextNodes, ...previewNodes];
-    const nodeById = new Map(nodes.map((node) => [node.article.id, node]));
+    const nextNodeByArticleId = new Map(nextNodes.map((node) => [node.article.id, node]));
     const nextEdges = nextNodes.map((node) => ({
       source: currentNode,
       target: node,
@@ -122,7 +156,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
     }));
     const previewEdges = previewNodes
       .map((node) => ({
-        source: nodeById.get(node.parentId),
+        source: nextNodeByArticleId.get(node.parentId),
         target: node,
         tier: 'preview',
       }))
@@ -178,7 +212,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
             </defs>
             {graph.edges.map((edge, index) => (
               <line
-                key={`${edge.source.article.id}-${edge.target.article.id}-${index}`}
+                key={`${edge.source.nodeId}-${edge.target.nodeId}-${index}`}
                 x1={edge.source.x}
                 y1={edge.source.y}
                 x2={edge.target.x}
@@ -190,7 +224,7 @@ export const GraphExplorer = ({ atlas, initialFocusedId }) => {
             ))}
             {graph.nodes.map((node) => (
               <g
-                key={node.article.id}
+                key={node.nodeId}
                 onClick={() => focusArticle(node.article.id)}
                 role="button"
                 tabIndex={0}
