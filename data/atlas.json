@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:53:33.613Z",
+  "generatedAt": "2026-05-15T12:05:25.916Z",
   "articles": [
     {
       "id": "boston-molasses-flood",
@@ -125,7 +125,7 @@
         "boston-molasses-flood",
         "dyatlov-pass-incident",
         "biosphere-2",
-        "operation-plowshare"
+        "god-helmet"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Lake_Nyos_disaster",
       "scores": {
@@ -155,11 +155,11 @@
         "cardiff-giant",
         "taman-shud-case",
         "isdal-woman",
-        "the-great-moon-hoax",
-        "cottingley-fairies",
-        "dyatlov-pass-incident",
-        "heavens-gate",
-        "great-emu-war"
+        "disappearance-of-harold-holt",
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit",
+        "the-hum",
+        "phantom-time-conspiracy-theory"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
       "scores": {
@@ -193,7 +193,7 @@
         "isdal-woman",
         "pyramiden",
         "cardiff-giant",
-        "cottingley-fairies"
+        "disappearance-of-harold-holt"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
       "scores": {
@@ -566,8 +566,8 @@
         "fordlandia",
         "milgram-experiment",
         "republic-of-rose-island",
-        "operation-plowshare",
-        "project-habakkuk"
+        "monster-study",
+        "operation-plowshare"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Biosphere_2",
       "scores": {
@@ -594,13 +594,13 @@
       ],
       "relatedIds": [
         "stanford-prison-experiment",
+        "monster-study",
         "the-third-wave",
         "biosphere-2",
         "dancing-plague-of-1518",
-        "auroville",
-        "church-of-the-subgenius",
-        "colonia-dignidad",
-        "sealand"
+        "god-helmet",
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Milgram_experiment",
       "scores": {
@@ -627,13 +627,13 @@
       ],
       "relatedIds": [
         "milgram-experiment",
+        "monster-study",
         "the-third-wave",
         "biosphere-2",
         "dancing-plague-of-1518",
-        "auroville",
-        "colonia-dignidad",
-        "church-of-the-subgenius",
-        "fordlandia"
+        "god-helmet",
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
       "scores": {
@@ -661,12 +661,12 @@
       "relatedIds": [
         "stanford-prison-experiment",
         "milgram-experiment",
+        "monster-study",
         "biosphere-2",
         "dancing-plague-of-1518",
-        "auroville",
-        "church-of-the-subgenius",
-        "colonia-dignidad",
-        "sealand"
+        "god-helmet",
+        "the-hum",
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Third_Wave_(experiment)",
       "scores": {
@@ -766,9 +766,9 @@
         "pruitt-igoe",
         "nakagin-capsule-tower",
         "buzludzha-monument",
+        "island-of-the-dolls",
         "pyramiden",
-        "duga-radar",
-        "centralia-pennsylvania"
+        "bhangarh-fort"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Kowloon_Walled_City",
       "scores": {
@@ -797,12 +797,12 @@
       "relatedIds": [
         "kowloon-walled-city",
         "buzludzha-monument",
+        "bhangarh-fort",
         "pyramiden",
         "ryugyong-hotel",
         "pruitt-igoe",
-        "nakagin-capsule-tower",
-        "duga-radar",
-        "centralia-pennsylvania"
+        "island-of-the-dolls",
+        "nakagin-capsule-tower"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Hashima_Island",
       "scores": {
@@ -971,8 +971,8 @@
         "nakagin-capsule-tower",
         "pruitt-igoe",
         "pyramiden",
-        "duga-radar",
-        "pripyat"
+        "bhangarh-fort",
+        "duga-radar"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Buzludzha_Monument",
       "scores": {
@@ -1101,13 +1101,13 @@
       ],
       "relatedIds": [
         "john-frum",
+        "shroud-of-turin",
         "cargo-cult",
         "dyatlov-pass-incident",
         "dancing-plague-of-1518",
         "colonia-dignidad",
         "taman-shud-case",
-        "isdal-woman",
-        "cardiff-giant"
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Heaven%27s_Gate_(religious_group)",
       "scores": {
@@ -1137,11 +1137,11 @@
         "cargo-cult",
         "john-frum",
         "heavens-gate",
+        "the-langley-schools-music-project",
+        "shroud-of-turin",
+        "cadaver-synod",
         "colonia-dignidad",
-        "auroville",
-        "milgram-experiment",
-        "the-third-wave",
-        "biosphere-2"
+        "auroville"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Church_of_the_SubGenius",
       "scores": {
@@ -1204,12 +1204,12 @@
       "relatedIds": [
         "john-frum",
         "heavens-gate",
+        "cadaver-synod",
         "church-of-the-subgenius",
         "cardiff-giant",
         "the-great-moon-hoax",
-        "isdal-woman",
-        "taman-shud-case",
-        "colonia-dignidad"
+        "disappearance-of-harold-holt",
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cargo_cult",
       "scores": {
@@ -1239,11 +1239,11 @@
         "lake-nyos-disaster",
         "pripyat",
         "centralia-pennsylvania",
+        "god-helmet",
         "ten-thousand-year-clock",
+        "hollow-earth",
         "pyramiden",
-        "zzyzx-california",
-        "hashima-island",
-        "republic-of-rose-island"
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Surtsey",
       "scores": {
@@ -1273,11 +1273,11 @@
         "cottingley-fairies",
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "isdal-woman",
         "taman-shud-case",
-        "cargo-cult",
-        "john-frum",
-        "heavens-gate"
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cardiff_Giant",
       "scores": {
@@ -1307,11 +1307,11 @@
         "cardiff-giant",
         "the-great-moon-hoax",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "john-frum",
+        "shroud-of-turin",
         "isdal-woman",
-        "taman-shud-case",
-        "heavens-gate",
-        "dyatlov-pass-incident"
+        "bell-witch"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Cottingley_Fairies",
       "scores": {
@@ -1340,12 +1340,12 @@
       "relatedIds": [
         "cargo-cult",
         "heavens-gate",
+        "shroud-of-turin",
         "church-of-the-subgenius",
         "cottingley-fairies",
         "cardiff-giant",
-        "isdal-woman",
-        "taman-shud-case",
-        "dyatlov-pass-incident"
+        "disappearance-of-harold-holt",
+        "isdal-woman"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Frum",
       "scores": {
@@ -1374,12 +1374,12 @@
       "relatedIds": [
         "isdal-woman",
         "cardiff-giant",
+        "disappearance-of-harold-holt",
         "dancing-plague-of-1518",
-        "heavens-gate",
-        "dyatlov-pass-incident",
-        "the-great-moon-hoax",
-        "cottingley-fairies",
-        "cargo-cult"
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit",
+        "phantom-time-conspiracy-theory",
+        "heavens-gate"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamam_Shud_Case",
       "scores": {
@@ -1407,13 +1407,13 @@
       ],
       "relatedIds": [
         "taman-shud-case",
+        "disappearance-of-harold-holt",
         "cardiff-giant",
+        "shag-harbour-ufo-incident",
         "dancing-plague-of-1518",
-        "the-great-moon-hoax",
-        "cottingley-fairies",
-        "heavens-gate",
-        "dyatlov-pass-incident",
-        "cargo-cult"
+        "green-children-of-woolpit",
+        "phantom-time-conspiracy-theory",
+        "shroud-of-turin"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Isdal_Woman",
       "scores": {
@@ -1446,9 +1446,9 @@
         "buzludzha-monument",
         "centralia-pennsylvania",
         "kowloon-walled-city",
-        "zzyzx-california",
-        "dyatlov-pass-incident",
-        "ryugyong-hotel"
+        "island-of-the-dolls",
+        "bhangarh-fort",
+        "zzyzx-california"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Pyramiden",
       "scores": {
@@ -1477,13 +1477,13 @@
       ],
       "relatedIds": [
         "project-habakkuk",
+        "god-helmet",
         "surtsey",
         "orion-nuclear-pulse-propulsion",
+        "hollow-earth",
         "biosphere-2",
         "acoustic-kitty",
-        "casaba-howitzer",
-        "operation-plowshare",
-        "project-pluto"
+        "casaba-howitzer"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Clock_of_the_Long_Now",
       "scores": {
@@ -1513,11 +1513,11 @@
         "cardiff-giant",
         "cottingley-fairies",
         "dancing-plague-of-1518",
+        "disappearance-of-harold-holt",
         "isdal-woman",
         "taman-shud-case",
-        "cargo-cult",
-        "great-emu-war",
-        "colonia-dignidad"
+        "shag-harbour-ufo-incident",
+        "cargo-cult"
       ],
       "wikipediaUrl": "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
       "scores": {
@@ -1560,6 +1560,726 @@
         "significance": 71,
         "visualAppeal": 60,
         "conversationPower": 82
+      }
+    },
+    {
+      "id": "mellified-man",
+      "title": "Mellified man",
+      "hook": "A medieval legend claimed a human body could be preserved in honey and sold as medicine.",
+      "summary": "The mellified man is a legendary medicinal preparation described in historical sources as a human corpse slowly transformed into a honey-based cure. The story sits at the edge of pharmacology, folklore, and a kind of beautifully unsettling alchemy.",
+      "whyStrange": "It is one of those stories that becomes stranger the more seriously it is described by the sources.",
+      "tags": [
+        "legend",
+        "medicine",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "utsuro-bune",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory",
+        "bell-witch",
+        "shag-harbour-ufo-incident",
+        "mummy-brown",
+        "bhangarh-fort"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mellified_man",
+      "scores": {
+        "obscurity": 84,
+        "strangeness": 89,
+        "significance": 43,
+        "visualAppeal": 31,
+        "conversationPower": 78
+      }
+    },
+    {
+      "id": "cadaver-synod",
+      "title": "Cadaver Synod",
+      "hook": "A pope was exhumed and put on trial nine months after death.",
+      "summary": "The Cadaver Synod was a ninth-century ecclesiastical trial in which the corpse of Pope Formosus was exhumed, dressed, and judged in Rome. The spectacle turned church politics into one of history’s most surreal legal proceedings.",
+      "whyStrange": "A corpse on trial is already bizarre; the historical record makes it somehow more vivid.",
+      "tags": [
+        "history",
+        "religion",
+        "legal"
+      ],
+      "collectionIds": [
+        "absurd-history",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "cargo-cult",
+        "shroud-of-turin",
+        "cardiff-giant",
+        "the-great-moon-hoax",
+        "dancing-plague-of-1518",
+        "great-emu-war",
+        "isdal-woman",
+        "green-children-of-woolpit"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadaver_Synod",
+      "scores": {
+        "obscurity": 73,
+        "strangeness": 86,
+        "significance": 61,
+        "visualAppeal": 44,
+        "conversationPower": 80
+      }
+    },
+    {
+      "id": "god-helmet",
+      "title": "God helmet",
+      "hook": "A magnetic helmet was used to probe religious experience and altered states.",
+      "summary": "The God helmet is an experimental apparatus built to study the neural correlates of creativity, presence, and spirituality. It became famous because the setup sounds mystical, but the project was really an attempt to measure cognition with a machine that looks half theatrical prop, half laboratory hardware.",
+      "whyStrange": "It is a serious research device with a name that feels like it escaped from a science-fiction script.",
+      "tags": [
+        "science",
+        "psychology",
+        "technology"
+      ],
+      "collectionIds": [
+        "science-dead-ends",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "ten-thousand-year-clock",
+        "the-hum",
+        "hollow-earth",
+        "project-habakkuk",
+        "surtsey",
+        "red-mercury",
+        "monster-study",
+        "lake-nyos-disaster"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/God_helmet",
+      "scores": {
+        "obscurity": 68,
+        "strangeness": 82,
+        "significance": 58,
+        "visualAppeal": 49,
+        "conversationPower": 76
+      }
+    },
+    {
+      "id": "monster-study",
+      "title": "Monster Study",
+      "hook": "An experiment on stuttering left a dark trail through the history of speech research.",
+      "summary": "The Monster Study was a 1939 experiment in which children were subjected to harsh speech feedback in an attempt to study stuttering. It became infamous both for its methodology and for the way it lingers as a warning about research ethics.",
+      "whyStrange": "Its nickname is memorable, but the real story is even more uncomfortable than the label suggests.",
+      "tags": [
+        "experiment",
+        "psychology",
+        "ethics"
+      ],
+      "collectionIds": [
+        "social-experiments",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "milgram-experiment",
+        "stanford-prison-experiment",
+        "the-third-wave",
+        "biosphere-2",
+        "the-hum",
+        "god-helmet",
+        "dancing-plague-of-1518",
+        "shroud-of-turin"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Monster_Study",
+      "scores": {
+        "obscurity": 79,
+        "strangeness": 81,
+        "significance": 69,
+        "visualAppeal": 36,
+        "conversationPower": 83
+      }
+    },
+    {
+      "id": "island-of-the-dolls",
+      "title": "Island of the Dolls",
+      "hook": "A chinampa in Mexico City became a shrine of dolls, legend, and dark tourism.",
+      "summary": "The Island of the Dolls is a tiny island in Xochimilco where dolls were hung from trees and structures for decades, creating one of the strangest and most photographed destinations in Mexico City. The site’s reputation comes from local legend, eerie visual density, and the sheer persistence of its haunting image.",
+      "whyStrange": "It is a place built from ordinary objects arranged until they become unsettling.",
+      "tags": [
+        "place",
+        "legend",
+        "tourism"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "bhangarh-fort",
+        "bell-witch",
+        "kowloon-walled-city",
+        "hashima-island",
+        "pyramiden",
+        "centralia-pennsylvania",
+        "pripyat",
+        "colonia-dignidad"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Island_of_the_Dolls",
+      "scores": {
+        "obscurity": 66,
+        "strangeness": 87,
+        "significance": 54,
+        "visualAppeal": 84,
+        "conversationPower": 81
+      }
+    },
+    {
+      "id": "bhangarh-fort",
+      "title": "Bhangarh Fort",
+      "hook": "A ruined fort in Rajasthan became famous as one of India’s most haunted places.",
+      "summary": "Bhangarh Fort is a 16th-century ruin wrapped in folklore, local legend, and official warnings that only deepen its reputation. It is less about a single event than about how a place can accrue myth until the ruin itself feels narrated.",
+      "whyStrange": "The fort is visually dramatic on its own, but its reputation has become part of the architecture.",
+      "tags": [
+        "place",
+        "legend",
+        "ruin"
+      ],
+      "collectionIds": [
+        "strange-places",
+        "myths-and-mysteries",
+        "haunted-footnotes"
+      ],
+      "relatedIds": [
+        "island-of-the-dolls",
+        "hashima-island",
+        "bell-witch",
+        "pyramiden",
+        "green-children-of-woolpit",
+        "buzludzha-monument",
+        "utsuro-bune",
+        "kowloon-walled-city"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bhangarh_Fort",
+      "scores": {
+        "obscurity": 63,
+        "strangeness": 84,
+        "significance": 57,
+        "visualAppeal": 79,
+        "conversationPower": 77
+      }
+    },
+    {
+      "id": "green-children-of-woolpit",
+      "title": "Green children of Woolpit",
+      "hook": "Two children reportedly appeared in medieval England with green skin.",
+      "summary": "The legend of the green children of Woolpit tells of a brother and sister who emerged in Suffolk speaking an unknown language and looking unlike anyone around them. The story has endured because it sits right on the seam between folklore, historical record, and literary mystery.",
+      "whyStrange": "A medieval account of green-skinned children is strange enough; the competing explanations are stranger still.",
+      "tags": [
+        "legend",
+        "mystery",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities"
+      ],
+      "relatedIds": [
+        "mellified-man",
+        "phantom-time-conspiracy-theory",
+        "bell-witch",
+        "utsuro-bune",
+        "shag-harbour-ufo-incident",
+        "disappearance-of-harold-holt",
+        "isdal-woman",
+        "cardiff-giant"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Green_children_of_Woolpit",
+      "scores": {
+        "obscurity": 77,
+        "strangeness": 83,
+        "significance": 64,
+        "visualAppeal": 40,
+        "conversationPower": 75
+      }
+    },
+    {
+      "id": "mokele-mbembe",
+      "title": "Mokele-mbembe",
+      "hook": "A Congo Basin cryptid became a long-running hunt for a living dinosaur.",
+      "summary": "Mokele-mbembe is a legendary water-dwelling creature reported in Central African folklore and later chased by cryptozoologists hoping to turn myth into zoology. The idea kept resurfacing because it sits right on the edge of indigenous story, colonial curiosity, and scientific wishful thinking.",
+      "whyStrange": "It is a dinosaur-shaped absence that keeps attracting serious expeditions.",
+      "tags": [
+        "legend",
+        "cryptid",
+        "biology"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "mellified-man",
+        "green-children-of-woolpit",
+        "dracula-gigas",
+        "orchis-simia",
+        "utsuro-bune",
+        "bell-witch",
+        "bhangarh-fort",
+        "phantom-time-conspiracy-theory"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mokele-mbembe",
+      "scores": {
+        "obscurity": 83,
+        "strangeness": 88,
+        "significance": 60,
+        "visualAppeal": 52,
+        "conversationPower": 79
+      }
+    },
+    {
+      "id": "the-hum",
+      "title": "The Hum",
+      "hook": "Some people hear a low frequency drone that nobody else can quite place.",
+      "summary": "The Hum is a persistent low-frequency sound reported in different places around the world, often with no obvious source and no consensus explanation. Its power comes from the fact that it is half environmental mystery and half private sensory experience.",
+      "whyStrange": "A sound that is real for some people and absent for others makes uncertainty feel audible.",
+      "tags": [
+        "mystery",
+        "sound",
+        "psychology"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "phantom-time-conspiracy-theory",
+        "dancing-plague-of-1518",
+        "green-children-of-woolpit",
+        "shroud-of-turin",
+        "bell-witch",
+        "shag-harbour-ufo-incident",
+        "god-helmet",
+        "isdal-woman"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Hum",
+      "scores": {
+        "obscurity": 79,
+        "strangeness": 84,
+        "significance": 57,
+        "visualAppeal": 34,
+        "conversationPower": 74
+      }
+    },
+    {
+      "id": "phantom-time-conspiracy-theory",
+      "title": "Phantom time conspiracy theory",
+      "hook": "A fringe theory claims centuries of history were invented or shifted into place.",
+      "summary": "The phantom time hypothesis argues that parts of the early medieval period were fabricated or misdated, creating a kind of historical glitch in the calendar. It survives as a reminder that chronology itself can become a site of conspiracy thinking.",
+      "whyStrange": "It tries to make history feel counterfeit by moving whole centuries around.",
+      "tags": [
+        "conspiracy",
+        "history",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "the-hum",
+        "shag-harbour-ufo-incident",
+        "isdal-woman",
+        "taman-shud-case",
+        "disappearance-of-harold-holt",
+        "cardiff-giant",
+        "dancing-plague-of-1518"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory",
+      "scores": {
+        "obscurity": 90,
+        "strangeness": 86,
+        "significance": 55,
+        "visualAppeal": 28,
+        "conversationPower": 77
+      }
+    },
+    {
+      "id": "shroud-of-turin",
+      "title": "Shroud of Turin",
+      "hook": "A relic with a faint image has spent centuries producing arguments and devotion.",
+      "summary": "The Shroud of Turin is a linen cloth bearing an image that has inspired both veneration and intense scientific scrutiny. Its enduring strange power comes from how the relic lives between evidence, faith, image analysis, and public fascination.",
+      "whyStrange": "It is an object whose mystery survives every attempt to turn it into a simple answer.",
+      "tags": [
+        "religion",
+        "mystery",
+        "artifact"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "haunted-footnotes",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "john-frum",
+        "heavens-gate",
+        "the-hum",
+        "phantom-time-conspiracy-theory",
+        "shag-harbour-ufo-incident",
+        "bell-witch",
+        "disappearance-of-harold-holt",
+        "green-children-of-woolpit"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+      "scores": {
+        "obscurity": 78,
+        "strangeness": 82,
+        "significance": 82,
+        "visualAppeal": 47,
+        "conversationPower": 84
+      }
+    },
+    {
+      "id": "the-langley-schools-music-project",
+      "title": "The Langley Schools Music Project",
+      "hook": "Children’s choir recordings became a cult object decades after they were made.",
+      "summary": "The Langley Schools Music Project consists of amateur school recordings from the 1970s that were rediscovered and turned into a beloved artifact of outsider music. The project feels uncanny because it preserves a very specific moment of childhood, arrangement, and aspiration in audio form.",
+      "whyStrange": "It is tender, eerie, and strangely monumental all at once.",
+      "tags": [
+        "music",
+        "culture",
+        "archive"
+      ],
+      "collectionIds": [
+        "social-experiments",
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "church-of-the-subgenius",
+        "the-hum",
+        "dracula-gigas",
+        "orchis-simia",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory",
+        "green-children-of-woolpit",
+        "mummy-brown"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Langley_Schools_Music_Project",
+      "scores": {
+        "obscurity": 75,
+        "strangeness": 79,
+        "significance": 63,
+        "visualAppeal": 42,
+        "conversationPower": 73
+      }
+    },
+    {
+      "id": "dracula-gigas",
+      "title": "Dracula gigas",
+      "hook": "An orchid named for a monster has a flower that looks back at you.",
+      "summary": "Dracula gigas is an orchid species whose common name, monkey orchid, comes from the uncanny resemblance of its bloom to a primate face. It belongs to the family of plants that seem to be doing face-making as a side effect of evolution.",
+      "whyStrange": "A flower that resembles a little creature is already strange; one named Dracula is stranger still.",
+      "tags": [
+        "nature",
+        "biology",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "orchis-simia",
+        "mokele-mbembe",
+        "mummy-brown",
+        "the-hum",
+        "the-langley-schools-music-project",
+        "phantom-time-conspiracy-theory",
+        "zzyzx-california",
+        "green-children-of-woolpit"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dracula_gigas",
+      "scores": {
+        "obscurity": 82,
+        "strangeness": 80,
+        "significance": 48,
+        "visualAppeal": 76,
+        "conversationPower": 68
+      }
+    },
+    {
+      "id": "orchis-simia",
+      "title": "Monkey orchid",
+      "hook": "A European orchid blooms in a shape that suggests a tiny monkey.",
+      "summary": "Orchis simia is commonly called the monkey orchid because its flower lip resembles a small simian figure. It is the kind of botanical oddity that seems designed to make taxonomic language feel playful.",
+      "whyStrange": "Nature quietly produces something that looks like a miniature character sketch.",
+      "tags": [
+        "nature",
+        "biology",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "afterimage-files"
+      ],
+      "relatedIds": [
+        "dracula-gigas",
+        "mokele-mbembe",
+        "mummy-brown",
+        "the-langley-schools-music-project",
+        "the-hum",
+        "zzyzx-california",
+        "phantom-time-conspiracy-theory",
+        "green-children-of-woolpit"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Orchis_simia",
+      "scores": {
+        "obscurity": 78,
+        "strangeness": 77,
+        "significance": 46,
+        "visualAppeal": 70,
+        "conversationPower": 65
+      }
+    },
+    {
+      "id": "red-mercury",
+      "title": "Red mercury",
+      "hook": "A black-market rumor about a mysterious substance kept fueling nuclear paranoia.",
+      "summary": "Red mercury is a discredited alleged material that circulated in arms-smuggling and espionage lore as something valuable, secret, and potentially nuclear-adjacent. Its endurance says as much about fear, rumor, and black-market storytelling as it does about chemistry.",
+      "whyStrange": "It is a phantom commodity that survived because secrecy made it hard to disprove.",
+      "tags": [
+        "conspiracy",
+        "science",
+        "hoax"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "hollow-earth",
+        "phantom-time-conspiracy-theory",
+        "god-helmet",
+        "cardiff-giant",
+        "cottingley-fairies",
+        "the-great-moon-hoax",
+        "mummy-brown",
+        "lake-nyos-disaster"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_mercury",
+      "scores": {
+        "obscurity": 88,
+        "strangeness": 84,
+        "significance": 59,
+        "visualAppeal": 24,
+        "conversationPower": 83
+      }
+    },
+    {
+      "id": "disappearance-of-harold-holt",
+      "title": "Disappearance of Harold Holt",
+      "hook": "Australia’s prime minister vanished while swimming, and the country never stopped asking why.",
+      "summary": "Harold Holt disappeared in 1967 near Cheviot Beach and was presumed drowned, but the event spawned an enduring cloud of folklore, speculation, and national memory. The story remains strange because a routine tragedy turned into a permanent cultural shorthand.",
+      "whyStrange": "A sitting prime minister disappearing into the sea sounds like fiction until you reach the archival record.",
+      "tags": [
+        "history",
+        "politics",
+        "mystery"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "shag-harbour-ufo-incident",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "green-children-of-woolpit",
+        "dancing-plague-of-1518",
+        "phantom-time-conspiracy-theory",
+        "bell-witch"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Disappearance_of_Harold_Holt",
+      "scores": {
+        "obscurity": 74,
+        "strangeness": 79,
+        "significance": 91,
+        "visualAppeal": 35,
+        "conversationPower": 87
+      }
+    },
+    {
+      "id": "hollow-earth",
+      "title": "Hollow Earth",
+      "hook": "A disproven theory imagined the planet as a hidden interior world.",
+      "summary": "The Hollow Earth idea proposed that our planet contains a vast hollow interior, and it persisted for centuries across pseudoscience, folklore, and adventure fiction. It is one of those concepts that survives because it is bigger than evidence and far more cinematic than geology.",
+      "whyStrange": "The earth itself becomes a stage set for secret civilizations and lost entrances.",
+      "tags": [
+        "science",
+        "conspiracy",
+        "history"
+      ],
+      "collectionIds": [
+        "science-dead-ends",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "red-mercury",
+        "phantom-time-conspiracy-theory",
+        "utsuro-bune",
+        "mummy-brown",
+        "shag-harbour-ufo-incident",
+        "god-helmet",
+        "disappearance-of-harold-holt",
+        "surtsey"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hollow_Earth",
+      "scores": {
+        "obscurity": 86,
+        "strangeness": 83,
+        "significance": 66,
+        "visualAppeal": 43,
+        "conversationPower": 78
+      }
+    },
+    {
+      "id": "shag-harbour-ufo-incident",
+      "title": "Shag Harbour UFO incident",
+      "hook": "A reported crash into the sea turned into one of Canada’s best-known UFO cases.",
+      "summary": "In 1967, witnesses near Shag Harbour, Nova Scotia, reported a mysterious lit object descending into the water, prompting official search efforts that found no debris and no explanation. The incident remains memorable because the paperwork, witness accounts, and missing object never fully reconcile.",
+      "whyStrange": "It is a government-filed mystery with ocean water where the evidence should have been.",
+      "tags": [
+        "ufo",
+        "mystery",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "utsuro-bune",
+        "disappearance-of-harold-holt",
+        "green-children-of-woolpit",
+        "isdal-woman",
+        "cardiff-giant",
+        "taman-shud-case",
+        "phantom-time-conspiracy-theory",
+        "dancing-plague-of-1518"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shag_Harbour_UFO_incident",
+      "scores": {
+        "obscurity": 80,
+        "strangeness": 82,
+        "significance": 68,
+        "visualAppeal": 49,
+        "conversationPower": 84
+      }
+    },
+    {
+      "id": "bell-witch",
+      "title": "Bell Witch",
+      "hook": "A Tennessee family became the center of one of America’s most persistent haunting legends.",
+      "summary": "The Bell Witch legend describes a long-running alleged haunting that attached itself to a real family, a real place, and a lot of later retellings. The story endures because it feels simultaneously local, folkloric, and weirdly procedural.",
+      "whyStrange": "It is a haunting that keeps acquiring new layers of cultural memory.",
+      "tags": [
+        "legend",
+        "mystery",
+        "place"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "green-children-of-woolpit",
+        "bhangarh-fort",
+        "shag-harbour-ufo-incident",
+        "utsuro-bune",
+        "disappearance-of-harold-holt",
+        "island-of-the-dolls",
+        "shroud-of-turin",
+        "the-hum"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bell_Witch",
+      "scores": {
+        "obscurity": 77,
+        "strangeness": 81,
+        "significance": 62,
+        "visualAppeal": 46,
+        "conversationPower": 79
+      }
+    },
+    {
+      "id": "utsuro-bune",
+      "title": "Utsuro-bune",
+      "hook": "A Japanese tale described a strange vessel and an enigmatic woman washed ashore.",
+      "summary": "Utsuro-bune is a nineteenth-century Japanese legend involving a mysterious boat and a figure who may be a folkloric visitor, an alien, or simply an accretion of story. Its endurance comes from how it sits between maritime legend, coded imagery, and UFO-era reinterpretation.",
+      "whyStrange": "It is a folkloric encounter that keeps being retold as something else.",
+      "tags": [
+        "legend",
+        "ufo",
+        "history"
+      ],
+      "collectionIds": [
+        "myths-and-mysteries",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "shag-harbour-ufo-incident",
+        "green-children-of-woolpit",
+        "mellified-man",
+        "bell-witch",
+        "disappearance-of-harold-holt",
+        "hollow-earth",
+        "mokele-mbembe",
+        "phantom-time-conspiracy-theory"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Utsuro-bune",
+      "scores": {
+        "obscurity": 81,
+        "strangeness": 84,
+        "significance": 58,
+        "visualAppeal": 45,
+        "conversationPower": 76
+      }
+    },
+    {
+      "id": "mummy-brown",
+      "title": "Mummy brown",
+      "hook": "Painters once used a pigment made from mummified remains.",
+      "summary": "Mummy brown was a historical pigment produced from ground mummies and related materials, prized for its warm transparency before its origins became more widely understood. It is a perfect example of art history being stranger once the supply chain is revealed.",
+      "whyStrange": "A color on a palette can turn into a human-remains story very quickly.",
+      "tags": [
+        "art",
+        "history",
+        "oddity"
+      ],
+      "collectionIds": [
+        "small-print-curiosities",
+        "shadow-dossiers"
+      ],
+      "relatedIds": [
+        "dracula-gigas",
+        "hollow-earth",
+        "utsuro-bune",
+        "orchis-simia",
+        "green-children-of-woolpit",
+        "mellified-man",
+        "phantom-time-conspiracy-theory",
+        "shag-harbour-ufo-incident"
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mummy_brown",
+      "scores": {
+        "obscurity": 85,
+        "strangeness": 78,
+        "significance": 54,
+        "visualAppeal": 52,
+        "conversationPower": 72
       }
     }
   ],
@@ -1818,6 +2538,63 @@
         "duga-radar"
       ],
       "accent": "rose"
+    },
+    {
+      "id": "small-print-curiosities",
+      "title": "Small-print curiosities",
+      "slug": "small-print-curiosities",
+      "description": "A drawer of tiny, hard-to-disbelieve stories that feel like they were filed away rather than featured.",
+      "articleIds": [
+        "mellified-man",
+        "god-helmet",
+        "green-children-of-woolpit"
+      ],
+      "accent": "amber"
+    },
+    {
+      "id": "haunted-footnotes",
+      "title": "Haunted footnotes",
+      "slug": "haunted-footnotes",
+      "description": "Legends, ruins, and procedural oddities that become stranger when you read the details twice.",
+      "articleIds": [
+        "cadaver-synod",
+        "monster-study",
+        "island-of-the-dolls",
+        "bhangarh-fort"
+      ],
+      "accent": "violet"
+    },
+    {
+      "id": "afterimage-files",
+      "title": "Afterimage files",
+      "slug": "afterimage-files",
+      "description": "A second drawer for relics, hums, cryptids, and recorded oddities that keep echoing after the first glance.",
+      "articleIds": [
+        "mokele-mbembe",
+        "the-hum",
+        "phantom-time-conspiracy-theory",
+        "shroud-of-turin",
+        "the-langley-schools-music-project",
+        "dracula-gigas",
+        "orchis-simia"
+      ],
+      "accent": "cyan"
+    },
+    {
+      "id": "shadow-dossiers",
+      "title": "Shadow dossiers",
+      "slug": "shadow-dossiers",
+      "description": "A deeper drawer for rumors, disappearances, UFO reports, and objects whose explanation remains half a story.",
+      "articleIds": [
+        "red-mercury",
+        "disappearance-of-harold-holt",
+        "hollow-earth",
+        "shag-harbour-ufo-incident",
+        "bell-witch",
+        "utsuro-bune",
+        "mummy-brown"
+      ],
+      "accent": "slate"
     }
   ],
   "themes": [
